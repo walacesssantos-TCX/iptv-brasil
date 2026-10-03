@@ -127,3 +127,34 @@ https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 
 #EXTINF:-1 tvg-id="GospelCartoon.br" group-title="Infantil",Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+
+# =========================
+# NOVOS FAST / SMART TV
+# =========================
+
+#EXTINF:-1 tvg-id="TopBarca.fast" group-title="Esportes",TOP BARÇA
+https://amg17560-fcb-amg17560c1-samsung-gb-9839.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CanalDoInter.fast" group-title="Esportes",Canal do Inter
+https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.fast" group-title="Esportes",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+
+#EXTINF:-1 tvg-id="KuriakosCine.pt" group-title="Filmes",Kuriakos Cine
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SBTKids.br" group-title="Infantil",SBT Kids
+https://8994803e454548319ffc0775bc04e0c1.mediatailor.us-east-1.amazonaws.com/v1/master/215c0da80606fed29372070168106400a6ca7e1a/SSAI-TVZyn/index.m3u8
+
+#EXTINF:-1 tvg-id="KuriakosKids.pt" group-title="Infantil",Kuriakos Kids
+https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BabySharkTV.fast" group-title="Infantil",Baby Shark TV
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Pocoyo.fast" group-title="Infantil",Pocoyo 24/7
+https://d16ecq77cfclte.cloudfront.net/Pocoyo_GB.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseAnime.fast" group-title="Infantil",FilmRise Anime
+https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
