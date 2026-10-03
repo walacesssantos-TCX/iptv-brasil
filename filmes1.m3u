@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 0
+# Filmes Archive.org com vídeo direto: 1
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -49,3 +49,7 @@ https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
 # Fonte: https://archive.org/details/valkaama; Licença: https://creativecommons.org/licenses/by-sa/4.0/; Autor: Tim Baumann
 #EXTINF:0 type="video" group-title="Drama",Valkaama (2010)
 https://archive.org/download/valkaama/Valkaama_1080p.mp4
+
+# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Ron James
+#EXTINF:0 tvg-id="tt26443953" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/accidental.-truth.-ufo.-revelations.-2023",Accidental Truth: UFO Revelations (2023)
+https://archive.org/download/accidental.-truth.-ufo.-revelations.-2023/Accidental%20Truth%20UFO%20Revelations%20%282023%29/Accidental.Truth.UFO.Revelations.2023.ia.mp4
