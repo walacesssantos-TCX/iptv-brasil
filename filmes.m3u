@@ -1,6 +1,7 @@
 #EXTM3U
-# Biblioteca VOD - filmes de dominio publico/licenca aberta
-# Fonte principal: Internet Archive / PublicDomainM3U
+# Biblioteca VOD - filmes de acesso aberto / domínio público
+# Atualizada automaticamente a partir de bases públicas e do Internet Archive
+# Filtro: português/pt-BR indicado nos metadados da fonte
 
 #EXTINF:5753 group-title="Terror" tvg-logo="https://archive.org/download/night-of-the-living-dead-movie-poster/NOTLD2x1200.jpg", Night of the Living Dead (1968)
 https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4
