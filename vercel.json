@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/get.php", "destination": "/api/get" },
+    { "source": "/player_api.php", "destination": "/api/player_api" },
+    { "source": "/live/:username/:password/:stream", "destination": "/api/live?username=:username&password=:password&stream=:stream" }
+  ]
+}
