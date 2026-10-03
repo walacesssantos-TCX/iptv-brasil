@@ -1,0 +1,28 @@
+#EXTM3U
+# Terror
+#EXTINF:0 content-type="video" tvg-logo="https://archive.org/download/night-of-the-living-dead-movie-poster/NOTLD2x1200.jpg",Night of the Living Dead (1968)
+https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/House_on_Haunted_Hill.jpg/330px-House_on_Haunted_Hill.jpg",House on Haunted Hill (1959)
+https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Carnival_of_Souls_%281962_pressbook_cover%29.jpg/330px-Carnival_of_Souls_%281962_pressbook_cover%29.jpg",Carnival of Souls (1962)
+https://archive.org/download/CarnivalofSouls/CarnivalOfSouls_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Poster_-_White_Zombie_01_Crisco_restoration.jpg/330px-Poster_-_White_Zombie_01_Crisco_restoration.jpg",White Zombie (1932)
+https://archive.org/download/white_zombie/white_zombie_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Poster_for_The_Screaming_Skull.jpg/330px-Poster_for_The_Screaming_Skull.jpg",The Screaming Skull (1958)
+https://archive.org/download/TheScreamingSkull/TheScreamingSkull.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Brainthatwouldntdie_film_poster.jpg/330px-Brainthatwouldntdie_film_poster.jpg",The Brain that Wouldn't Die (1962)
+https://archive.org/download/the_brain_that_wouldnt_die/the_brain_that_wouldnt_die_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vampirebat.jpg/330px-Vampirebat.jpg",The Vampire Bat (1933)
+https://archive.org/download/TheVampireBat/TheVampireBat_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmU0YjQ5OTUtZGJiYS00MWY0LTkxYjYtODEyZGJmYjhkNWIxXkEyXkFqcGc@._V1_QL75_UX380_CR0 type=",Nosferatu (1922)
+https://archive.org/download/nosferatu-1922_202504/Nosferatu%20%281922%29.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Phantom_of_the_Opera_%281925_film%29.jpg/330px-The_Phantom_of_the_Opera_%281925_film%29.jpg",The Phantom of the Opera (1925)
+https://archive.org/download/ThePhantomoftheOpera/Phantom_of_the_Opera_512kb.mp4
