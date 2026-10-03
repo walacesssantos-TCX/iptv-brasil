@@ -13,10 +13,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: filmes1-builder
+  cancel-in-progress: true
+
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 60
     steps:
       - name: Checkout playlist
         uses: actions/checkout@v4
@@ -34,8 +38,9 @@ jobs:
 
       - name: Gerar filmes1.m3u
         env:
-          MAX_WORKERS: "24"
-          HTTP_TIMEOUT: "20"
+          MAX_WORKERS: "48"
+          HTTP_TIMEOUT: "10"
+          BATCH_SIZE: "750"
         run: python scripts/gerar_filmes1_movies_deluxe.py
 
       - name: Commit
