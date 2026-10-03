@@ -1,27 +1,3 @@
-#EXTM3U
-# Biblioteca de Filmes - SS IPTV
-# Abra uma categoria abaixo
-
-#EXTINF:0 type="playlist",Terror
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/terror.m3u
-
-#EXTINF:0 type="playlist",Ação e Aventura
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/acao-e-aventura.m3u
-
-#EXTINF:0 type="playlist",Mistério
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/misterio.m3u
-
-#EXTINF:0 type="playlist",Animação
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/animacao.m3u
-
-#EXTINF:0 type="playlist",Ficção Científica
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/ficcao-cientifica.m3u
-
-#EXTINF:0 type="playlist",Comédia
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/comedia.m3u
-
-#EXTINF:0 type="playlist",Film Noir
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/film-noir.m3u
-
-#EXTINF:0 type="playlist",Drama
-https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/filmes/drama.m3u
+#EXTM3U size="medium"
+# Biblioteca VOD em português - SS IPTV
+# Fonte: catálogo brasileiro do LibreFlix; somente links diretos validados
