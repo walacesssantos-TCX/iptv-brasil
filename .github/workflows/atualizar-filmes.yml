@@ -1,0 +1,50 @@
+name: Atualizar filmes PT-BR
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/gerar_filmes_ptbr.py"
+      - ".github/workflows/atualizar-filmes.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout playlist
+        uses: actions/checkout@v4
+
+      - name: Checkout base pública de filmes
+        uses: actions/checkout@v4
+        with:
+          repository: select/movies-deluxe
+          path: vendor/movies-deluxe
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar filmes.m3u
+        run: python scripts/gerar_filmes_ptbr.py
+
+      - name: Commit da playlist
+        shell: bash
+        run: |
+          if git diff --quiet -- filmes.m3u; then
+            echo "Sem alterações em filmes.m3u"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add filmes.m3u
+          git commit -m "Atualiza biblioteca VOD PT-BR"
+          git push
