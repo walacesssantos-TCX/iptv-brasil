@@ -1,0 +1,16 @@
+#EXTM3U
+# Ação e Aventura
+#EXTINF:0 content-type="video" tvg-logo="https://archive.org/download/captain-kidd-poster/Captain_Kidd_Poster.jpg",Captain Kidd (1945)
+https://archive.org/download/captain-kidd-1945_202609/CaptainKidd_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Most_Dangerous_Game_poster.jpg/330px-Most_Dangerous_Game_poster.jpg",The Most Dangerous Game (1932)
+https://archive.org/download/TheMostDangerousGame/TheMostDangerousGame_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/The_Lost_World_%281925%29_-_film_poster.jpg/330px-The_Lost_World_%281925%29_-_film_poster.jpg",The Lost World (1925)
+https://archive.org/download/lost_world/lost_world_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Ironmaskposter.jpg/330px-Ironmaskposter.jpg",The Iron Mask (1929)
+https://archive.org/download/iron_mask/iron_mask_512kb.mp4
+
+#EXTINF:0 content-type="video" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Mr-Robinson-Crusoe-1932.jpg/330px-Mr-Robinson-Crusoe-1932.jpg",Mr. Robinson Crusoe (1932)
+https://archive.org/download/mr_robinson_crusoe/video_512kb.mp4
