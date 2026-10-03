@@ -1,3 +1,18 @@
 #EXTM3U size="medium"
-# Biblioteca VOD em português - SS IPTV
-# Fonte: catálogo brasileiro do LibreFlix; somente links diretos validados
+# Biblioteca VOD - SS IPTV
+# Catálogo alternativo de filmes livres/abertos em português ou com disponibilidade oficial no LibreFlix
+
+#EXTINF:0 type="video" group-title="Documentários" tvg-logo="https://vdn.libreflix.org/covers/media/antifascisterna/thumb.jpg",Antifascisterna
+https://vdn.libreflix.org/video/antifascisterna/antifascisterna.720.mp4
+
+#EXTINF:0 type="video" group-title="Documentários" tvg-logo="https://vdn.libreflix.org/covers/media/marighella-retrato-falado-de-um-guerrilheiro/thumb.jpg",Marighella - Retrato Falado de um Guerrilheiro
+https://vdn.libreflix.org/video/marighella-retrato-falado-de-um-guerrilheiro/marighella-retrato-falado-de-um-guerrilheiro.360.mp4
+
+#EXTINF:0 type="video" group-title="Ficção / Tecnologia",Algorithm - O Filme Hacker
+https://vdn.libreflix.org/video/algorithm-o-filme-hacker/algorithm-o-filme-hacker.360.mp4
+
+#EXTINF:0 type="video" group-title="Documentários",The Pirate Bay AFK
+https://vdn.libreflix.org/video/tpb-afk/tpb-afk.240.mp4
+
+#EXTINF:0 type="video" group-title="Animação",Big Buck Bunny
+https://vdn.libreflix.org/video/bick-buck-bunny/bick-buck-bunny.480.mp4
