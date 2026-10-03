@@ -18,6 +18,10 @@ CACHE = ROOT / "data" / "archive_direct_cache.json"
 UA = "iptv-brasil-ssiptv-builder/2.0"
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", "24"))
 TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
+BATCH_SIZE = int(os.getenv("BATCH_SIZE", "750"))
+RETRY_AFTER = int(os.getenv("RETRY_AFTER", "21600"))
+if min(MAX_WORKERS, TIMEOUT, BATCH_SIZE, RETRY_AFTER) < 1:
+    raise ValueError("MAX_WORKERS, HTTP_TIMEOUT, BATCH_SIZE e RETRY_AFTER devem ser positivos")
 
 GENRE_MAP = {
     "action": "Ação",
@@ -74,8 +78,9 @@ def score_video(name, fmt, source, size):
     fmt_low = (fmt or "").lower()
     source_low = (source or "").lower()
     score = 0
-    if source_low == "original":
-        score += 120
+    # Archive's H.264 derivatives are more suitable for TVs than unknown originals.
+    if source_low == "derivative":
+        score += 30
     if "h.264" in fmt_low or "h264" in fmt_low:
         score += 90
     if "mpeg4" in fmt_low or "mpeg-4" in fmt_low or "mpeg4" in low:
@@ -98,6 +103,8 @@ def score_video(name, fmt, source, size):
 def choose_from_files(files):
     candidates = []
     for item in files:
+        if item.get("private") in (True, "true", "1", 1):
+            continue
         name = str(item.get("name") or "")
         if not name:
             continue
@@ -139,23 +146,78 @@ def files_from_metadata(identifier):
     data = json.loads(raw.decode("utf-8", "replace"))
     return data.get("files") or []
 
+def license_evidence(metadata):
+    """Require an explicit public-domain or CC license in the item metadata."""
+    raw = metadata.get("licenseurl") or []
+    values = raw if isinstance(raw, list) else [raw]
+    for value in values:
+        url = str(value).strip()
+        parsed = urllib.parse.urlsplit(url)
+        if parsed.scheme not in ("http", "https"):
+            continue
+        if parsed.hostname not in ("creativecommons.org", "www.creativecommons.org"):
+            continue
+        path = parsed.path.lower().rstrip("/")
+        if (path in ("/licenses/publicdomain", "/publicdomain/zero/1.0",
+                     "/publicdomain/mark/1.0") or
+                re.fullmatch(r"/licenses/(by|by-sa|by-nd|by-nc|by-nc-sa|by-nc-nd)/[1-4]\.0(?:/[^/]+)?", path)):
+            return url
+    return ""
+
+def validate_video_url(url):
+    # Read a small prefix only, even when a server ignores the Range header.
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Range": "bytes=0-4095", "Accept": "video/*",
+    })
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+        prefix = response.read(4096)
+        if response.status not in (200, 206):
+            return False
+        # MP4/M4V use the ISO base media container (ftyp box).
+        return len(prefix) >= 12 and prefix[4:8] == b"ftyp"
+
 def resolve_identifier(identifier):
-    for attempt in range(1):
-        try:
-            try:
-                files = files_from_xml(identifier)
-            except Exception:
-                files = files_from_metadata(identifier)
+    result = {"status": "retry", "url": "", "checked_at": int(time.time())}
+    try:
+        qid = urllib.parse.quote(identifier, safe="")
+        data = json.loads(request_bytes(f"https://archive.org/metadata/{qid}"))
+        metadata = data.get("metadata") or {}
+        if not metadata:
+            return dict(result, error="Item sem metadados")
+        if metadata.get("is_dark") or metadata.get("access-restricted-item") in (True, "true", "1"):
+            return dict(result, status="restricted")
+        evidence = license_evidence(metadata)
+        if not evidence:
+            return dict(result, status="unlicensed")
+        result["licenseurl"] = evidence
+        result["creator"] = metadata.get("creator") or ""
+        files = list(data.get("files") or [])
+        for _ in range(3):
             name = choose_from_files(files)
             if not name:
-                return ""
-            qid = urllib.parse.quote(identifier, safe="")
-            qname = urllib.parse.quote(name, safe="/")
-            return f"https://archive.org/download/{qid}/{qname}"
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError, ValueError, ET.ParseError):
-            if attempt < 2:
-                time.sleep(1.0 + attempt * 2.0)
+                return dict(result, status="no_video" if _ == 0 else "retry")
+            url = f"https://archive.org/download/{qid}/{urllib.parse.quote(name, safe='/')}"
+            if validate_video_url(url):
+                return dict(result, status="ok", url=url)
+            files = [item for item in files if item.get("name") != name]
+        return dict(result, error="Nenhum candidato respondeu como MP4/M4V")
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError,
+            ValueError, ET.ParseError) as exc:
+        # Transport failures must not become permanent negative cache hits.
+        return dict(result, error=str(exc)[:200])
+
+def cache_url(entry):
+    if isinstance(entry, dict) and entry.get("status") == "ok":
+        return entry.get("url") or ""
     return ""
+
+def needs_resolution(entry, now):
+    # Old string-only cache records have no license or availability evidence.
+    if not isinstance(entry, dict):
+        return True
+    if entry.get("status") == "retry":
+        return now - int_value(entry.get("checked_at")) >= RETRY_AFTER
+    return entry.get("status") not in ("ok", "no_video", "unlicensed", "restricted")
 
 def load_cache():
     if not CACHE.exists():
@@ -163,15 +225,17 @@ def load_cache():
     try:
         data = json.loads(CACHE.read_text("utf-8"))
         return data if isinstance(data, dict) else {}
-    except Exception:
-        return {}
+    except (OSError, ValueError) as exc:
+        raise RuntimeError("Cache inválido; abortando para preservar a playlist") from exc
 
 def save_cache(cache):
     CACHE.parent.mkdir(parents=True, exist_ok=True)
-    CACHE.write_text(
+    temporary = CACHE.with_suffix(".tmp")
+    temporary.write_text(
         json.dumps(cache, ensure_ascii=False, sort_keys=True, separators=(",", ":")),
         encoding="utf-8",
     )
+    temporary.replace(CACHE)
 
 def genre_for(movie):
     md = movie.get("metadata") or {}
@@ -255,8 +319,11 @@ def main():
     print(f"Identificadores Archive.org únicos: {len(archive_ids)}")
 
     cache = load_cache()
-    # Reuse both successful and previously checked-without-MP4 identifiers.
-    missing_all = sorted(identifier for identifier in archive_ids if identifier not in cache)
+    now = int(time.time())
+    missing_all = sorted(
+        (identifier for identifier in archive_ids if needs_resolution(cache.get(identifier), now)),
+        key=lambda identifier: (identifier in cache, identifier),
+    )
     missing = missing_all[:BATCH_SIZE]
     print(f"Já resolvidos no cache: {len(archive_ids) - len(missing_all)}")
     print(f"Pendentes totais: {len(missing_all)}")
@@ -272,12 +339,12 @@ def main():
             for future in concurrent.futures.as_completed(future_map):
                 identifier = future_map[future]
                 try:
-                    cache[identifier] = future.result() or ""
-                except Exception:
-                    cache[identifier] = ""
+                    cache[identifier] = future.result()
+                except Exception as exc:
+                    cache[identifier] = {"status": "retry", "url": "", "checked_at": int(time.time()), "error": str(exc)[:200]}
                 completed += 1
-                if completed % 250 == 0 or completed == len(missing):
-                    ok = sum(1 for identifier in archive_ids if cache.get(identifier))
+                if completed % 50 == 0 or completed == len(missing):
+                    ok = sum(1 for identifier in archive_ids if cache_url(cache.get(identifier)))
                     print(f"Resolução: {completed}/{len(missing)} consultados; {ok} com vídeo direto")
                     save_cache(cache)
 
@@ -291,7 +358,7 @@ def main():
         chosen_id = None
         chosen_url = None
         for identifier in identifiers:
-            url = cache.get(identifier) or ""
+            url = cache_url(cache.get(identifier))
             if url:
                 chosen_id = identifier
                 chosen_url = url
@@ -307,6 +374,7 @@ def main():
             title.lower(),
             extinf(movie_id, title, group, chosen_id),
             chosen_url,
+            cache[chosen_id],
         ))
 
     archive_entries.sort(key=lambda row: (row[0], row[1]))
@@ -323,8 +391,8 @@ def main():
     lines = [
         '#EXTM3U size="medium"',
         '# Biblioteca VOD - SS IPTV',
-        '# Fontes de acesso aberto / domínio público: Movies Deluxe + Internet Archive',
-        '# Links Archive.org resolvidos diretamente para arquivos MP4/M4V',
+        '# Archive.org: licença CC/domínio público declarada nos metadados do item',
+        '# URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV',
         f'# Registros Movies Deluxe lidos: {total_records}',
         f'# Filmes Archive.org com vídeo direto: {len(archive_entries)}',
         '',
@@ -333,10 +401,13 @@ def main():
     for meta, url in preserved:
         lines.extend([meta, url, ""])
 
-    for _, _, meta, url in archive_entries:
-        lines.extend([meta, url, ""])
+    for _, _, meta, url, evidence in archive_entries:
+        creator = re.sub(r"[\r\n]+", " ", str(evidence.get("creator") or ""))
+        lines.extend([f'# Licença: {evidence["licenseurl"]}; Autor: {creator}', meta, url, ""])
 
-    OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    temporary = OUT.with_suffix(".tmp")
+    temporary.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    temporary.replace(OUT)
 
     print(f"Entradas externas preservadas: {len(preserved)}")
     print(f"Entradas Movies Deluxe/Archive.org: {len(archive_entries)}")

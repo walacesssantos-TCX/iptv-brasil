@@ -6,16 +6,17 @@ on:
     paths:
       - "scripts/gerar_filmes1_movies_deluxe.py"
       - ".github/workflows/atualizar-filmes1.yml"
+      - "tests/test_gerar_filmes1_movies_deluxe.py"
   workflow_dispatch:
   schedule:
-    - cron: "37 5 * * 3"
+    - cron: "37 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: filmes1-builder
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   gerar:
@@ -29,29 +30,44 @@ jobs:
         shell: bash
         run: |
           mkdir -p vendor
-          curl -L --fail --retry 4 --retry-delay 5             https://raw.githubusercontent.com/select/movies-deluxe/main/data/movies.json             -o vendor/movies.json
+          curl -L --fail --retry 4 --retry-delay 5 --connect-timeout 20 --max-time 180 \
+            https://raw.githubusercontent.com/select/movies-deluxe/main/data/movies.json \
+            -o vendor/movies.json
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Testar gerador
+        run: python -m unittest discover -s tests -v
+
       - name: Gerar filmes1.m3u
         env:
-          MAX_WORKERS: "48"
-          HTTP_TIMEOUT: "10"
+          MAX_WORKERS: "12"
+          HTTP_TIMEOUT: "15"
           BATCH_SIZE: "750"
-        run: python scripts/gerar_filmes1_movies_deluxe.py
+        run: python -u scripts/gerar_filmes1_movies_deluxe.py
 
       - name: Commit
         shell: bash
         run: |
-          if git diff --quiet -- filmes1.m3u data/archive_direct_cache.json; then
+          git add filmes1.m3u data/archive_direct_cache.json
+          if git diff --cached --quiet; then
             echo "Sem alterações"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add filmes1.m3u data/archive_direct_cache.json
           git commit -m "Atualiza filmes1 com Movies Deluxe"
+          git pull --rebase origin main
           git push
+
+      - name: Guardar resultado para diagnóstico
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: filmes1-diagnostico
+          path: |
+            filmes1.m3u
+            data/archive_direct_cache.json
