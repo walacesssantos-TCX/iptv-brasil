@@ -1,6 +1,9 @@
 #EXTM3U size="medium"
 # Biblioteca VOD - SS IPTV
-# Catálogo alternativo de filmes livres/abertos em português ou com disponibilidade oficial no LibreFlix
+# Archive.org: licença CC/domínio público declarada nos metadados do item
+# URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
+# Registros Movies Deluxe lidos: 26700
+# Filmes Archive.org com vídeo direto: 46
 
 #EXTINF:0 type="video" group-title="Documentários" tvg-logo="https://vdn.libreflix.org/covers/media/antifascisterna/thumb.jpg",Antifascisterna
 https://vdn.libreflix.org/video/antifascisterna/antifascisterna.720.mp4
@@ -16,3 +19,187 @@ https://vdn.libreflix.org/video/tpb-afk/tpb-afk.240.mp4
 
 #EXTINF:0 type="video" group-title="Animação",Big Buck Bunny
 https://vdn.libreflix.org/video/bick-buck-bunny/bick-buck-bunny.480.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: Irving Allen and Arthur Lake
+#EXTINF:0 tvg-id="tt0040797" group-title="Aventura" type="video" tvg-logo="https://archive.org/services/img/16FathomsDeep",16 Fathoms Deep (1948)
+https://archive.org/download/16FathomsDeep/16%20Fathoms%20Deep.ia.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0089961" group-title="Aventura" type="video" tvg-logo="https://archive.org/services/img/1907ALittleGirlWhoDidNotBelieveInSantaClaus",Santa Claus (1985)
+https://archive.org/download/1907ALittleGirlWhoDidNotBelieveInSantaClaus/1907%20A%20Little%20Girl%20Who%20Did%20Not%20Believe%20in%20Santa%20Claus.mp4
+
+# Licença: https://creativecommons.org/publicdomain/mark/1.0/; Autor: Allen Dwan, Douglas Fairbanks, Jack Cunningham
+#EXTINF:0 tvg-id="tt0020030" group-title="Aventura" type="video" tvg-logo="https://archive.org/services/img/1929-the-iron-mask_202506",The Iron Mask (1929)
+https://archive.org/download/1929-the-iron-mask_202506/1929%20%20The%20Iron%20Mask.ia.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: Georges Méliès
+#EXTINF:0 tvg-id="tt0002113" group-title="Aventura" type="video" tvg-logo="https://archive.org/services/img/1912GeorgesMeliesALaConqueteDuPoleConquestOfTheNorthPole",À la conquête du pôle (1912)
+https://archive.org/download/1912GeorgesMeliesALaConqueteDuPoleConquestOfTheNorthPole/1912%20Georges%20M%C3%A9li%C3%A8s%20%C3%80%20la%20Conqu%C3%AAte%20du%20P%C3%B4le%20%28Conquest%20of%20the%20North%20Pole%29.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="tt0006333" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/191620000LeaguesUnderTheSea_201508",20,000 Leagues Under the Sea (1916)
+https://archive.org/download/191620000LeaguesUnderTheSea_201508/20000_Leagues_Under_the_Sea.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0004052" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/1916TheHazardsOfHelenTheOpenTrack",The Hazards of Helen (1914)
+https://archive.org/download/1916TheHazardsOfHelenTheOpenTrack/1916%20The%20Hazards%20of%20Helen%20-%20The%20Open%20Track.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0005838" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1915WalterWrightAOneNightStandChesterConklinMaeBusch",A One Night Stand (1915)
+https://archive.org/download/1915WalterWrightAOneNightStandChesterConklinMaeBusch/1915%20%20Walter%20Wright%20-%20A%20One%20Night%20Stand%20%28Chester%20Conklin%2C%20Mae%20Busch%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0010632" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1919HaroldLloydRingUpTheCurtainBebeDanielsSnubPollard",Ring Up the Curtain (1919)
+https://archive.org/download/1919HaroldLloydRingUpTheCurtainBebeDanielsSnubPollard/1919%20%20Harold%20Lloyd%20-%20Ring%20Up%20The%20Curtain%20%28Bebe%20Daniels%2C%20Snub%20Pollard%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nd/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0248427" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1925ShipShape",Ship Shape (1925)
+https://archive.org/download/1925ShipShape/1925%20Ship%20Shape.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0014522" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1922SuzannaMabelNormandGeorgeNicholsWalterMcGrail",Suzanna (1923)
+https://archive.org/download/1922SuzannaMabelNormandGeorgeNicholsWalterMcGrail/1922%20Suzanna%20%28Mabel%20Normand%2C%20George%20Nichols%2C%20Walter%20McGrail%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0450702" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1919AlfredGouldingTheFloorBelow",The Floor Below (1919)
+https://archive.org/download/1919AlfredGouldingTheFloorBelow/1919%20Alfred%20Goulding%20%20-%20The%20Floor%20Below.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0191821" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1908DirectorUnknownTheWhiteSuit.3gp",The White Suit (1999)
+https://archive.org/download/1908DirectorUnknownTheWhiteSuit.3gp/1908%20%20Director%20Unknown%20-%20The%20White%20Suit.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0021508" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/1896DirectorUnknownUpTheRiver.3gp",Up the River (1930)
+https://archive.org/download/1896DirectorUnknownUpTheRiver.3gp/1896%20%20Director%20Unknown%20-%20Up%20The%20River.mp4
+
+# Licença: https://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="tt0025308" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/1934-die-insel-brigitte-helm-willy-fritsch-otto-tressler",Die Insel (1934)
+https://archive.org/download/1934-die-insel-brigitte-helm-willy-fritsch-otto-tressler/1934%20-%20Die%20Insel%20%28Brigitte%20Helm%2CWilly%20Fritsch%2COtto%20Tressler%29.ia.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="tt0028360" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/13th_Man_1937",The 13th Man (1937)
+https://archive.org/download/13th_Man_1937/13th_Man_1937.mp4
+
+# Licença: https://creativecommons.org/licenses/by-nd/4.0/; Autor: BERTUS
+#EXTINF:0 tvg-id="tt0021770" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/1931thecriminalcode",The Criminal Code (1931)
+https://archive.org/download/1931thecriminalcode/%281931%29%20The%20Criminal%20Code.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0000001" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/1894WilliamK.L.DicksonCarmencita.3gp",Carmencita (1894)
+https://archive.org/download/1894WilliamK.L.DicksonCarmencita.3gp/1894%20William%20K.%20L.%20Dickson%20-%20Carmencita.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt0479676" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/1917MoveOnHaroldLloyd",Harold Lloyd Comedy Collection: Harold's Hollywood - Then and Now (2005)
+https://archive.org/download/1917MoveOnHaroldLloyd/1917%20Move%20On%20%28Harold%20Lloyd%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="tt2162808" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/1894WilliamK.L.DicksonWilliamHeiseBuckingBronco.3gp",The Bucking Bronco at the Stickhorse Rodeo (2012)
+https://archive.org/download/1894WilliamK.L.DicksonWilliamHeiseBuckingBronco.3gp/1894%20William%20K.%20L.%20Dickson%2C%20William%20Heise%20-%20Bucking%20Bronco.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: Alexandre Dumas
+#EXTINF:0 tvg-id="tt0012027" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/1921Camille",Camille (1921)
+https://archive.org/download/1921Camille/1921Camille.ia.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: Majestic Pictures (John Clein)
+#EXTINF:0 tvg-id="tt0022984" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/1932HeartsOfHumanity",Hearts of Humanity (1932)
+https://archive.org/download/1932HeartsOfHumanity/1932HeartsOfHumanity.ia.mp4
+
+# Licença: https://creativecommons.org/publicdomain/mark/1.0/; Autor: Alexandre Volkoff, Ivan Mosjoukine
+#EXTINF:0 tvg-id="tt0187895" group-title="Mistério" type="video" tvg-logo="https://archive.org/services/img/01-l-ami-felon",The House of Mystery (1921)
+https://archive.org/download/01-l-ami-felon/01%20L%27Ami%20f%C3%A9lon.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-01EastSideKids" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/01EastSideKids",01EastSideKids (1940)
+https://archive.org/download/01EastSideKids/01-East%20Side%20Kids.mp4
+
+# Licença: https://creativecommons.org/publicdomain/mark/1.0/; Autor: Terence Young
+#EXTINF:0 tvg-id="archive-1-2-3-4-ou-les-collants-noirs-1960" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1-2-3-4-ou-les-collants-noirs-1960",1 2 3 4 Ou Les Collants Noirs (1960)
+https://archive.org/download/1-2-3-4-ou-les-collants-noirs-1960/1-2-3-4%20ou%20Les%20collants%20noirs%20%281960%29.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-12KidDynamite" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/12KidDynamite",12KidDynamite (1943)
+https://archive.org/download/12KidDynamite/12-Kid%20Dynamite.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-13ghosts_241" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/13ghosts_241",13ghosts
+https://archive.org/download/13ghosts_241/13Ghosts.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1891WilliamK.L.DicksonWilliamHeiseMenBoxing.3gp" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1891WilliamK.L.DicksonWilliamHeiseMenBoxing.3gp",1891WilliamK.L.DicksonWilliamHeiseMenBoxing
+https://archive.org/download/1891WilliamK.L.DicksonWilliamHeiseMenBoxing.3gp/1891%20William%20K.%20L.%20Dickson%2C%20William%20Heise%20-%20%20Men%20Boxing.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1912D.W.GriffithTheFemaleOfTheSpecies" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1912D.W.GriffithTheFemaleOfTheSpecies",1912D.W.GriffithTheFemaleOfTheSpecies
+https://archive.org/download/1912D.W.GriffithTheFemaleOfTheSpecies/1912%20D.%20W.%20Griffith%20-%20The%20Female%20Of%20The%20Species.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: Pendleton Film
+#EXTINF:0 tvg-id="archive-1935BrandedACowardJohnnyMackBrown" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1935BrandedACowardJohnnyMackBrown",1935BrandedACowardJohnnyMackBrown
+https://archive.org/download/1935BrandedACowardJohnnyMackBrown/1935%20Branded%20A%20Coward%20%28Johnny%20Mack%20Brown%29.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-07SpooksRunWild" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/07SpooksRunWild",7 Spooks Run Wild (1941)
+https://archive.org/download/07SpooksRunWild/07-Spooks%20Run%20Wild.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1908AVeryFineLadyLouisFeuillade" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1908AVeryFineLadyLouisFeuillade",A Very Fine Lady (1908)
+https://archive.org/download/1908AVeryFineLadyLouisFeuillade/1908%20A%20very%20Fine%20Lady%20Louis%20Feuillade.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-06BoweryBlitzkrieg" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/06BoweryBlitzkrieg",Bowery Blitzkrieg (1941)
+https://archive.org/download/06BoweryBlitzkrieg/06-Bowery%20Blitzkrieg.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-02BoysOfTheCity" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/02BoysOfTheCity",Boys of the City (1940)
+https://archive.org/download/02BoysOfTheCity/02-Boys%20of%20the%20City.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-05FlyingWild" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/05FlyingWild",Flying Wild (1941)
+https://archive.org/download/05FlyingWild/05-Flying%20Wild.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-191920HaroldLloydHauntedSpooksXvid" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/191920HaroldLloydHauntedSpooksXvid",Harold Lloyd Haunted Spooks (1919)
+https://archive.org/download/191920HaroldLloydHauntedSpooksXvid/19%201920%20Harold%20Lloyd%20%20%20Haunted%20Spooks%20xvid.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nd/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1919HaroldLloydTheChefBebeDanielsSnubPollard" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1919HaroldLloydTheChefBebeDanielsSnubPollard",Harold Lloyd The Chef (1919)
+https://archive.org/download/1919HaroldLloydTheChefBebeDanielsSnubPollard/1919%20%20Harold%20Lloyd%20-%20The%20Chef%20%28Bebe%20Daniels%2C%20Snub%20Pollard%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nd/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1905LucienNonguetLaRvolutionEnRussieRevolutionInRussia" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1905LucienNonguetLaRvolutionEnRussieRevolutionInRussia",La RvolutionEnRussie (1905)
+https://archive.org/download/1905LucienNonguetLaRvolutionEnRussieRevolutionInRussia/1905%20%20Lucien%20Nonguet%20-%20%20La%20R%C3%A9volution%20En%20Russie%20%20%20Revolution%20In%20Russia.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-04PrideOfTheBowery" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/04PrideOfTheBowery",Pride of the Bowery (1940)
+https://archive.org/download/04PrideOfTheBowery/04-Pride%20of%20the%20Bowery.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1902SegundoDeChomnLaFFePrintempsTheSpringFairy" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1902SegundoDeChomnLaFFePrintempsTheSpringFairy",Segundo de Chomón (1902)
+https://archive.org/download/1902SegundoDeChomnLaFFePrintempsTheSpringFairy/1902%20%20Segundo%20de%20Chom%C3%B3n%20-%20La%20F%C3%A9e%20printemps%20%20%20The%20Spring%20Fairy.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-10SmartAlecks" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/10SmartAlecks",Smart Alecks (1942)
+https://archive.org/download/10SmartAlecks/10-Smart%20Alecks.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1896AugusteLouisLumireChineseSaigon" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1896AugusteLouisLumireChineseSaigon",Sortie des Usines Lumière à Lyon (1895)
+https://archive.org/download/1896AugusteLouisLumireChineseSaigon/1896%20%20Auguste%20%26%20Louis%20Lumi%C3%A8re%20%20%20Chinese%20%C3%80%20Saigon.mp4
+
+# Licença: http://creativecommons.org/publicdomain/mark/1.0/; Autor: 
+#EXTINF:0 tvg-id="archive-03ThatGangOfMine" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/03ThatGangOfMine",That Gang of Mine (1940)
+https://archive.org/download/03ThatGangOfMine/03-That%20Gang%20of%20Mine.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1912LadislasStarevichTheBeautifulLeukanida.3gp" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1912LadislasStarevichTheBeautifulLeukanida.3gp",The Beautiful Leukanida
+https://archive.org/download/1912LadislasStarevichTheBeautifulLeukanida.3gp/1912%20Ladislas%20Starevich%20-%20The%20Beautiful%20Leukanida.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: BadRobot PLC
+#EXTINF:0 tvg-id="archive-1935JosephHenaberyThruTrafficPaulKellyMargueriteChurchill" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1935JosephHenaberyThruTrafficPaulKellyMargueriteChurchill",Thru Traffic (1935)
+https://archive.org/download/1935JosephHenaberyThruTrafficPaulKellyMargueriteChurchill/1935%20%20Joseph%20Henabery%20-%20Thru%20Traffic%20%28Paul%20Kelly%2C%20Marguerite%20Churchill%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: Audio And Visual Club
+#EXTINF:0 tvg-id="archive-1896DirectorUnknownUpTheRiver.3gp_201601" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1896DirectorUnknownUpTheRiver.3gp_201601",UpTheRiver (2016)
+https://archive.org/download/1896DirectorUnknownUpTheRiver.3gp_201601/1896%20%20Director%20Unknown%20-%20Up%20The%20River.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: MoviesRme
+#EXTINF:0 tvg-id="archive-1925WalterRuttmannOpusIV.3gp" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/1925WalterRuttmannOpusIV.3gp",WalterRuttmannOpusIV (1925)
+https://archive.org/download/1925WalterRuttmannOpusIV.3gp/1925%20Walter%20Ruttmann%20%20Opus%20IV.mp4
