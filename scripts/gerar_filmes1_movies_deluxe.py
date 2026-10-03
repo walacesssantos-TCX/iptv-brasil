@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import concurrent.futures
+import difflib
 import json
 import os
 import re
@@ -14,12 +15,14 @@ ROOT = Path(__file__).resolve().parents[1]
 DB = ROOT / "vendor" / "movies.json"
 OUT = ROOT / "filmes1.m3u"
 CACHE = ROOT / "data" / "archive_direct_cache.json"
+CURATED = ROOT / "data" / "filmes_recentes_oficiais.json"
 
 UA = "iptv-brasil-ssiptv-builder/2.0"
 MAX_WORKERS = int(os.getenv("MAX_WORKERS", "24"))
 TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "750"))
 RETRY_AFTER = int(os.getenv("RETRY_AFTER", "21600"))
+MIN_RELEASE_YEAR = int(os.getenv("MIN_RELEASE_YEAR", "2000"))
 if min(MAX_WORKERS, TIMEOUT, BATCH_SIZE, RETRY_AFTER) < 1:
     raise ValueError("MAX_WORKERS, HTTP_TIMEOUT, BATCH_SIZE e RETRY_AFTER devem ser positivos")
 
@@ -91,6 +94,10 @@ def score_video(name, fmt, source, size):
         score += 40
     if "512kb" in low:
         score -= 15
+    if "stereo" in low:
+        score += 20
+    if "surround" in low:
+        score -= 20
     if "1080" in low:
         score += 25
     elif "720" in low:
@@ -164,6 +171,24 @@ def license_evidence(metadata):
             return url
     return ""
 
+def extract_year(value):
+    match = re.search(r"\b(?:18|19|20)\d{2}\b", str(value or ""))
+    return int(match.group()) if match else 0
+
+def release_year(movie):
+    metadata = movie.get("metadata") or {}
+    return extract_year(metadata.get("Year") or (movie.get("ai") or {}).get("year") or movie.get("year"))
+
+def matching_title(movie, actual_title):
+    expected = str((movie.get("metadata") or {}).get("Title") or movie.get("title") or "")
+    def normalized(title):
+        title = re.sub(r"\s*[-:]?\s*blender\s+open\s+movie.*$", "", title, flags=re.I)
+        title = re.sub(r"\b(?:18|19|20)\d{2}\b", "", title.casefold())
+        title = re.sub(r"\b(?:the|movie|film|colorized|version)\b", "", title)
+        return re.sub(r"[^\w]+", "", title)
+    left, right = normalized(expected), normalized(str(actual_title or ""))
+    return bool(left and right and difflib.SequenceMatcher(None, left, right).ratio() >= 0.75)
+
 def validate_video_url(url):
     # Read a small prefix only, even when a server ignores the Range header.
     req = urllib.request.Request(url, headers={
@@ -184,13 +209,26 @@ def resolve_identifier(identifier):
         metadata = data.get("metadata") or {}
         if not metadata:
             return dict(result, error="Item sem metadados")
+        result["item_title"] = str(metadata.get("title") or "")
+        if re.search(r"\b(?:trailer|teaser|preview|review|analysis|clip|behind.the.scenes)\b", result["item_title"], re.I):
+            return dict(result, status="not_movie")
         if metadata.get("is_dark") or metadata.get("access-restricted-item") in (True, "true", "1"):
             return dict(result, status="restricted")
         evidence = license_evidence(metadata)
         if not evidence:
             return dict(result, status="unlicensed")
+        # A third-party Public Domain Mark alone does not establish release
+        # permission for a modern film. Require a CC license or CC0 instead.
+        if "/publicdomain/mark/" in evidence or "/licenses/publicdomain" in evidence:
+            return dict(result, status="unlicensed")
         result["licenseurl"] = evidence
         result["creator"] = metadata.get("creator") or ""
+        # Cross-check against the actual item, never its upload timestamp.
+        years = [extract_year(metadata.get(key)) for key in ("year", "date")]
+        years = [year for year in years if year]
+        result["release_year"] = min(years) if years else 0
+        if result["release_year"] < MIN_RELEASE_YEAR:
+            return dict(result, status="old_or_undated")
         files = list(data.get("files") or [])
         for _ in range(3):
             name = choose_from_files(files)
@@ -207,7 +245,8 @@ def resolve_identifier(identifier):
         return dict(result, error=str(exc)[:200])
 
 def cache_url(entry):
-    if isinstance(entry, dict) and entry.get("status") == "ok":
+    if (isinstance(entry, dict) and entry.get("status") == "ok" and
+            int_value(entry.get("release_year")) >= MIN_RELEASE_YEAR):
         return entry.get("url") or ""
     return ""
 
@@ -215,9 +254,11 @@ def needs_resolution(entry, now):
     # Old string-only cache records have no license or availability evidence.
     if not isinstance(entry, dict):
         return True
+    if entry.get("status") == "ok" and (not entry.get("release_year") or not entry.get("item_title")):
+        return True
     if entry.get("status") == "retry":
         return now - int_value(entry.get("checked_at")) >= RETRY_AFTER
-    return entry.get("status") not in ("ok", "no_video", "unlicensed", "restricted")
+    return entry.get("status") not in ("ok", "no_video", "unlicensed", "restricted", "old_or_undated", "not_movie")
 
 def load_cache():
     if not CACHE.exists():
@@ -259,19 +300,24 @@ def title_for(movie):
         title = f"{title} ({year})"
     return re.sub(r"[\r\n]+", " ", title).strip()
 
-def parse_existing_non_archive():
-    if not OUT.exists():
+def curated_entries():
+    if not CURATED.exists():
         return []
     entries = []
-    current = None
-    for raw in OUT.read_text("utf-8", errors="replace").splitlines():
-        line = raw.strip()
-        if line.startswith("#EXTINF"):
-            current = line
-        elif current and re.match(r"^https?://", line, re.I):
-            if "archive.org/" not in line.lower():
-                entries.append((current, line))
-            current = None
+    catalog = json.loads(CURATED.read_text("utf-8"))
+    for movie in sorted(catalog, key=lambda item: (-int_value(item.get("year")), item.get("title", ""))):
+        if int_value(movie.get("year")) < MIN_RELEASE_YEAR:
+            continue
+        url = movie["url"]
+        if not re.match(r"^https://[^\s]+\.(?:mp4|m4v)$", url, re.I):
+            raise ValueError("Fonte oficial deve usar URL direta MP4/M4V")
+        title = re.sub(r"[\r\n]+", " ", movie["title"])
+        group = str(movie.get("group") or "Filmes Independentes").replace('"', "'")
+        meta = f'#EXTINF:0 type="video" group-title="{group}",{title} ({movie["year"]})'
+        credit = re.sub(r"[\r\n]+", " ", str(movie.get("creator") or ""))
+        source = str(movie.get("source_page") or "")
+        license_url = str(movie.get("licenseurl") or movie.get("rights_basis") or "")
+        entries.append((f'# Fonte: {source}; Licença: {license_url}; Autor: {credit}\n{meta}', url))
     return entries
 
 def extinf(movie_id, title, group, identifier):
@@ -300,6 +346,8 @@ def main():
         if not isinstance(movie, dict) or str(movie_id).startswith("_"):
             continue
         total_records += 1
+        if release_year(movie) < MIN_RELEASE_YEAR:
+            continue
         ids = []
         for source in movie.get("sources") or []:
             if not isinstance(source, dict):
@@ -307,6 +355,10 @@ def main():
             channel_id = str(source.get("channelId") or "")
             source_type = str(source.get("type") or "")
             identifier = str(source.get("sourceId") or source.get("id") or "").strip()
+            # Prevent same-name remakes from being matched to old Archive items.
+            source_year = extract_year(source.get("title") or identifier)
+            if source_year and source_year < MIN_RELEASE_YEAR:
+                continue
             if identifier and (channel_id == "archive.org" or source_type == "archive.org"):
                 if identifier not in ids:
                     ids.append(identifier)
@@ -320,9 +372,13 @@ def main():
 
     cache = load_cache()
     now = int(time.time())
+    newest_year = {}
+    for _, movie, ids in movies:
+        for identifier in ids:
+            newest_year[identifier] = max(newest_year.get(identifier, 0), release_year(movie))
     missing_all = sorted(
         (identifier for identifier in archive_ids if needs_resolution(cache.get(identifier), now)),
-        key=lambda identifier: (identifier in cache, identifier),
+        key=lambda identifier: (identifier in cache, -newest_year[identifier], identifier),
     )
     missing = missing_all[:BATCH_SIZE]
     print(f"Já resolvidos no cache: {len(archive_ids) - len(missing_all)}")
@@ -353,12 +409,26 @@ def main():
     archive_entries = []
     seen_urls = set()
     seen_movies = set()
+    curated_movie_keys = set()
+    if CURATED.exists():
+        curated_movie_keys = {
+            (str(item.get("title") or "").casefold(), int_value(item.get("year")))
+            for item in json.loads(CURATED.read_text("utf-8"))
+        }
 
     for movie_id, movie, identifiers in movies:
+        raw_title = str((movie.get("metadata") or {}).get("Title") or movie.get("title") or "")
+        if (raw_title.casefold(), release_year(movie)) in curated_movie_keys:
+            continue
         chosen_id = None
         chosen_url = None
         for identifier in identifiers:
             url = cache_url(cache.get(identifier))
+            if url and not matching_title(movie, cache[identifier].get("item_title")):
+                continue
+            if url and int_value(cache[identifier].get("release_year")) != release_year(movie):
+                # Conflicting release years indicate an unreliable title match.
+                continue
             if url:
                 chosen_id = identifier
                 chosen_url = url
@@ -379,7 +449,7 @@ def main():
 
     archive_entries.sort(key=lambda row: (row[0], row[1]))
 
-    manual_entries = parse_existing_non_archive()
+    manual_entries = curated_entries()
     manual_seen = set()
     preserved = []
     for meta, url in manual_entries:
@@ -387,10 +457,12 @@ def main():
             continue
         manual_seen.add(url)
         preserved.append((meta, url))
+    archive_entries = [row for row in archive_entries if row[3] not in manual_seen]
 
     lines = [
         '#EXTM3U size="medium"',
         '# Biblioteca VOD - SS IPTV',
+        f'# Apenas filmes de {MIN_RELEASE_YEAR} em diante; fontes oficiais e licenciadas',
         '# Archive.org: licença CC/domínio público declarada nos metadados do item',
         '# URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV',
         f'# Registros Movies Deluxe lidos: {total_records}',

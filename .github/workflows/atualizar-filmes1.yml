@@ -7,6 +7,7 @@ on:
       - "scripts/gerar_filmes1_movies_deluxe.py"
       - ".github/workflows/atualizar-filmes1.yml"
       - "tests/test_gerar_filmes1_movies_deluxe.py"
+      - "data/filmes_recentes_oficiais.json"
   workflow_dispatch:
   schedule:
     - cron: "37 * * * *"
@@ -46,7 +47,8 @@ jobs:
         env:
           MAX_WORKERS: "12"
           HTTP_TIMEOUT: "15"
-          BATCH_SIZE: "750"
+          BATCH_SIZE: "250"
+          MIN_RELEASE_YEAR: "2000"
         run: python -u scripts/gerar_filmes1_movies_deluxe.py
 
       - name: Commit

@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-10-03",
+  "selection": "Ano de lançamento a partir de 2000, URL MP4/M4V verificada, distribuição oficial ou licença declarada. Metadados conflitantes excluídos.",
+  "repositories": [
+    {
+      "repository": "https://github.com/select/movies-deluxe.git",
+      "commit": "798a6b5377bd2bc890037226cae37af9aba6e633"
+    },
+    {
+      "repository": "https://github.com/m3ue/api-tester.git",
+      "commit": "56d3f7a6a758ee3522dc643e1e7af26fc19cc7a1"
+    },
+    {
+      "repository": "https://github.com/MadanChaollaPark/framehaven-open-cinema.git",
+      "commit": "8dc708115aba9feeec33ead0933e4217f2902c79"
+    }
+  ]
+}

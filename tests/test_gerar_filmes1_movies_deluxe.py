@@ -18,15 +18,17 @@ class BuilderTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             db, out, cache = root / "movies.json", root / "filmes1.m3u", root / "cache.json"
+            curated = root / "curated.json"
             db.write_text(json.dumps({str(i): {
-                "title": f"Movie {i}", "sources": [{"type": "archive.org", "id": f"item{i}"}]
+                "title": f"Movie {i}", "year": 2018, "sources": [{"type": "archive.org", "id": f"item{i}"}]
             } for i in range(3)}))
-            original = '#EXTINF:0 type="video",LibreFlix\nhttps://example.org/film.mp4\n'
+            original = 'LibreFlix (2018)\nhttps://example.org/film.mp4\n'
+            curated.write_text(json.dumps([{"title": "LibreFlix", "year": 2018, "url": "https://example.org/film.mp4"}]))
             out.write_text("#EXTM3U\n" + original)
             def resolve(identifier):
                 return {"status": "ok", "url": f"https://archive.org/download/{identifier}/film.mp4",
-                        "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/"}
-            with patch.multiple(builder, DB=db, OUT=out, CACHE=cache, BATCH_SIZE=2), patch.object(builder, "resolve_identifier", side_effect=resolve) as resolver:
+                        "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/", "release_year": 2018, "item_title": "Movie " + identifier[-1]}
+            with patch.multiple(builder, DB=db, OUT=out, CACHE=cache, CURATED=curated, BATCH_SIZE=2), patch.object(builder, "resolve_identifier", side_effect=resolve) as resolver:
                 builder.main()
                 self.assertEqual(resolver.call_count, 2)
                 self.assertEqual(out.read_text().count("#EXTINF"), 3)
@@ -46,14 +48,14 @@ class BuilderTests(unittest.TestCase):
             self.assertEqual(builder.resolve_identifier("id")["status"], "retry")
 
     def test_license_filter_and_video_validation(self):
-        licensed = {"licenseurl": "http://creativecommons.org/licenses/publicdomain/"}
+        licensed = {"licenseurl": "http://creativecommons.org/licenses/by/4.0/"}
         self.assertTrue(builder.license_evidence(licensed))
         self.assertFalse(builder.license_evidence({"licenseurl": "https://creativecommons.org.evil.test/licenses/by/4.0/"}))
         self.assertFalse(builder.license_evidence({"description": "free movie"}))
         with patch.object(builder, "request_bytes", return_value=b'{"metadata":{"title":"Test"},"files":[]}'), patch.object(builder, "validate_video_url") as validate:
             self.assertEqual(builder.resolve_identifier("id")["status"], "unlicensed")
             validate.assert_not_called()
-        payload = {"metadata": licensed, "files": [{"name": "movie.mp4", "size": 10000000, "format": "h.264"}]}
+        payload = {"metadata": dict(licensed, year="2018"), "files": [{"name": "movie.mp4", "size": 10000000, "format": "h.264"}]}
         with patch.object(builder, "request_bytes", return_value=json.dumps(payload).encode()), patch.object(builder, "validate_video_url", return_value=True):
             result = builder.resolve_identifier("id with spaces")
             self.assertEqual(result["status"], "ok")
@@ -69,6 +71,18 @@ class BuilderTests(unittest.TestCase):
             {"name": "trailer.mp4", "size": 900000000},
         ]
         self.assertEqual(builder.choose_from_files(files), "movie.mp4")
+
+    def test_old_and_unknown_years_are_excluded(self):
+        self.assertEqual(builder.release_year({"metadata": {"Year": "1936"}, "year": 2025}), 1936)
+        licensed = {"licenseurl": "https://creativecommons.org/licenses/by/4.0/", "year": "1936"}
+        with patch.object(builder, "request_bytes", return_value=json.dumps({"metadata": licensed}).encode()), patch.object(builder, "validate_video_url") as validate:
+            self.assertEqual(builder.resolve_identifier("classic")["status"], "old_or_undated")
+            validate.assert_not_called()
+        self.assertEqual(builder.cache_url({"status": "ok", "url": "old.mp4", "release_year": 1936}), "")
+        self.assertEqual(builder.cache_url({"status": "ok", "url": "unknown.mp4"}), "")
+        self.assertTrue(builder.needs_resolution({"status": "ok", "url": "legacy.mp4"}, 100000))
+        self.assertFalse(builder.matching_title({"title": "The Last Human Taxi Driver"}, "Taxi Driver Film and Analysis"))
+        self.assertTrue(builder.matching_title({"title": "Spring"}, "Spring - Blender Open Movie"))
 
     def test_corrupt_cache_does_not_silently_reset(self):
         with tempfile.TemporaryDirectory() as directory:

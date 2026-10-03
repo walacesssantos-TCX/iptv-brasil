@@ -1,0 +1,115 @@
+[
+  {
+    "title": "Wing It!",
+    "year": 2023,
+    "url": "https://archive.org/download/wing_it/wing_it.ia.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/wing-it/",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Charge",
+    "year": 2022,
+    "url": "https://archive.org/download/charge-blender-open-movie-1608p/Charge%20-%20Blender%20Open%20Movie%201608p.mp4",
+    "group": "Curtas de Ficção Científica",
+    "source_page": "https://studio.blender.org/projects/charge/",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Studio",
+    "checked_at": "2026-10-03",
+    "license_evidence": "https://studio.blender.org/terms-and-conditions/"
+  },
+  {
+    "title": "Sprite Fright",
+    "year": 2021,
+    "url": "https://archive.org/download/sprite-fright/Sprite%20Fright%20-%20Open%20Movie%20by%20Blender%20Studio-804p.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/sprite-fright/",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Coffee Run",
+    "year": 2020,
+    "url": "https://archive.org/download/coffee_202209/coffee.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/coffee-run/",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03",
+    "license_evidence": "https://studio.blender.org/projects/coffee-run/pages/licensing/"
+  },
+  {
+    "title": "Spring",
+    "year": 2019,
+    "url": "https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/spring/",
+    "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03",
+    "license_evidence": "https://studio.blender.org/projects/spring/pages/about/"
+  },
+  {
+    "title": "Seder-Masochism",
+    "year": 2018,
+    "url": "https://archive.org/download/seder-masochism-final-05-18-18/Seder-Masochism%20final%2005-18-18.mp4",
+    "group": "Animação",
+    "source_page": "https://archive.org/details/seder-masochism-final-05-18-18",
+    "licenseurl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "creator": "Nina Paley",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Cosmos Laundromat",
+    "year": 2015,
+    "url": "https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/cosmos-laundromat/",
+    "licenseurl": "http://creativecommons.org/licenses/by/4.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "A Educação Proibida",
+    "year": 2012,
+    "url": "https://archive.org/download/LaEducacionProhibida/la_educacion_prohibida.mp4",
+    "group": "Documentários",
+    "source_page": "https://archive.org/details/LaEducacionProhibida",
+    "licenseurl": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "creator": "La Educación Prohibida",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Tears of Steel",
+    "year": 2012,
+    "url": "https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4",
+    "group": "Curtas de Ficção Científica",
+    "source_page": "https://studio.blender.org/projects/tears-of-steel/",
+    "licenseurl": "http://creativecommons.org/licenses/by/3.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Sintel",
+    "year": 2010,
+    "url": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4",
+    "group": "Curtas de Animação",
+    "source_page": "https://studio.blender.org/projects/sintel/",
+    "licenseurl": "http://creativecommons.org/licenses/by/3.0/",
+    "creator": "Blender Foundation / Blender Studio",
+    "checked_at": "2026-10-03"
+  },
+  {
+    "title": "Valkaama",
+    "year": 2010,
+    "url": "https://archive.org/download/valkaama/Valkaama_1080p.mp4",
+    "group": "Drama",
+    "source_page": "https://archive.org/details/valkaama",
+    "licenseurl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "creator": "Tim Baumann",
+    "checked_at": "2026-10-03"
+  }
+]
