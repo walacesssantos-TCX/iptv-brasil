@@ -1,0 +1,38 @@
+name: Atualizar filmes1 LibreFlix
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/gerar_filmes1_libreflix.py"
+      - ".github/workflows/atualizar-filmes1.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "37 5 * * 3"
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar filmes1.m3u
+        run: python scripts/gerar_filmes1_libreflix.py
+      - name: Commit
+        shell: bash
+        run: |
+          if git diff --quiet -- filmes1.m3u; then
+            echo "Sem alterações"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add filmes1.m3u
+          git commit -m "Atualiza filmes1 com catálogo LibreFlix"
+          git push
