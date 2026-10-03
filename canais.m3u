@@ -1,0 +1,60 @@
+#EXTM3U
+
+# =========================
+# TV PUBLICA / NACIONAL
+# =========================
+
+#EXTINF:-1 tvg-id="TVBrasil.br" group-title="Abertos Brasil",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 tvg-id="TVBrasilInternacional.br" group-title="Abertos Brasil",TV Brasil Internacional
+https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
+
+#EXTINF:-1 tvg-id="CanalGov.br" group-title="Abertos Brasil",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
+
+# =========================
+# LEGISLATIVO
+# =========================
+
+#EXTINF:-1 tvg-id="TVCamara.br" group-title="Legislativo",TV Camara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+
+#EXTINF:-1 tvg-id="TVCamara2.br" group-title="Legislativo",TV Camara 2
+https://stream3.camara.gov.br/tv2/manifest.m3u8
+
+# =========================
+# REDES ABERTAS / GRATUITAS
+# =========================
+
+#EXTINF:-1 tvg-id="RecordNews.br" group-title="Abertos Brasil",Record News
+https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
+
+#EXTINF:-1 tvg-id="Record.br" group-title="Abertos Brasil",Record TV
+https://media.cdntvms.com.br/record_nacional_sat/index.m3u8
+
+#EXTINF:-1 tvg-id="RedeBrasil.br" group-title="Abertos Brasil",Rede Brasil
+https://video07.logicahost.com.br/redebrasil/redebrasil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ISTVHD.br" group-title="Abertos Brasil",ISTV
+https://cdn.jmvstream.com/w/LVW-9883/LVW9883_lFcfKysrHF/chunklist.m3u8
+
+#EXTINF:-1 tvg-id="CNTAmericana.br" group-title="Regionais",CNT Americana
+https://dd8umsy8yf96u.cloudfront.net/live/cnt-americana.m3u8
+
+# =========================
+# EDUCATIVOS / REGIONAIS
+# =========================
+
+#EXTINF:-1 tvg-id="UniscTV.br" group-title="Educativos",Unisc TV
+https://tv.unisc.br/hls/test.m3u8
+
+#EXTINF:-1 tvg-id="TVERioGrandeDoSul.br" group-title="Educativos",TVE RS
+http://selpro1348.procergs.com.br:1935/tve/stve/playlist.m3u8
+
+# =========================
+# RELIGIOSOS / ABERTOS
+# =========================
+
+#EXTINF:-1 tvg-id="NovoTempo.br" group-title="Religiosos",TV Novo Tempo
+http://stream.novotempo.com:1935/tv/TvNovoTempoCom.smil/chunklist_b2128000_slpor.m3u8
