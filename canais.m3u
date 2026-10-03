@@ -72,8 +72,6 @@ https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 #EXTINF:-1 tvg-id="TVERS.br" group-title="Regionais",TVE RS
 https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVParanaTurismo.br" group-title="Regionais",TV Parana Turismo
-http://200.189.113.201/hls/tve.m3u8
 
 #EXTINF:-1 tvg-id="TVUFOP.br" group-title="Universitarios",TV UFOP
 https://app.tvufop.com.br/hls/tvufop.m3u8
@@ -91,8 +89,6 @@ https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.
 # RELIGIOSOS / ABERTOS
 # =========================
 
-#EXTINF:-1 tvg-id="NovoTempo.br" group-title="Religiosos",TV Novo Tempo
-http://stream.novotempo.com:1935/tv/TvNovoTempoCom.smil/chunklist_b2128000_slpor.m3u8
 
 #EXTINF:-1 tvg-id="TVCancaoNova.br" group-title="Religiosos",TV Cancao Nova
 https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
@@ -103,3 +99,31 @@ https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVUniversal.br" group-title="Religiosos",TV Universal
 https://644398c.ha.azioncdn.net/primary/tvuniversal_480p.sdp/playlist.m3u8
+
+
+# =========================
+# ESPORTES - HLS DIRETO
+# =========================
+
+#EXTINF:-1 tvg-id="geFast.br" group-title="Esportes",ge Fast
+https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NSports.br" group-title="Esportes",N Sports
+https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
+
+# =========================
+# FILMES / ENTRETENIMENTO - HLS DIRETO
+# =========================
+
+#EXTINF:-1 tvg-id="CINDIETV.br" group-title="Filmes",CINDIE TV
+https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
+
+#EXTINF:-1 tvg-id="GospelMovieTV.br" group-title="Filmes",Gospel Movie TV
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+
+# =========================
+# INFANTIL - HLS DIRETO
+# =========================
+
+#EXTINF:-1 tvg-id="GospelCartoon.br" group-title="Infantil",Gospel Cartoon
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
