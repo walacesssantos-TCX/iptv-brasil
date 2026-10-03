@@ -140,7 +140,7 @@ def files_from_metadata(identifier):
     return data.get("files") or []
 
 def resolve_identifier(identifier):
-    for attempt in range(3):
+    for attempt in range(1):
         try:
             try:
                 files = files_from_xml(identifier)
@@ -256,9 +256,11 @@ def main():
 
     cache = load_cache()
     # Reuse both successful and previously checked-without-MP4 identifiers.
-    missing = sorted(identifier for identifier in archive_ids if identifier not in cache)
-    print(f"Já resolvidos no cache: {len(archive_ids) - len(missing)}")
-    print(f"Identificadores a consultar agora: {len(missing)}")
+    missing_all = sorted(identifier for identifier in archive_ids if identifier not in cache)
+    missing = missing_all[:BATCH_SIZE]
+    print(f"Já resolvidos no cache: {len(archive_ids) - len(missing_all)}")
+    print(f"Pendentes totais: {len(missing_all)}")
+    print(f"Identificadores neste lote: {len(missing)}")
 
     if missing:
         completed = 0
