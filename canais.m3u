@@ -39,8 +39,6 @@ https://stream3.camara.gov.br/tv2/manifest.m3u8
 #EXTINF:-1 tvg-id="Band.br" group-title="Abertos Brasil",Band
 https://media.cdntvms.com.br/band_sat/index.m3u8
 
-#EXTINF:-1 tvg-id="RecordNews.br" group-title="Abertos Brasil",Record News
-https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8
 
 #EXTINF:-1 tvg-id="Record.br" group-title="Abertos Brasil",Record TV
 https://media.cdntvms.com.br/record_nacional_sat/index.m3u8
@@ -51,17 +49,10 @@ https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1 tvg-id="CulturaFast.br" group-title="Abertos Brasil",Cultura Fast
 https://fpa-gateway.tvcultura.com.br:8181/memfs/606caef0-a290-413d-9f1f-8fcdb3a73831.m3u8
 
-#EXTINF:-1 tvg-id="RedeBrasil.br" group-title="Abertos Brasil",Rede Brasil
-https://video07.logicahost.com.br/redebrasil/redebrasil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ISTV.br" group-title="Abertos Brasil",ISTV
 https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CanalRural.br" group-title="Abertos Brasil",Canal Rural
-https://607d2a1a47b1f.streamlock.net/crur/smil:canalrural.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CanaldoCriador.br" group-title="Abertos Brasil",Canal do Criador
-https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AmazonSat.br" group-title="Abertos Brasil",Amazon Sat
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
@@ -79,8 +70,6 @@ https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 # REGIONAIS / UNIVERSITARIOS
 # =========================
 
-#EXTINF:-1 tvg-id="CNTAmericana.br" group-title="Regionais",CNT Americana
-https://dd8umsy8yf96u.cloudfront.net/live/cnt-americana.m3u8
 
 #EXTINF:-1 tvg-id="TVERS.br" group-title="Regionais",TVE RS
 https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
@@ -110,8 +99,6 @@ http://stream.novotempo.com:1935/tv/TvNovoTempoCom.smil/chunklist_b2128000_slpor
 #EXTINF:-1 tvg-id="TVCancaoNova.br" group-title="Religiosos",TV Cancao Nova
 https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVEvangelizar.br" group-title="Religiosos",TV Evangelizar
-https://cdn-tiva-tvevangelizar-brasilstream-com-br.smartbit.co/hls/tvevangelizar/index.m3u8
 
 #EXTINF:-1 tvg-id="TVPaiEterno.br" group-title="Religiosos",TV Pai Eterno
 https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
