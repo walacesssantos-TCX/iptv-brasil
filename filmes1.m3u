@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 26
+# Filmes Archive.org com vídeo direto: 31
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -58,9 +58,17 @@ https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_1080p.mp4
 #EXTINF:0 tvg-id="tt3390572" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/haider-2014_202202",Haider (2014)
 https://archive.org/download/haider-2014_202202/Haider%20%282014%29.mp4
 
+# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Clint Eastwood
+#EXTINF:0 tvg-id="tt0498380" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/letters.-from.-iwo.-jima.-2006_202511",Letters from Iwo Jima (2006)
+https://archive.org/download/letters.-from.-iwo.-jima.-2006_202511/Letters%20From%20Iwo%20Jima%20%282006%29/Letters.From.Iwo.Jima.2006.ia.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
 #EXTINF:0 tvg-id="tt1334226" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/DeadManDrinking",Dead Man Drinking (2008)
 https://archive.org/download/DeadManDrinking/DeadManDrinking-720p.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Exploding Goldfish Films
+#EXTINF:0 tvg-id="tt1245916" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/WholesaleSoulsInc",Wholesale Souls, Inc. (2006)
+https://archive.org/download/WholesaleSoulsInc/wholesale-souls-inc.mp4
 
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Jeremy Saulnier,
 #EXTINF:0 tvg-id="tt2359024" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/blue-ruin-2013",Blue Ruin (2013)
@@ -86,6 +94,10 @@ https://archive.org/download/SilentHallOfFameDocumentary/Silent-Hall-of-Fame-doc
 #EXTINF:0 tvg-id="tt6400614" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/unacknowledged.-2017.308p",Unacknowledged (2017)
 https://archive.org/download/unacknowledged.-2017.308p/Unacknowledged%20%282017%29/Unacknowledged.2017.308p.ia.mp4
 
+# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Steven Okazaki
+#EXTINF:0 tvg-id="tt0911010" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki-2007",White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
+https://archive.org/download/white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki-2007/White%20Light%20Black%20Rain/White%20Light%20Black%20Rain%20-%20The%20Destruction%20Of%20Hiroshima%20And%20Nagasaki%20-%202007.ia.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Peter Joseph
 #EXTINF:0 tvg-id="tt1332128" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/Zeitgeist.Addendum",Zeitgeist: Addendum (2008)
 https://archive.org/download/Zeitgeist.Addendum/Zeitgeist.Addendum.mp4
@@ -93,6 +105,10 @@ https://archive.org/download/Zeitgeist.Addendum/Zeitgeist.Addendum.mp4
 # Licença: http://creativecommons.org/licenses/by-sa/3.0/us/; Autor: KillaCozzy Productions
 #EXTINF:0 tvg-id="tt1379199" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/ChiaroscuroBaby",Chiaroscuro, Baby (2009)
 https://archive.org/download/ChiaroscuroBaby/ChiaroscuroBaby-1280x720.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
+#EXTINF:0 tvg-id="tt1265599" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/insecurity",Insecurity (2007)
+https://archive.org/download/insecurity/Insecurity.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/us/; Autor: James Brittain
 #EXTINF:0 tvg-id="tt2049483" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/King_Lear",King Lear (2008)
@@ -117,6 +133,10 @@ https://archive.org/download/Depthiness/2017_Depthiness_Hans_Rombach.mp4
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Lutz Mommartz
 #EXTINF:0 tvg-id="archive-2017SteuererklrungLutzMommartz" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2017SteuererklrungLutzMommartz",Der durchsichtige Mensch (2017)
 https://archive.org/download/2017SteuererklrungLutzMommartz/2017_Tax_return_EN_1280-1080.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
+#EXTINF:0 tvg-id="archive-MargretsFilm" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/MargretsFilm",MargretsFilm (2007)
+https://archive.org/download/MargretsFilm/2007-Margrets_Film_engl_U-titel-1440-1080.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz 
 #EXTINF:0 tvg-id="archive-2013MommartzVonAndreasKopnick" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2013MommartzVonAndreasKopnick",Mommartz von Andreas Köpnick (2013)
