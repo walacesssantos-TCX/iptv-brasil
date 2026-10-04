@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 39
+# Filmes Archive.org com vídeo direto: 43
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -54,6 +54,10 @@ https://archive.org/download/valkaama/Valkaama_1080p.mp4
 #EXTINF:0 tvg-id="tt1172203" group-title="Animação" type="video" tvg-logo="https://archive.org/services/img/Sita_Sings_the_Blues",Sita Sings the Blues (2008)
 https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_1080p.mp4
 
+# Licença: https://creativecommons.org/licenses/by-nc/4.0/; Autor:  Christophe Gans
+#EXTINF:0 tvg-id="tt0237534" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/brotherhood-of-the-wolf",Brotherhood of the Wolf (2001)
+https://archive.org/download/brotherhood-of-the-wolf/Brotherhood%20Of%20The%20Wolf.ia.mp4
+
 # Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Vishal Bhardwaj
 #EXTINF:0 tvg-id="tt3390572" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/haider-2014_202202",Haider (2014)
 https://archive.org/download/haider-2014_202202/Haider%20%282014%29.mp4
@@ -89,6 +93,10 @@ https://archive.org/download/lady-vengeance-2005/Lady%20Vengeance%20%282005%29.m
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Clearly Ambiguous Productions
 #EXTINF:0 tvg-id="tt1337542" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/Sobaka",Sobaka (2008)
 https://archive.org/download/Sobaka/sobaka.mp4
+
+# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Park Chan-wook
+#EXTINF:0 tvg-id="tt0310775" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/sympathy-for-mr.-vengeance-2002",Sympathy for Mr. Vengeance (2002)
+https://archive.org/download/sympathy-for-mr.-vengeance-2002/Sympathy%20For%20Mr.%20Vengeance%20%282002%29.mp4
 
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Ron James
 #EXTINF:0 tvg-id="tt26443953" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/accidental.-truth.-ufo.-revelations.-2023",Accidental Truth: UFO Revelations (2023)
@@ -194,6 +202,10 @@ https://archive.org/download/SpookShowEpisode9KingOfTheNon-alcoholicZombies/Ss9S
 #EXTINF:0 tvg-id="archive-that-walks-at-night" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/that-walks-at-night",That Walks At Night (2020)
 https://archive.org/download/that-walks-at-night/That%20Walks%20At%20Night.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-sa/2.0/; Autor: Jerry White Jr.
+#EXTINF:0 tvg-id="archive-theotherdragon" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/theotherdragon",The Other Dragon (2003)
+https://archive.org/download/theotherdragon/theotherdragon_512kb.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Lutz Mommartz
 #EXTINF:0 tvg-id="archive-2017TaxdeclarationLutzMommartz" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2017TaxdeclarationLutzMommartz",The Transparent Man (2017)
 https://archive.org/download/2017TaxdeclarationLutzMommartz/2017_taxdeclaration_LutzMommartz.mp4
@@ -205,3 +217,7 @@ https://archive.org/download/TheMonsterLonChaney/TheMonster.mp4
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: 
 #EXTINF:0 tvg-id="archive-Vance_Capley_Spook_Show_ep14" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Vance_Capley_Spook_Show_ep14",Vance Capley Spook Show (2011)
 https://archive.org/download/Vance_Capley_Spook_Show_ep14/spook_show_14_small_mpeg2video.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/2.0/; Autor: http://www.warriorsofthe.net/
+#EXTINF:0 tvg-id="archive-warriors_of_net" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/warriors_of_net",Warriors of The Net (2002)
+https://archive.org/download/warriors_of_net/warriors_full_1227.mp4
