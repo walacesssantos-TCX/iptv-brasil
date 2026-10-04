@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 31
+# Filmes Archive.org com vídeo direto: 39
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -62,6 +62,14 @@ https://archive.org/download/haider-2014_202202/Haider%20%282014%29.mp4
 #EXTINF:0 tvg-id="tt0498380" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/letters.-from.-iwo.-jima.-2006_202511",Letters from Iwo Jima (2006)
 https://archive.org/download/letters.-from.-iwo.-jima.-2006_202511/Letters%20From%20Iwo%20Jima%20%282006%29/Letters.From.Iwo.Jima.2006.ia.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Shane Felux
+#EXTINF:0 tvg-id="tt0457489" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/star_wars_revelations_vose",Star Wars: Revelations (2005)
+https://archive.org/download/star_wars_revelations_vose/STAR_WARS_-_Revelations.mp4
+
+# Licença: http://creativecommons.org/licenses/by-sa/3.0/; Autor: 
+#EXTINF:0 tvg-id="tt0472566" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/StarWreckInThePirkining",Star Wreck: In the Pirkinning (2005)
+https://archive.org/download/StarWreckInThePirkining/StarWreck_512kb.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
 #EXTINF:0 tvg-id="tt1334226" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/DeadManDrinking",Dead Man Drinking (2008)
 https://archive.org/download/DeadManDrinking/DeadManDrinking-720p.mp4
@@ -74,6 +82,10 @@ https://archive.org/download/WholesaleSoulsInc/wholesale-souls-inc.mp4
 #EXTINF:0 tvg-id="tt2359024" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/blue-ruin-2013",Blue Ruin (2013)
 https://archive.org/download/blue-ruin-2013/Blue%20Ruin%20%282013%29/Blue%20Ruin%20-%202013.mp4
 
+# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Park Chan-wook
+#EXTINF:0 tvg-id="tt0451094" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/lady-vengeance-2005",Lady Vengeance (2005)
+https://archive.org/download/lady-vengeance-2005/Lady%20Vengeance%20%282005%29.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Clearly Ambiguous Productions
 #EXTINF:0 tvg-id="tt1337542" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/Sobaka",Sobaka (2008)
 https://archive.org/download/Sobaka/sobaka.mp4
@@ -85,6 +97,10 @@ https://archive.org/download/accidental.-truth.-ufo.-revelations.-2023/Accidenta
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Armand Mesaros
 #EXTINF:0 tvg-id="tt34700831" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/MuzikaSaJasibare",Muzika sa Jasibare (2011)
 https://archive.org/download/MuzikaSaJasibare/jasibara.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/2.0/; Autor: Stefan Kluge
+#EXTINF:0 tvg-id="tt0419100" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/Route66",Route 66: Ein amerikanischer Albtraum (2004)
+https://archive.org/download/Route66/Route66.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Silent Hall of Fame
 #EXTINF:0 tvg-id="tt6326174" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/SilentHallOfFameDocumentary",Silent Hall of Fame Documentary Breaking the Silence (2015)
@@ -118,9 +134,17 @@ https://archive.org/download/King_Lear/King_Lear.mp4
 #EXTINF:0 tvg-id="tt9110380" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/konttho-2019_202108",Konttho (2019)
 https://archive.org/download/konttho-2019_202108/Konttho%20%282019%29.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: 
+#EXTINF:0 tvg-id="tt0249846" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/Nobody_Needs_To_Know",Nobody Needs to Know (2003)
+https://archive.org/download/Nobody_Needs_To_Know/nobody-needs-to-know.mp4
+
 # Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Imtiaz Ali
 #EXTINF:0 tvg-id="tt1839596" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/rockstar-2011",Rockstar (2011)
 https://archive.org/download/rockstar-2011/Rockstar%20%282011%29.mp4
+
+# Licença: http://creativecommons.org/licenses/by-sa/3.0/; Autor: Donald Morin
+#EXTINF:0 tvg-id="archive-7Fires4UKitchiManitou" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/7Fires4UKitchiManitou",7Fires 4 U.Kitchi Manitou (2004)
+https://archive.org/download/7Fires4UKitchiManitou/7Fires4UKitchiManitou2010-release.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Bob Georgeson
 #EXTINF:0 tvg-id="archive-DarkCloudsHangAboveTheBirds" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/DarkCloudsHangAboveTheBirds",DarkCloudsHangAboveTheBirds (2016)
@@ -146,6 +170,10 @@ https://archive.org/download/2013MommartzVonAndreasKopnick/2013_Mommartz_vonAndr
 #EXTINF:0 tvg-id="archive-Ondas_Yaiza_videoteca" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Ondas_Yaiza_videoteca",Ondas Yaiza Videoteca (2013)
 https://archive.org/download/Ondas_Yaiza_videoteca/Jes%C3%BAs%20de%20Nazaret%2C%20el%20hombre%201.ia.mp4
 
+# Licença: https://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Rick Prelinger
+#EXTINF:0 tvg-id="tt0469153" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/panorama_ephemera2004",Panorama Ephemera (2004)
+https://archive.org/download/panorama_ephemera2004/panorama_ephemera.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
 #EXTINF:0 tvg-id="tt7322294" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Schwarzweiss201010349SecDvVideo",Schwarz/Weiß (2010)
 https://archive.org/download/Schwarzweiss201010349SecDvVideo/2010_schwarz-wei.mp4
@@ -153,6 +181,10 @@ https://archive.org/download/Schwarzweiss201010349SecDvVideo/2010_schwarz-wei.mp
 # Licença: http://creativecommons.org/licenses/by/3.0/; Autor: 
 #EXTINF:0 tvg-id="archive-ShadowFilmsTheDeadCreeper" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/ShadowFilmsTheDeadCreeper",ShadowFilmsTheDeadCreeper (2009)
 https://archive.org/download/ShadowFilmsTheDeadCreeper/The_Dead_CreeperVideoWrap.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
+#EXTINF:0 tvg-id="archive-SONATA_VOLUME" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SONATA_VOLUME",SONATA VOLUME (2003)
+https://archive.org/download/SONATA_VOLUME/SONATA_VOLUME.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Vance Capley
 #EXTINF:0 tvg-id="archive-SpookShowEpisode9KingOfTheNon-alcoholicZombies" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SpookShowEpisode9KingOfTheNon-alcoholicZombies",SpookShowEpisode9KingOfTheNon AlcoholicZombies (2011)
