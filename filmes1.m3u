@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 19
+# Filmes Archive.org com vídeo direto: 26
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -50,13 +50,25 @@ https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
 #EXTINF:0 type="video" group-title="Drama",Valkaama (2010)
 https://archive.org/download/valkaama/Valkaama_1080p.mp4
 
+# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Nina Paley
+#EXTINF:0 tvg-id="tt1172203" group-title="Animação" type="video" tvg-logo="https://archive.org/services/img/Sita_Sings_the_Blues",Sita Sings the Blues (2008)
+https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_1080p.mp4
+
 # Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Vishal Bhardwaj
 #EXTINF:0 tvg-id="tt3390572" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/haider-2014_202202",Haider (2014)
 https://archive.org/download/haider-2014_202202/Haider%20%282014%29.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
+#EXTINF:0 tvg-id="tt1334226" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/DeadManDrinking",Dead Man Drinking (2008)
+https://archive.org/download/DeadManDrinking/DeadManDrinking-720p.mp4
+
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Jeremy Saulnier,
 #EXTINF:0 tvg-id="tt2359024" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/blue-ruin-2013",Blue Ruin (2013)
 https://archive.org/download/blue-ruin-2013/Blue%20Ruin%20%282013%29/Blue%20Ruin%20-%202013.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Clearly Ambiguous Productions
+#EXTINF:0 tvg-id="tt1337542" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/Sobaka",Sobaka (2008)
+https://archive.org/download/Sobaka/sobaka.mp4
 
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Ron James
 #EXTINF:0 tvg-id="tt26443953" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/accidental.-truth.-ufo.-revelations.-2023",Accidental Truth: UFO Revelations (2023)
@@ -73,6 +85,18 @@ https://archive.org/download/SilentHallOfFameDocumentary/Silent-Hall-of-Fame-doc
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Michael Mazzola
 #EXTINF:0 tvg-id="tt6400614" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/unacknowledged.-2017.308p",Unacknowledged (2017)
 https://archive.org/download/unacknowledged.-2017.308p/Unacknowledged%20%282017%29/Unacknowledged.2017.308p.ia.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Peter Joseph
+#EXTINF:0 tvg-id="tt1332128" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/Zeitgeist.Addendum",Zeitgeist: Addendum (2008)
+https://archive.org/download/Zeitgeist.Addendum/Zeitgeist.Addendum.mp4
+
+# Licença: http://creativecommons.org/licenses/by-sa/3.0/us/; Autor: KillaCozzy Productions
+#EXTINF:0 tvg-id="tt1379199" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/ChiaroscuroBaby",Chiaroscuro, Baby (2009)
+https://archive.org/download/ChiaroscuroBaby/ChiaroscuroBaby-1280x720.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/us/; Autor: James Brittain
+#EXTINF:0 tvg-id="tt2049483" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/King_Lear",King Lear (2008)
+https://archive.org/download/King_Lear/King_Lear.mp4
 
 # Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Nandita Roy and Shiboprosad Mukherjee
 #EXTINF:0 tvg-id="tt9110380" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/konttho-2019_202108",Konttho (2019)
@@ -105,6 +129,10 @@ https://archive.org/download/Ondas_Yaiza_videoteca/Jes%C3%BAs%20de%20Nazaret%2C%
 # Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
 #EXTINF:0 tvg-id="tt7322294" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Schwarzweiss201010349SecDvVideo",Schwarz/Weiß (2010)
 https://archive.org/download/Schwarzweiss201010349SecDvVideo/2010_schwarz-wei.mp4
+
+# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: 
+#EXTINF:0 tvg-id="archive-ShadowFilmsTheDeadCreeper" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/ShadowFilmsTheDeadCreeper",ShadowFilmsTheDeadCreeper (2009)
+https://archive.org/download/ShadowFilmsTheDeadCreeper/The_Dead_CreeperVideoWrap.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Vance Capley
 #EXTINF:0 tvg-id="archive-SpookShowEpisode9KingOfTheNon-alcoholicZombies" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SpookShowEpisode9KingOfTheNon-alcoholicZombies",SpookShowEpisode9KingOfTheNon AlcoholicZombies (2011)
