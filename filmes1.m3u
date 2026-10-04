@@ -4,7 +4,7 @@
 # Archive.org: licença CC/domínio público declarada nos metadados do item
 # URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
 # Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 14
+# Filmes Archive.org com vídeo direto: 19
 
 # Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
 #EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
@@ -62,6 +62,10 @@ https://archive.org/download/blue-ruin-2013/Blue%20Ruin%20%282013%29/Blue%20Ruin
 #EXTINF:0 tvg-id="tt26443953" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/accidental.-truth.-ufo.-revelations.-2023",Accidental Truth: UFO Revelations (2023)
 https://archive.org/download/accidental.-truth.-ufo.-revelations.-2023/Accidental%20Truth%20UFO%20Revelations%20%282023%29/Accidental.Truth.UFO.Revelations.2023.ia.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Armand Mesaros
+#EXTINF:0 tvg-id="tt34700831" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/MuzikaSaJasibare",Muzika sa Jasibare (2011)
+https://archive.org/download/MuzikaSaJasibare/jasibara.mp4
+
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Silent Hall of Fame
 #EXTINF:0 tvg-id="tt6326174" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/SilentHallOfFameDocumentary",Silent Hall of Fame Documentary Breaking the Silence (2015)
 https://archive.org/download/SilentHallOfFameDocumentary/Silent-Hall-of-Fame-documentary.mp4
@@ -73,6 +77,10 @@ https://archive.org/download/unacknowledged.-2017.308p/Unacknowledged%20%282017%
 # Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Nandita Roy and Shiboprosad Mukherjee
 #EXTINF:0 tvg-id="tt9110380" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/konttho-2019_202108",Konttho (2019)
 https://archive.org/download/konttho-2019_202108/Konttho%20%282019%29.mp4
+
+# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Imtiaz Ali
+#EXTINF:0 tvg-id="tt1839596" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/rockstar-2011",Rockstar (2011)
+https://archive.org/download/rockstar-2011/Rockstar%20%282011%29.mp4
 
 # Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Bob Georgeson
 #EXTINF:0 tvg-id="archive-DarkCloudsHangAboveTheBirds" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/DarkCloudsHangAboveTheBirds",DarkCloudsHangAboveTheBirds (2016)
@@ -94,6 +102,14 @@ https://archive.org/download/2013MommartzVonAndreasKopnick/2013_Mommartz_vonAndr
 #EXTINF:0 tvg-id="archive-Ondas_Yaiza_videoteca" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Ondas_Yaiza_videoteca",Ondas Yaiza Videoteca (2013)
 https://archive.org/download/Ondas_Yaiza_videoteca/Jes%C3%BAs%20de%20Nazaret%2C%20el%20hombre%201.ia.mp4
 
+# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
+#EXTINF:0 tvg-id="tt7322294" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Schwarzweiss201010349SecDvVideo",Schwarz/Weiß (2010)
+https://archive.org/download/Schwarzweiss201010349SecDvVideo/2010_schwarz-wei.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Vance Capley
+#EXTINF:0 tvg-id="archive-SpookShowEpisode9KingOfTheNon-alcoholicZombies" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SpookShowEpisode9KingOfTheNon-alcoholicZombies",SpookShowEpisode9KingOfTheNon AlcoholicZombies (2011)
+https://archive.org/download/SpookShowEpisode9KingOfTheNon-alcoholicZombies/Ss9SmallerFile.mp4
+
 # Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Roberto Carlos Ortiz
 #EXTINF:0 tvg-id="archive-that-walks-at-night" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/that-walks-at-night",That Walks At Night (2020)
 https://archive.org/download/that-walks-at-night/That%20Walks%20At%20Night.mp4
@@ -105,3 +121,7 @@ https://archive.org/download/2017TaxdeclarationLutzMommartz/2017_taxdeclaration_
 # Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: NoseSilo
 #EXTINF:0 tvg-id="archive-TheMonsterLonChaney" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/TheMonsterLonChaney",TheMonsterLonChaney (2015)
 https://archive.org/download/TheMonsterLonChaney/TheMonster.mp4
+
+# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: 
+#EXTINF:0 tvg-id="archive-Vance_Capley_Spook_Show_ep14" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Vance_Capley_Spook_Show_ep14",Vance Capley Spook Show (2011)
+https://archive.org/download/Vance_Capley_Spook_Show_ep14/spook_show_14_small_mpeg2video.mp4
