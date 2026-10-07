@@ -13,6 +13,11 @@ https://media.cdntvms.com.br/band_sat/index.m3u8
 #EXTINF:-1 tvg-id="Record.br" group-title="Abertos Brasil",Record TV
 https://media.cdntvms.com.br/record_nacional_sat/index.m3u8
 
+#EXTINF:-1 tvg-id="sbt.br" group-title="Abertos Brasil",sbt
+https://media.cdntvms.com.br/sbt_sat/index.m3u8
+
+
+
 # =========================
 # ESPORTES - HLS DIRETO
 # =========================
@@ -31,263 +36,388 @@ https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.fast" group-title="Esportes",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
-
-# =========================
-# PLUTO TV BRASIL - FAST GRATUITO
-# Filmes, desenhos, séries, esportes e variedades
-# =========================
-
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",A Caçadora de Relíquias
-https://jmp2.uk/plu-67e59a6557487a8b7fe73e23.m3u8
-
-#EXTINF:-1 tvg-id="AdrenalinaPuraTV.us@Brazil" group-title="Filmes PT-BR",Adrenalina Pura TV
-https://jmp2.uk/plu-61b790b985706b00072cb797.m3u8
-
-#EXTINF:-1 tvg-id="BabySharkTV.us@SD" group-title="Infantil PT-BR",Baby Shark TV
-https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8
-
-#EXTINF:-1 tvg-id="BabyFirst.us@Brazil" group-title="Infantil PT-BR",Babyfirst
-https://jmp2.uk/plu-5f4fb4cf605ddf000748e16f.m3u8
-
-#EXTINF:-1 tvg-id="BMCNews.br@SD" group-title="Notícias FAST",BM&C News (720p)
-https://jmp2.uk/plu-666c9c60a7efd40008f552f0.m3u8
-
-#EXTINF:-1 tvg-id="BobEsponjaCalcaQuadrada.us@BR" group-title="Infantil PT-BR",Bob Esponja Calça Quadrada (720p)
-https://jmp2.uk/plu-62545c0b002f4b0007688b61.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Caçadores de Óvnis
-https://jmp2.uk/plu-656e2a10954b020008ed167c.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Notícias FAST",CBS News (720p)
-https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
-
 #EXTINF:-1 tvg-id="" group-title="Infantil PT-BR",Cocoricó
 https://jmp2.uk/plu-62d969fd8451a30007f0fd94.m3u8
 
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
 
-#EXTINF:-1 tvg-id="DetetivesMedicos.us@BR" group-title="Pluto TV Brasil",Detetives Médicos
-https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
+#EXTM3U
+#EXTINF:11,AMC HD
+http://45.185.11.126:8000/play/a06s/index.m3u8
+#EXTINF:0,AXN HD
+http://45.185.11.126:8000/play/a0ao/index.m3u8
+#EXTINF:0,Adult Swim HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06m/index.m3u8
+#EXTINF:0,Animal Planet HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a09k/index.m3u8
+#EXTINF:0,BIS HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07w/index.m3u8
+#EXTINF:0,BM&C HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06i/index.m3u8
+#EXTINF:0,Band News HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a076/index.m3u8
+#EXTINF:0,Band Sports HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05o/index.m3u8
+#EXTINF:0,CNN Brasil Money HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a6/index.m3u8
+#EXTINF:0,CNN International HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0ap/index.m3u8
+#EXTINF:0,Canal Brasil HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06x/index.m3u8
+#EXTINF:0,Canal Sony HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0an/index.m3u8
+#EXTINF:0,Canal UOL HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a4/index.m3u8
+#EXTINF:0,Cartoon Network HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a087/index.m3u8
+#EXTINF:0,Cartoonito HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0ae/index.m3u8
+#EXTINF:0,Cinemax HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a081/index.m3u8
+#EXTINF:0,Claro TV+ 4K
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06f/index.m3u8
+#EXTINF:0,Combate HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a073/index.m3u8
+#EXTINF:0,DUMDUM HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a078/index.m3u8
+#EXTINF:0,Disc. Home & Health HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07y/index.m3u8
+#EXTINF:0,Discovery Channel HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0ac/index.m3u8
+#EXTINF:0,Discovery Kids HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0ad/index.m3u8
+#EXTINF:0,Discovery Science HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a077/index.m3u8
+#EXTINF:0,Discovery Theater HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a085/index.m3u8
+#EXTINF:0,Discovery Turbo HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07z/index.m3u8
+#EXTINF:0,Discovery World HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a086/index.m3u8
+#EXTINF:0,ESPN 4 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05m/index.m3u8
+#EXTINF:0,ESPN 5 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05n/index.m3u8
+#EXTINF:0,ESPN 6 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a084/index.m3u8
+#EXTINF:0,Food Network HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06j/index.m3u8
+#EXTINF:0,GE TV HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08v/index.m3u8
+#EXTINF:0,GNT HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a079/index.m3u8
+#EXTINF:0,GloboNews HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08d/index.m3u8
+#EXTINF:0,Globoplay Novelas HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06w/index.m3u8
+#EXTINF:0,Gloob HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07v/index.m3u8
+#EXTINF:0,Gloobinho HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a071/index.m3u8
+#EXTINF:0,HBO Family HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08q/index.m3u8
+#EXTINF:0,HBO HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08n/index.m3u8
+#EXTINF:0,HBO MUNDI HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a082/index.m3u8
+#EXTINF:0,HBO POP HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08s/index.m3u8
+#EXTINF:0,HBO Signature HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08r/index.m3u8
+#EXTINF:0,HBO XTREME HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a083/index.m3u8
+#EXTINF:0,HBO+ HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08p/index.m3u8
+#EXTINF:0,HBO2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08o/index.m3u8
+#EXTINF:0,HGTV HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a074/index.m3u8
+#EXTINF:0,History HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0al/index.m3u8
+#EXTINF:0,ID HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a089/index.m3u8
+#EXTINF:0,JP News HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a1/index.m3u8
+#EXTINF:0,Lifetime HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06l/index.m3u8
+#EXTINF:0,Megapix HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a057/index.m3u8
+#EXTINF:0,Modo Viagem HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07u/index.m3u8
+#EXTINF:0,Multishow HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07a/index.m3u8
+#EXTINF:0,OFF HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07t/index.m3u8
+#EXTINF:0,Paramount+ 4
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0aq/index.m3u8
+#EXTINF:0,Playboy TV HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a09n/index.m3u8
+#EXTINF:0,Premiere 2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06h/index.m3u8
+#EXTINF:0,Premiere 3 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0av/index.m3u8
+#EXTINF:0,Premiere 4 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07b/index.m3u8
+#EXTINF:0,Premiere 5 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07c/index.m3u8
+#EXTINF:0,Premiere 6 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05j/index.m3u8
+#EXTINF:0,Premiere 7 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05k/index.m3u8
+#EXTINF:0,Premiere 8 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05l/index.m3u8
+#EXTINF:0,Premiere Clubes HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06g/index.m3u8
+#EXTINF:0,Record News HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a2/index.m3u8
+#EXTINF:0,SBT News HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a7/index.m3u8
+#EXTINF:0,Space HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08b/index.m3u8
+#EXTINF:0,Studio Universal HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06o/index.m3u8
+#EXTINF:0,TIMES | EXCLUSIVO CNBC
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0a5/index.m3u8
+#EXTINF:0,TLC HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0aa/index.m3u8
+#EXTINF:0,TNT Novelas HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a088/index.m3u8
+#EXTINF:0,TNT Sports HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0bi/index.m3u8
+#EXTINF:0,TNT SØries HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08a/index.m3u8
+#EXTINF:0,TV RÆ Tim Bum HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a080/index.m3u8
+#EXTINF:0,Telecine Action HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a058/index.m3u8
+#EXTINF:0,Telecine Cult HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05a/index.m3u8
+#EXTINF:0,Telecine Fun HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a059/index.m3u8
+#EXTINF:0,Telecine Pipoca HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08g/index.m3u8
+#EXTINF:0,Telecine Premium HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08e/index.m3u8
+#EXTINF:0,Telecine Touch HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08f/index.m3u8
+#EXTINF:0,Trace Brasil HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08l/index.m3u8
+#EXTINF:0,Travel Food & Drinks HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07x/index.m3u8
+#EXTINF:0,USA HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06k/index.m3u8
+#EXTINF:0,Universal Premiere HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08m/index.m3u8
+#EXTINF:0,Universal Reality HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a08c/index.m3u8
+#EXTINF:0,Universal TV HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0af/index.m3u8
+#EXTINF:0,Warner Channel HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a0am/index.m3u8
+#EXTINF:0,Woohoo HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a075/index.m3u8
+#EXTINF:0,sportv HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05g/index.m3u8
+#EXTINF:0,sportv2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05f/index.m3u8
+#EXTINF:0,sportv3 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06v/index.m3u8
+
+
+#EXTINF:-1,US: ACC Network
+http://206.212.244.63/2486/index.m3u8
+#EXTINF:-1,US: Big Ten Network
+http://206.212.244.63/2489/index.m3u8
+#EXTINF:-1,US: SEC Network
+http://206.212.244.63/2511/index.m3u8
+#EXTINF:-1,USA | ACCUWEATHER
+http://206.212.244.63/3/index.m3u8
+#EXTINF:-1,USA | ACCUWEATHER
+http://206.212.244.63/674/index.m3u8
+#EXTINF:-1,USA | ESPN
+http://206.212.244.63/59/index.m3u8
+
+#EXTINF:-1,PT: EUROSPORT 1
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99481
+#EXTINF:-1,PT: EUROSPORT 2
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99482
+#EXTINF:-1,PT: SPORT TV +
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99483
+#EXTINF:-1,PT: SPORT TV 1
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99484
+#EXTINF:-1,PT: SPORT TV 2
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99485
+#EXTINF:-1,PT: SPORT TV 3
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99486
+#EXTINF:-1,PT: SPORT TV 4
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99487
+#EXTINF:-1,PT: SPORT TV 5
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99488
+#EXTINF:-1,PT: SPORT TV 6
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99489
+#EXTINF:-1,PT: SPORTING TV
+http://31.43.191.125:8080/VIP014391751994706511/b425720d22ff/99490
+
+
+#EXTINF:-1,Eurosport 2  HD
+http://89.44.231.117:7000/eurosport2
+#EXTINF:-1,Eurosport HD
+http://89.44.231.117:7000/eurosport
+#EXTINF:-1,Eurosport 2 HD
+http://89.44.231.73:7000/eurosport2
+#EXTINF:-1,Eurosport HD
+http://89.44.231.73:7000/eurosport
+#EXTINF:-1,Eurosport 2 HD
+http://89.44.231.115:7000/eurosport2
+#EXTINF:-1,Eurosport HD
+http://89.44.231.115:7000/eurosport
 
-#EXTINF:-1 tvg-id="FIFAPlus.uk@English" group-title="Esportes FAST",FIFA+
-https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Filmes PT-BR",Filmelier TV
-https://jmp2.uk/plu-633dcebd80386500074a2461.m3u8
 
-#EXTINF:-1 tvg-id="FilmesSuspense.us@BR" group-title="Filmes PT-BR",Filmes Suspense
-https://jmp2.uk/plu-5f171d3442a0500007362f22.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Inspetor Bugiganga
-https://jmp2.uk/plu-69162648d03565d6c8c8df97.m3u8
 
-#EXTINF:-1 tvg-id="KenanKel.us@BR" group-title="Pluto TV Brasil",Kenan & Kel
-https://jmp2.uk/plu-5ffcc5130fd98c0007f2e216.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Mais MasterChef Brasil
-https://jmp2.uk/plu-681111be5e0764e297fb200e.m3u8
 
-#EXTINF:-1 tvg-id="MasterChef.us@Brazil" group-title="Pluto TV Brasil",MasterChef
-https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",MasterChef Brasil Profissionais
-https://jmp2.uk/plu-681110afc188aa63faa147e0.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Mistérios sem Solução
-https://jmp2.uk/plu-62b5c5a064163d0007b2efe6.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Infantil PT-BR",Moranguinho
-https://jmp2.uk/plu-63eba189c111bc0008ff59c5.m3u8
 
-#EXTINF:-1 tvg-id="MTVCatfish.us@BR" group-title="Pluto TV Brasil",MTV Catfish (720p)
-https://jmp2.uk/plu-626c2a3502d84a0007cec817.m3u8
 
-#EXTINF:-1 tvg-id="MTVPlutoTV.us@BR" group-title="Pluto TV Brasil",MTV Pluto TV
-https://jmp2.uk/plu-5f1212fb81e85c00077ae9ef.m3u8
 
-#EXTINF:-1 tvg-id="MTVRocks.us@BR" group-title="Pluto TV Brasil",MTV Rocks
-https://jmp2.uk/plu-66a01e07d2d50d0008100d6a.m3u8
 
-#EXTINF:-1 tvg-id="NatureTime.ca@SD" group-title="Pluto TV Brasil",NatureTime (720p)
-https://jmp2.uk/plu-681ba2ad93d3d19bcab47433.m3u8
 
-#EXTINF:-1 tvg-id="NCIS.us@BR" group-title="Pluto TV Brasil",NCIS
-https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8
 
-#EXTINF:-1 tvg-id="NickJrClub.us@BR" group-title="Infantil PT-BR",Nick Jr. Club (720p)
-https://jmp2.uk/plu-6824ce95f09106f4b18f4114.m3u8
 
-#EXTINF:-1 tvg-id="NickelodeonClassico.us@BR" group-title="Filmes PT-BR",Nickelodeon Clássico (720p)
-https://jmp2.uk/plu-6824ce10c5d53e1351ceb8d1.m3u8
 
-#EXTINF:-1 tvg-id="iCarly.us@BR" group-title="Infantil PT-BR",Nickelodeon iCarly
-https://jmp2.uk/plu-620ff46e0a576e0007dc2f89.m3u8
 
-#EXTINF:-1 tvg-id="NickelodeonTeen.us@BR" group-title="Infantil PT-BR",Nickelodeon Teen (720p)
-https://jmp2.uk/plu-60f5fabf0721880007cd50e3.m3u8
 
-#EXTINF:-1 tvg-id="NickelodeonToons.us@BR" group-title="Infantil PT-BR",Nickelodeon Toons (720p)
-https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
 
-#EXTINF:-1 tvg-id="OEncantadordeCaes.us@Brazil" group-title="Pluto TV Brasil",O Encantador de Cães
-https://jmp2.uk/plu-61099df8cee03b00074b2ecf.m3u8
 
-#EXTINF:-1 tvg-id="OReinoInfantil.us@Brazil" group-title="Infantil PT-BR",O Reino Infantil
-https://jmp2.uk/plu-5f5c216df68f920007888315.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Os Arquivos do FBI
-https://jmp2.uk/plu-620d12a82e8ac50007c269c3.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Os Padrinhos Mágicos
-https://jmp2.uk/plu-63221e41af69b500076f84e7.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Os Smurfs
-https://jmp2.uk/plu-68b88ae1943f6fb1fb2ad749.m3u8
 
-#EXTINF:-1 tvg-id="PFLMMA.us@SD" group-title="Esportes FAST",PFL MMA (720p)
-https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVAliens.us@BR" group-title="Pluto TV Brasil",Pluto TV Aliens
-https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVAnimais.us@BR" group-title="Pluto TV Brasil",Pluto TV Animais
-https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVAnime.us@BR" group-title="Infantil PT-BR",Pluto TV Anime
-https://jmp2.uk/plu-5f12136385bccc00070142ed.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVAnimeAcao.us@BR" group-title="Filmes PT-BR",Pluto TV Anime Ação
-https://jmp2.uk/plu-604b79c558393100078faeef.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineClassicos.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Clássicos
-https://jmp2.uk/plu-5fa1612a669ba0000702017b.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineComedia.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Comédia
-https://jmp2.uk/plu-5f12101f0b12f00007844c7c.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineComediaRomantica.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Comédia Romântica
-https://jmp2.uk/plu-62545ed3dab4380007582f7c.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineCrime.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Crime
-https://jmp2.uk/plu-6479ff764f5ba5000878dfe2.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineDrama.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Drama
-https://jmp2.uk/plu-5f1210d14ae1f80007bafb1d.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineFamilia.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Família
-https://jmp2.uk/plu-5f171f032cd22e0007f17f3d.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineInspiracao.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Inspiração
-https://jmp2.uk/plu-5fa991b1f09e020007e78626.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineRomance.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Romance
-https://jmp2.uk/plu-5f171f988ab9780007fa95ea.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVCineSucessos.us@BR" group-title="Filmes PT-BR",Pluto TV Cine Sucessos
-https://jmp2.uk/plu-5f120e94a5714d00074576a1.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVDesenhosClassicos.us@BR" group-title="Filmes PT-BR",Pluto TV Desenhos Clássicos
-https://jmp2.uk/plu-655e5c4d2c46f3000877a54b.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVEsportes.us@BR" group-title="Esportes FAST",Pluto TV Esportes
-https://jmp2.uk/plu-5f32d2db0af67400077f29c4.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVFiccaoCientifica.us@BR" group-title="Pluto TV Brasil",Pluto TV Ficção Científica
-https://jmp2.uk/plu-5fa15ad6367e170007cdd098.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVFilmesAcao.us@BR" group-title="Filmes PT-BR",Pluto TV Filmes Ação
-https://jmp2.uk/plu-5f120f41b7d403000783a6d6.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVFilmesAventura.us@BR" group-title="Filmes PT-BR",Pluto TV Filmes Aventura
-https://jmp2.uk/plu-66c79a4262e5510008ff68a5.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVFilmesdeLuta.us@BR" group-title="Filmes PT-BR",Pluto TV Filmes de Luta
-https://jmp2.uk/plu-6806d62369aec5b19cd628c0.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVFilmesNacionais.us@BR" group-title="Filmes PT-BR",Pluto TV Filmes Nacionais
-https://jmp2.uk/plu-5f5a545d0dbf7f0007c09408.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVHistoria.us@BR" group-title="Pluto TV Brasil",Pluto TV História
-https://jmp2.uk/plu-5f1ef1a8cec6be00072a7ac9.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVInvestigacao.us@BR" group-title="Filmes PT-BR",Pluto TV Investigação
-https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVJunior.us@BR" group-title="Pluto TV Brasil",Pluto TV Junior
-https://jmp2.uk/plu-5f12141b146d760007934ea7.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVKids.us@BR" group-title="Infantil PT-BR",Pluto TV Kids
-https://jmp2.uk/plu-5f1214a637c6fd00079c652f.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVKidsClub.us@BR" group-title="Infantil PT-BR",Pluto TV Kids Club
-https://jmp2.uk/plu-66c8cae7fed35b0008580ec0.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVMinhaObsessaoFavorita.us@BR" group-title="Pluto TV Brasil",Pluto TV Minha Obsessão Favorita
-https://jmp2.uk/plu-61843f5e491af10007f7eefa.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVMisterios.us@BR" group-title="Pluto TV Brasil",Pluto TV Mistérios
-https://jmp2.uk/plu-5fac52f142044f00078e2a51.m3u8
 
-#EXTINF:-1 tvg-id="MTVClassic.us@BR" group-title="Filmes PT-BR",Pluto TV MTV Classic (720p)
-https://jmp2.uk/plu-66a01dcb8561260008b0a41d.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVNatureza.us@BR" group-title="Pluto TV Brasil",Pluto TV Natureza
-https://jmp2.uk/plu-5f1213ba0ecebc00070e170f.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVNegocioFechado.us@BR" group-title="Pluto TV Brasil",Pluto TV Negócio Fechado
-https://jmp2.uk/plu-64ad7394798def00087b2bfe.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVNetmovies.us@BR" group-title="Filmes PT-BR",Pluto TV Netmovies
-https://jmp2.uk/plu-663b9de4f999220008230fa8.m3u8
 
-#EXTINF:-1 tvg-id="PlutoTVRecordNews.us@BR" group-title="Notícias FAST",Pluto TV Record News (720p)
-https://jmp2.uk/plu-6102e04e9ab1db0007a980a1.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVRetro.us@BR" group-title="Pluto TV Brasil",Pluto TV Retrô
-https://jmp2.uk/plu-5f1212ad1728050007a523b8.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVSeriesAcao.us@BR" group-title="Filmes PT-BR",Pluto TV Séries Ação
-https://jmp2.uk/plu-6474ab1da51cb80008bfb5f4.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVSeriesComedia.us@BR" group-title="Pluto TV Brasil",Pluto TV Séries Comédia
-https://jmp2.uk/plu-655e5bc94261ca000810cb17.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVSeriesCriminais.us@BR" group-title="Pluto TV Brasil",Pluto TV Séries Criminais
-https://jmp2.uk/plu-6474ab5cdc7a760008745008.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVSeriesDrama.us@BR" group-title="Filmes PT-BR",Pluto TV Séries Drama
-https://jmp2.uk/plu-65f060d84e01740008d7421f.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVSeriesSciFi.us@BR" group-title="Pluto TV Brasil",Pluto TV Séries Sci-Fi
-https://jmp2.uk/plu-63d2ba2f60bc8f0008981a0e.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVTurbo.us@BR" group-title="Pluto TV Brasil",Pluto TV Turbo
-https://jmp2.uk/plu-6014761dfb91870008ea6463.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVViagens.us@BR" group-title="Pluto TV Brasil",Pluto TV Viagens
-https://jmp2.uk/plu-5f32d432d612e50007e56133.m3u8
-
-#EXTINF:-1 tvg-id="PlutoTVVidaReal.us@BR" group-title="Pluto TV Brasil",Pluto TV Vida Real
-https://jmp2.uk/plu-5f32d4d9ec194100070c7449.m3u8
-
-#EXTINF:-1 tvg-id="ProntosocorroHistoriasDeEmergencia.us@Brazil" group-title="Pluto TV Brasil",Pronto-socorro: Histórias De Emergência
-https://jmp2.uk/plu-61bb72a7bf8c520007a8fd27.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Esportes FAST",RACER Brasil (720p)
-https://jmp2.uk/plu-65a6818c7bdc8d0008457b21.m3u8
-
-#EXTINF:-1 tvg-id="RedBullTV.at@BR" group-title="Pluto TV Brasil",Red Bull TV BR (720p)
-https://jmp2.uk/plu-67813f3162bf016db944c9ab.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",Rookie Blue
-https://jmp2.uk/plu-64ff2d8c6625510008c5a512.m3u8
-
-#EXTINF:-1 tvg-id="Runtime.us@SD" group-title="Filmes PT-BR",Runtime
-https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8
-
-#EXTINF:-1 tvg-id="" group-title="Pluto TV Brasil",SFT Combat (720p)
-https://jmp2.uk/plu-6660b636cb3ea10008429c6a.m3u8
 
 
 
