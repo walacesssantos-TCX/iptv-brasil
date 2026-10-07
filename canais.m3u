@@ -1,3 +1,4 @@
+#EXTM3U
 
 
 
@@ -42,7 +43,6 @@ https://jmp2.uk/plu-62d969fd8451a30007f0fd94.m3u8
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
 
-#EXTM3U
 #EXTINF:11,AMC HD
 http://45.185.11.126:8000/play/a06s/index.m3u8
 #EXTINF:0,AXN HD
