@@ -28,29 +28,7 @@ https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
 
-#EXTINF:-1 tvg-id="Globorj.br" tvg-name="Globo RJ HD" tvg-logo="https://i.imgur.com/10LbyeN.png" group-title="Rede Globo",Globo RJ HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/170.ts
 
-#EXTINF:-1 tvg-id="BandRede.br" tvg-name="Band HD" tvg-logo="https://i.imgur.com/rDtkGvf.png" group-title="Canais Abertos",Band HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/193.ts
-
-#EXTINF:-1 tvg-id="Sbt.br" tvg-name="SBT HD" tvg-logo="https://i.imgur.com/Wl5nvKp.png" group-title="Canais Abertos",SBT HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/147.ts
-
-#EXTINF:-1 tvg-id="Redetv.br" tvg-name="RedeTV! HD" tvg-logo="https://i.imgur.com/8pIoHeV.png" group-title="Canais Abertos",RedeTV! HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/148.ts
-
-#EXTINF:-1 tvg-id="Sportv.br" tvg-name="SporTV HD Alternativo" tvg-logo="http://i.imgur.com/knx9dj1.png" group-title="Esportes",SporTV HD Alternativo
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/1777.ts
-
-#EXTINF:-1 tvg-id="Sportv2.br" tvg-name="SporTV 2 HD" tvg-logo="http://i.imgur.com/qpwwQCz.png" group-title="Esportes",SporTV 2 HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/145.ts
-
-#EXTINF:-1 tvg-id="Premierefchd.br" tvg-name="Premiere Clubes HD" tvg-logo="http://i.imgur.com/XtLMfL5.png" group-title="Premiere",Premiere Clubes HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/154.ts
-
-#EXTINF:-1 tvg-id="Premiere2.br" tvg-name="Premiere 2 HD" tvg-logo="http://s29.postimg.org/ekm15dgtv/premiere_fc.png" group-title="Premiere",Premiere 2 HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/153.ts
 
 #EXTINF:-1 tvg-id="Premiere3.br" tvg-name="Premiere 3 HD" tvg-logo="http://s29.postimg.org/ekm15dgtv/premiere_fc.png" group-title="Premiere",Premiere 3 HD
 http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/152.ts
