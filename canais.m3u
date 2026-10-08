@@ -11,12 +11,6 @@ https://media.cdntvms.com.br/sbt_sat/index.m3u8
 #EXTINF:-1 tvg-id="band.br" group-title="Abertos Brasil",band
 https://media.cdntvms.com.br/band_sat/index.m3u8
 
-#EXTINF:-1 tvg-id="redetv.br" group-title="Abertos Brasil",redetv
-https://media.cdntvms.com.br/redetv_sat/index.m3u8
-
-#EXTINF:-1 tvg-id="cnt.br" group-title="Abertos Brasil",cnt
-https://media.cdntvms.com.br/cnt_sat/index.m3u8
-
 #EXTINF:-1 tvg-id="geFast.br" group-title="Esportes",ge Fast
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
 
@@ -25,6 +19,30 @@ https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
+
+#EXTINF:0,Premiere Clubes HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06g/index.m3u8
+
+#EXTINF:0,Premiere 2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06h/index.m3u8
+
+#EXTINF:0,sportv HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05g/index.m3u8
+
+#EXTINF:0,sportv2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a05f/index.m3u8
+
+#EXTINF:0,sportv3 HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a06v/index.m3u8
+
+#EXTINF:0,Discovery Turbo HD
+#EXTVLCOPT:network-caching=1000
+http://45.185.11.126:8000/play/a07z/index.m3u8
 
 
 
