@@ -11,9 +11,11 @@ https://media.cdntvms.com.br/sbt_sat/index.m3u8
 #EXTINF:-1 tvg-id="band.br" group-title="Abertos Brasil",band
 https://media.cdntvms.com.br/band_sat/index.m3u8
 
-# =========================
-# ESPORTES - HLS DIRETO
-# =========================
+#EXTINF:-1 tvg-id="redetv.br" group-title="Abertos Brasil",redetv
+https://media.cdntvms.com.br/redetv_sat/index.m3u8
+
+#EXTINF:-1 tvg-id="cnt.br" group-title="Abertos Brasil",cnt
+https://media.cdntvms.com.br/cnt_sat/index.m3u8
 
 #EXTINF:-1 tvg-id="geFast.br" group-title="Esportes",ge Fast
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
@@ -21,15 +23,8 @@ https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u
 #EXTINF:-1 tvg-id="NSports.br" group-title="Esportes",N Sports
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 
-# =========================
-# NOVOS FAST / SMART TV
-# =========================
-
 #EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
 https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
 
 
-
-#EXTINF:-1 tvg-id="Premiere3.br" tvg-name="Premiere 3 HD" tvg-logo="http://s29.postimg.org/ekm15dgtv/premiere_fc.png" group-title="Premiere",Premiere 3 HD
-http://giantofthefuture.gleeze.com:25461/live/colepty1679/Hbplloxye/152.ts
 
