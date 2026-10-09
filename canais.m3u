@@ -2,6 +2,9 @@
 # Lista IPTV WCS - sinais testados em 09/10/2026
 # Canais indisponiveis e limitacoes: veja README.md no repositorio
 
+#EXTINF:-1 tvg-name="Globo RJ FHD" tvg-logo="http://149.102.252.201/images/37974de0d1d16f3b56bec27eca38a765.png" group-title="Canais | Globos Sudeste",Globo RJ FHD
+http://149.102.252.201:80/171350/B89tAq/72025.ts
+
 #EXTINF:-1 timeshift="7" tvg-name="Globo RJ HD" tvg-logo="http://149.102.252.201/static/logos/canais/globo.png" group-title="Canais | Globos Sudeste",Globo RJ HD
 http://149.102.252.201:80/171350/B89tAq/131163.ts
 
