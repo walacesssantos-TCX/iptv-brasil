@@ -1,6 +1,4 @@
-# =========================
-# ABERTOS / GRATUITOS
-# =========================
+#EXTM3U
 
 #EXTINF:-1 tvg-id="Record.br" group-title="Abertos Brasil",Record TV
 https://media.cdntvms.com.br/record_nacional_sat/index.m3u8
@@ -16,33 +14,3 @@ https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u
 
 #EXTINF:-1 tvg-id="NSports.br" group-title="Esportes",N Sports
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
-
-#EXTINF:-1 tvg-id="CSIMiami.us@BR" group-title="Pluto TV Brasil",CSI: Miami
-https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
-
-#EXTINF:0,Premiere Clubes HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a06g/index.m3u8
-
-#EXTINF:0,Premiere 2 HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a06h/index.m3u8
-
-#EXTINF:0,sportv HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a05g/index.m3u8
-
-#EXTINF:0,sportv2 HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a05f/index.m3u8
-
-#EXTINF:0,sportv3 HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a06v/index.m3u8
-
-#EXTINF:0,Discovery Turbo HD
-#EXTVLCOPT:network-caching=1000
-http://45.185.11.126:8000/play/a07z/index.m3u8
-
-
-
