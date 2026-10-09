@@ -1,0 +1,449 @@
+{
+  "checked_at": "2026-10-09T19:36:00Z",
+  "channels": [
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-fhd",
+      "name": "Globo RJ FHD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/612611468.ts",
+      "stream_id": 612611468,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 45020958,
+      "continuous_download_seconds": 70.77,
+      "sample_media_duration_seconds": 86.152733,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-hd"
+    },
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-hd",
+      "name": "Globo RJ HD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/2008264542.ts",
+      "stream_id": 2008264542,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 24557726,
+      "continuous_download_seconds": 70.62,
+      "sample_media_duration_seconds": 83.1831,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-fhd"
+    }
+  ],
+  "direct_source_checks": [
+    {
+      "name": "Globo RJ FHD",
+      "http_status": 200,
+      "content_type": "video/mp2t",
+      "bytes": 4195004,
+      "seconds": 13.83,
+      "first_bytes_seconds": 13.554,
+      "max_read_gap_seconds": 0.04,
+      "format": "mpegts",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sample_duration_seconds": "9.476133",
+      "decode_ok": true,
+      "decode_warning_lines": 0,
+      "elapsed_seconds": 14.14
+    },
+    {
+      "name": "Globo RJ HD",
+      "http_status": 404,
+      "error": "http_error",
+      "elapsed_seconds": 10.28
+    },
+    {
+      "name": "Globo RJ HD",
+      "http_status": 200,
+      "content_type": "video/mp2t",
+      "bytes": 4194436,
+      "seconds": 10.69,
+      "first_bytes_seconds": 10.429,
+      "max_read_gap_seconds": 0.04,
+      "format": "mpegts",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sample_duration_seconds": "12.512500",
+      "decode_ok": true,
+      "decode_warning_lines": 0,
+      "elapsed_seconds": 10.87
+    }
+  ],
+  "dns_source_checks": [
+    {
+      "name": "Globo RJ FHD",
+      "http_status": 200,
+      "content_type": "video/mp2t",
+      "bytes": 4202196,
+      "seconds": 12.89,
+      "first_bytes_seconds": 12.619,
+      "max_read_gap_seconds": 0.04,
+      "format": "mpegts",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "avg_frame_rate": "0/0",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "sample_duration_seconds": "7.240567",
+      "decode_ok": true,
+      "decode_warning_lines": 0,
+      "elapsed_seconds": 13.12
+    },
+    {
+      "name": "Globo RJ HD",
+      "http_status": 404,
+      "error": "http_error",
+      "elapsed_seconds": 13.01
+    }
+  ],
+  "initial_published_failure": [
+    {
+      "name": "Globo RJ FHD",
+      "id": 612611468,
+      "http_status": 502,
+      "error": "http_error",
+      "elapsed_seconds": 6.99
+    },
+    {
+      "name": "Globo RJ HD",
+      "id": 2008264542,
+      "http_status": 502,
+      "error": "http_error",
+      "elapsed_seconds": 6.88
+    }
+  ],
+  "redirects_observed": [
+    {
+      "channel": "Globo RJ FHD",
+      "status": 302,
+      "initial_host": "149.102.252.201.nip.io",
+      "destination_host": "38.99.239.220"
+    },
+    {
+      "channel": "Globo RJ HD",
+      "status": 302,
+      "initial_host": "149.102.252.201.nip.io",
+      "destination_host": "38.99.239.213"
+    }
+  ],
+  "server_long_checks": {
+    "api": [
+      {
+        "name": "health",
+        "http_status": 200,
+        "body": {
+          "status": "ok",
+          "protocol": "xtream",
+          "version": "1.4.0",
+          "quality": "HD when available",
+          "vod": true,
+          "live_ts": true
+        }
+      },
+      {
+        "name": "live catalog",
+        "http_status": 200,
+        "channels": 32,
+        "globo": [
+          {
+            "name": "Globo RJ FHD",
+            "stream_id": 612611468,
+            "container_extension": "ts",
+            "direct_source": ""
+          },
+          {
+            "name": "Globo RJ HD",
+            "stream_id": 2008264542,
+            "container_extension": "ts",
+            "direct_source": ""
+          }
+        ]
+      },
+      {
+        "name": "protected globo-rj-fhd",
+        "http_status": 401,
+        "expected_denial": true
+      },
+      {
+        "name": "protected globo-rj-hd",
+        "http_status": 401,
+        "expected_denial": true
+      }
+    ],
+    "sources": [
+      {
+        "name": "Globo RJ FHD",
+        "id": 612611468,
+        "http_status": 200,
+        "content_type": "video/mp2t",
+        "fallback": "0",
+        "redirected": false,
+        "bytes": 45020958,
+        "seconds": 70.77,
+        "first_bytes_seconds": 7.629,
+        "max_read_gap_seconds": 1.98,
+        "format": "mpegts",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30000/1001"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "sample_duration_seconds": "86.152733",
+        "decode_ok": true,
+        "decode_warning_lines": 0,
+        "elapsed_seconds": 71.13
+      },
+      {
+        "name": "Globo RJ HD",
+        "id": 2008264542,
+        "http_status": 200,
+        "content_type": "video/mp2t",
+        "fallback": "0",
+        "redirected": false,
+        "bytes": 24557726,
+        "seconds": 70.62,
+        "first_bytes_seconds": 8.458,
+        "max_read_gap_seconds": 2.01,
+        "format": "mpegts",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30000/1001"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "sample_duration_seconds": "83.183100",
+        "decode_ok": true,
+        "decode_warning_lines": 0,
+        "elapsed_seconds": 70.85
+      }
+    ]
+  },
+  "sustained_test_deployment": "appgdep_6ac940e58ab081918ed7fb17faa632aa",
+  "deployment": "appgdep_6ac9420c3de081918482b2c143a82206",
+  "site_version": 7,
+  "source_commit": "1975a24678aa347935e02985936cf2e4987faa0a",
+  "protocol_tests": {
+    "passed": 21,
+    "command": "node --test scripts/test-server.mjs"
+  },
+  "delivery": {
+    "container": "MPEG-TS",
+    "authenticated": true,
+    "original_sources_in_runtime_secret": true,
+    "public_playlist_contains_stable_server_urls": true,
+    "start_buffer_bytes": 262144,
+    "startup_timeout_seconds": 25,
+    "idle_timeout_seconds": 20,
+    "failed_source_deprioritized_seconds": 60,
+    "redirects_resolved_on_server": true,
+    "transcoding": false,
+    "repackaging_to_hls": false
+  },
+  "limitations": [
+    "Testes realizados nesta conexão; os aparelhos Prime e Smarters Pro não foram acessados.",
+    "Foram recebidos mais de 70 segundos por canal. A decodificação inspecionou cinco segundos do vídeo e áudio de cada amostra; isso não comprova disponibilidade futura ou reprodução integral sem erros.",
+    "A fonte HD retornou 404 em algumas tentativas diretas e respondeu 200 em outras. Esse comportamento é da origem; ambas passaram pelo servidor no teste longo.",
+    "O encaminhamento depende da origem e dos nomes DNS usados para os IPs públicos dos redirecionamentos.",
+    "As duas fontes usam o mesmo provedor. Uma falha nele pode afetar ambas; não há garantia de ausência de travamentos.",
+    "O player precisa reconectar após uma interrupção; fontes não são misturadas durante uma resposta."
+  ],
+  "final_published_checks": {
+    "api": [
+      {
+        "name": "health",
+        "http_status": 200,
+        "body": {
+          "status": "ok",
+          "protocol": "xtream",
+          "version": "1.4.0",
+          "quality": "HD when available",
+          "vod": true,
+          "live_ts": true
+        }
+      },
+      {
+        "name": "live catalog",
+        "http_status": 200,
+        "channels": 32,
+        "globo": [
+          {
+            "name": "Globo RJ FHD",
+            "stream_id": 612611468,
+            "container_extension": "ts",
+            "direct_source": ""
+          },
+          {
+            "name": "Globo RJ HD",
+            "stream_id": 2008264542,
+            "container_extension": "ts",
+            "direct_source": ""
+          }
+        ]
+      },
+      {
+        "name": "protected globo-rj-fhd",
+        "http_status": 401,
+        "expected_denial": true
+      },
+      {
+        "name": "protected globo-rj-hd",
+        "http_status": 401,
+        "expected_denial": true
+      }
+    ],
+    "sources": [
+      {
+        "name": "Globo RJ FHD",
+        "id": 612611468,
+        "http_status": 200,
+        "content_type": "video/mp2t",
+        "fallback": "0",
+        "redirected": false,
+        "bytes": 13588702,
+        "seconds": 22.41,
+        "first_bytes_seconds": 8.263,
+        "max_read_gap_seconds": 1,
+        "format": "mpegts",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "30000/1001"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "sample_duration_seconds": "32.065367",
+        "decode_ok": true,
+        "decode_warning_lines": 0,
+        "elapsed_seconds": 22.75
+      },
+      {
+        "name": "Globo RJ HD",
+        "id": 2008264542,
+        "http_status": 200,
+        "content_type": "video/mp2t",
+        "fallback": "0",
+        "redirected": false,
+        "bytes": 11188666,
+        "seconds": 22.6,
+        "first_bytes_seconds": 9.446,
+        "max_read_gap_seconds": 2,
+        "format": "mpegts",
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "avg_frame_rate": "30000/1001"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "avg_frame_rate": "0/0",
+            "sample_rate": "48000",
+            "channels": 2
+          }
+        ],
+        "sample_duration_seconds": "37.137100",
+        "decode_ok": true,
+        "decode_warning_lines": 0,
+        "elapsed_seconds": 22.83
+      }
+    ]
+  },
+  "reported_at": "2026-10-09T19:38:56.075Z"
+}

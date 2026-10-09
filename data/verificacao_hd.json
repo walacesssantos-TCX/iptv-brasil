@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-09T17:28:11.727141+00:00",
+  "checked_at": "2026-10-09T19:38:56.075Z",
   "method": "HLS master and media playlists; highest available video profile; media download; ffprobe and one-second audio/video ffmpeg decode",
-  "selected_channels": 30,
-  "hd_sources": 28,
+  "selected_channels": 32,
+  "hd_sources": 30,
   "sd_sources": 2,
   "channels": [
     {
@@ -1217,6 +1217,58 @@
       "stream_id": 379928808,
       "original_source_url": "http://186.219.52.187/rede_tv/index.m3u8",
       "original_backup_url": "http://168.197.104.22/REDE_TV/index.m3u8"
+    },
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-fhd",
+      "name": "Globo RJ FHD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/612611468.ts",
+      "stream_id": 612611468,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 45020958,
+      "continuous_download_seconds": 70.77,
+      "sample_media_duration_seconds": 86.152733,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-hd"
+    },
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-hd",
+      "name": "Globo RJ HD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/2008264542.ts",
+      "stream_id": 2008264542,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 24557726,
+      "continuous_download_seconds": 70.62,
+      "sample_media_duration_seconds": 83.1831,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-fhd"
     }
   ],
   "supplied_urls": [
@@ -1919,7 +1971,7 @@
       "reason": "Imagem conferida: TV O Povo, com programação local. Não substitui o sinal nacional da TV Cultura."
     }
   ],
-  "stability_method": "Endereços de entrada fixos; fontes consultadas em cada renovação de playlist; perfis HD escolhidos quando anunciados; fontes reserva configuradas para TV Senado, TV Cultura e RedeTV!. Não garante disponibilidade contínua do provedor.",
+  "stability_method": "Endereços de entrada fixos; fontes consultadas em cada renovação de playlist; perfis HD escolhidos quando anunciados; fontes reserva configuradas para TV Senado, TV Cultura e RedeTV!. Não garante disponibilidade contínua do provedor. Globo RJ: encaminhamento MPEG-TS autenticado com buffer inicial, redirecionamentos no servidor e fallback nas falhas de abertura/reconexão.",
   "published_server_verified": true,
   "limitations": [
     "Gospel Cartoon: 854x480; Gospel Movie TV: 640x360; O Dia TV: 800x450. Não foi localizada uma versão HD validada desses três sinais.",
@@ -1930,10 +1982,10 @@
     "As duas URLs autenticadas da Globo RJ fornecidas em 09/10/2026 expiraram por tempo limite; credenciais e URLs completas não foram publicadas."
   ],
   "http_source_note": "Fontes HTTP numéricas selecionadas utilizam um nome DNS que resolve para o mesmo IP público, permitindo a conexão do servidor e o encaminhamento HTTPS de playlists e segmentos. Os endereços numéricos originais estão registrados nos campos original_source_url.",
-  "published_checked_at": "2026-10-09T17:54:50.974033+00:00",
-  "published_channels_tested": 30,
-  "published_channels_passed": 30,
-  "published_hd_channels": 28,
+  "published_checked_at": "2026-10-09T19:36:00Z",
+  "published_channels_tested": 32,
+  "published_channels_passed": 32,
+  "published_hd_channels": 30,
   "published_checks": [
     {
       "id": "Record.br",
@@ -2769,6 +2821,58 @@
       "audio_codec": "aac",
       "width": 1280,
       "height": 720
+    },
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-fhd",
+      "name": "Globo RJ FHD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/612611468.ts",
+      "stream_id": 612611468,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 45020958,
+      "continuous_download_seconds": 70.77,
+      "sample_media_duration_seconds": 86.152733,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-hd"
+    },
+    {
+      "id": "Globorj.br",
+      "source_key": "globo-rj-hd",
+      "name": "Globo RJ HD",
+      "group": "TV Aberta",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/2008264542.ts",
+      "stream_id": 2008264542,
+      "tested_at": "2026-10-09T19:36:00Z",
+      "ok": true,
+      "container_extension": "ts",
+      "requires_login": true,
+      "transport_stream_ok": true,
+      "stream_status": 200,
+      "stream_bytes": 24557726,
+      "continuous_download_seconds": 70.62,
+      "sample_media_duration_seconds": 83.1831,
+      "decode_ok": true,
+      "decoded_seconds": 5,
+      "decode_warning_lines": 0,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
+      "fallback_used": false,
+      "backup_source_key": "globo-rj-fhd"
     }
   ],
   "initial_published_failures": [
@@ -2982,5 +3086,8 @@
     "sd": 3,
     "tested_at": "2026-10-09T17:54:50.974033+00:00"
   },
-  "selection_updated_at": "2026-10-09T18:23:30.248Z"
+  "selection_updated_at": "2026-10-09T19:36:00Z",
+  "globo_added_at": "2026-10-09T19:36:00Z",
+  "globo_report": "data/verificacao_globo_novas.json",
+  "published_check_scope": "30 canais verificados na rodada anterior em 09/10/2026; nesta rodada foram testadas as duas novas fontes da Globo através do servidor. Consulte tested_at em cada registro."
 }
