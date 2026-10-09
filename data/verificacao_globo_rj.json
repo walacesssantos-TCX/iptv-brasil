@@ -1,0 +1,16 @@
+{
+  "latest_supplied_source_check": {
+    "name": "Globo RJ HD — novo link fornecido",
+    "provider_host": "xciptv.aplicativos.top",
+    "authenticated_source": true,
+    "checked_at": "2026-10-09T18:24:57.021874+00:00",
+    "ok": false,
+    "http_status": 502,
+    "error": "HTTP request failed",
+    "elapsed_seconds": 5.65
+  },
+  "credentials_published": false,
+  "added_to_playlist": false,
+  "source_url_omitted": true,
+  "note": "The supplied URL returned HTTP 502 in this environment. No video or audio was obtained, so HD was not confirmed."
+}

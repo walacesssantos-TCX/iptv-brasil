@@ -1,6 +1,6 @@
 # IPTV Brasil — WCS
 
-Lista com 40 canais selecionados, agrupados em M3U, preservando a seleção do proprietário e acrescentando a RedeTV! nacional. Inclui SBT, Record, Band Rio, RedeTV! Paraná, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon e canais públicos, educativos, religiosos e regionais.
+Lista com 30 canais selecionados, agrupados em M3U, preservando a seleção do proprietário e acrescentando a RedeTV! nacional. Inclui SBT, Record, Band Rio, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon e canais públicos, educativos, religiosos e regionais.
 
 ## Acesso nos aplicativos
 
@@ -24,17 +24,19 @@ A Band Rio usa um endereço estável que consulta a configuração pública do p
 
 ## Qualidade de imagem e estabilidade
 
-Foram confirmadas fontes HD para 37 dos 40 canais. TV Cultura foi atualizada para 1080p e TV Senado para 720p. RedeTV! nacional foi acrescentada em 1080p; a RedeTV! Paraná foi preservada.
+A seleção atual do proprietário tem 30 canais, com 28 fontes HD e 2 fontes de menor resolução. TV Senado permanece em 720p e RedeTV! nacional em 1080p. Os testes de imagem foram realizados antes da seleção mais recente, que removeu dez canais; nenhuma fonte dos canais mantidos foi alterada.
 
-Gospel Cartoon (854×480), Gospel Movie TV (640×360) e O Dia TV (800×450) seguem na resolução disponível. Mudar o nome para HD não melhora o vídeo original.
+Gospel Cartoon (854×480) e Gospel Movie TV (640×360) seguem na resolução disponível. Mudar o nome para HD não melhora o vídeo original.
 
-Cada canal tem uma entrada fixa `/stream/<id>.m3u8`. O servidor consulta a fonte atual, mantém as faixas de áudio e legenda, escolhe perfis HD entre 720p e 1080p e prefere H.264 quando há uma opção HD nesse codec. Fontes sem HD continuam disponíveis em SD. O parâmetro `?quality=auto` permite manter os perfis de menor resolução da fonte. TV Senado, TV Cultura e RedeTV! possuem fontes reserva; uma reserva pode ter resolução menor. Os atributos `source-url` e `backup-url` guardam as fontes no M3U, sem usuário ou senha. CazéTV usa entrega direta por HTTPS em 1080p (HEVC), com a mesma entrada fixa e autenticação; `?quality=auto` escolhe seu manifesto adaptativo. As fontes numéricas HTTP selecionadas usam nomes DNS para o mesmo IP público; o servidor entrega as playlists e os segmentos por HTTPS. Esse encaminhamento também depende da disponibilidade do DNS usado pela fonte.
+Cada canal tem uma entrada fixa `/stream/<id>.m3u8`. O servidor consulta a fonte atual, mantém as faixas de áudio e legenda, escolhe perfis HD entre 720p e 1080p e prefere H.264 quando há uma opção HD nesse codec. Fontes sem HD continuam disponíveis em SD. O parâmetro `?quality=auto` permite manter os perfis de menor resolução da fonte. TV Senado e RedeTV! possuem fontes reserva; uma reserva pode ter resolução menor. Os atributos `source-url` e `backup-url` guardam as fontes no M3U, sem usuário ou senha. CazéTV usa entrega direta por HTTPS em 1080p (HEVC), com a mesma entrada fixa e autenticação; `?quality=auto` escolhe seu manifesto adaptativo. As fontes numéricas HTTP selecionadas usam nomes DNS para o mesmo IP público; o servidor entrega as playlists e os segmentos por HTTPS. Esse encaminhamento também depende da disponibilidade do DNS usado pela fonte.
 
 As três URLs recebidas não reproduziram neste ambiente: GloboNews e RedeTV! retornaram 502; Globo SP expirou por tempo limite. A nova RedeTV! utiliza outra fonte pública testada. Globo SP e Globo RJ permanecem pendentes de um sinal validado. O login WCS não substitui acesso ao Globoplay. As duas novas URLs autenticadas da Globo RJ expiraram por tempo limite, e suas credenciais foram mantidas fora do repositório. O relatório completo está em `data/verificacao_hd.json`.
 
-Os 40 endereços publicados passaram no teste de download de segmentos e decodificação de áudio e vídeo, com 37 canais em HD. O login retornou conta ativa e catálogo de 40 canais.
+A seleção anterior de 40 canais passou no teste de download de segmentos e decodificação de áudio e vídeo, com 37 canais em HD. A seleção atual mantém 30 dessas fontes, com 28 em HD. O login foi conferido novamente e retornou conta ativa e catálogo de 30 canais.
 
 Endereços fixos e fontes reserva reduzem a dependência de links temporários, mas não garantem o funcionamento contínuo das emissoras. A qualidade recebida na TV depende também da conexão e do aplicativo.
+
+Na busca atual na organização `iptv-org`, Globo RJ apareceu em registros de programação (EPG), mas não na lista brasileira de transmissões vigente. As fontes dos registros de inclusão #44697 e #40588 retornaram HTTP 403 nos testes. Nenhum novo canal Globo foi acrescentado. Os detalhes estão em `data/verificacao_iptv_org.json`. O novo link autenticado enviado pelo proprietário também retornou HTTP 502; não foi acrescentado e as credenciais foram omitidas. Esse teste está em `data/verificacao_globo_rj.json`.
 
 ## Filmes nos aplicativos
 

@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-10-09T18:20:00.912362+00:00",
+  "organization": "https://github.com/iptv-org/",
+  "current_stream_list": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+  "current_list_contains_globo_rj": false,
+  "epg_contains_globo_rj": true,
+  "epg_note": "Globo RJ and Globo Rio HD entries are guide metadata, not media URLs.",
+  "candidate_tests": [
+    {
+      "id": "TVGloboRiodeJaneiro.br",
+      "name": "Globo RJ — iptv-org fonte anterior",
+      "url": "https://cdn-5.nxplay.com.br/GLOBO_RJ/index.m3u8",
+      "source_issue": "https://github.com/iptv-org/iptv/issues/40588",
+      "tested_at": "2026-10-09T18:17:49.135836+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "TVGloboRiodeJaneiro.br",
+      "name": "Globo RJ — iptv-org fonte aprovada em julho",
+      "url": "http://45.190.28.50/GLOBO_HD/index.m3u8",
+      "source_issue": "https://github.com/iptv-org/iptv/issues/44697",
+      "tested_at": "2026-10-09T18:17:49.120467+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    }
+  ],
+  "archived_issue_notes": [
+    {
+      "number": 44697,
+      "url": "https://github.com/iptv-org/iptv/issues/44697",
+      "approved_on": "2026-07-13",
+      "current_test_http_status": 403
+    },
+    {
+      "number": 40588,
+      "url": "https://github.com/iptv-org/iptv/issues/40588",
+      "label": "rejected:broken_link",
+      "current_test_http_status": 403
+    },
+    {
+      "number": 16325,
+      "url": "https://github.com/iptv-org/iptv/issues/16325",
+      "label": "rejected:xtream_codes",
+      "third_party_account_url_omitted": true,
+      "tested": false
+    }
+  ],
+  "added_to_playlist": false,
+  "limitation": "HTTP 403 was observed from this testing environment; this does not establish worldwide availability."
+}
