@@ -11,8 +11,8 @@ https://wcs-tv.walacesssantos.chatgpt.site/stream/1843789765.m3u8
 #EXTINF:-1 source-url="https://wcs-tv.walacesssantos.chatgpt.site/band.m3u8" tvg-id="BandRio.br" tvg-name="Band Rio de Janeiro" group-title="Abertos Brasil",Band Rio de Janeiro
 https://wcs-tv.walacesssantos.chatgpt.site/stream/435237942.m3u8
 
-#EXTINF:-1 source-url="https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8" tvg-id="RedeTVParana.br" tvg-name="RedeTV! Parana" group-title="Abertos Brasil",RedeTV! Parana
-https://wcs-tv.walacesssantos.chatgpt.site/stream/1408647123.m3u8
+#EXTINF:-1 source-url="http://186.219.52.187.nip.io/rede_tv/index.m3u8" backup-url="http://168.197.104.22.nip.io/REDE_TV/index.m3u8" tvg-id="RedeTV.br" tvg-name="RedeTV!" group-title="Abertos Brasil",RedeTV!
+https://wcs-tv.walacesssantos.chatgpt.site/stream/379928808.m3u8
 
 #EXTINF:-1 source-url="https://isaocorp.cloudecast.com/playtv/index.m3u8" tvg-id="PlayTV.br" tvg-name="Play TV" group-title="Abertos Brasil",Play TV
 https://wcs-tv.walacesssantos.chatgpt.site/stream/85586428.m3u8
@@ -119,5 +119,4 @@ https://wcs-tv.walacesssantos.chatgpt.site/stream/1930173954.m3u8
 #EXTINF:-1 source-url="https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/1edb59fc36da4004ba4452a3e00993b2/playlist.m3u8" tvg-id="WooHooSurf.br" tvg-name="Woohoo Surf" group-title="Esportes",Woohoo Surf
 https://wcs-tv.walacesssantos.chatgpt.site/stream/33884805.m3u8
 
-#EXTINF:-1 source-url="http://186.219.52.187.nip.io/rede_tv/index.m3u8" backup-url="http://168.197.104.22.nip.io/REDE_TV/index.m3u8" tvg-id="RedeTV.br" tvg-name="RedeTV!" group-title="Abertos Brasil",RedeTV!
-https://wcs-tv.walacesssantos.chatgpt.site/stream/379928808.m3u8
+
