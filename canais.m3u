@@ -4,6 +4,8 @@
 
 #EXTINF:-1 tvg-logo="https://imgur.com/waZJG1M.png" group-title="Canais | ABERTO",Globo RJ HD http://xciptv.aplicativos.top:80/p2puni777/8zksAAJgKEYq/2374
 
+#EXTINF:-1 source-url="https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8" tvg-id="Globo RJ.br" tvg-name="Globo RJ" group-title="Abertos Brasil",Globo RJ
+
 #EXTINF:-1 source-url="https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8" tvg-id="SBTNacional.br" tvg-name="SBT" group-title="Abertos Brasil",SBT
 https://wcs-tv.walacesssantos.chatgpt.site/stream/1214683075.m3u8
 
