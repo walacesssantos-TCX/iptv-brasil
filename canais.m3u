@@ -110,7 +110,7 @@ https://wcs-tv.walacesssantos.chatgpt.site/stream/657030701.m3u8
 #EXTINF:-1 source-url="https://amg01470-amg01470c1-samsung-br-4768.playouts.now.amagi.tv/playlist.m3u8" tvg-id="TennisTVClassics.br" tvg-name="Tennis TV Classics" group-title="Esportes",Tennis TV Classics
 https://wcs-tv.walacesssantos.chatgpt.site/stream/1129136729.m3u8
 
-#EXTINF:-1 source-url="https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8" tvg-id="CazeTV.br" tvg-name="CazéTV" group-title="Esportes",CazéTV
+#EXTINF:-1 source-url="https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8" delivery-mode="direct" direct-hd-url="https://cc-gilgbjhgo02wm.akamaized.net/1080p-vtt/index.m3u8" tvg-id="CazeTV.br" tvg-name="CazéTV" group-title="Esportes",CazéTV
 https://wcs-tv.walacesssantos.chatgpt.site/stream/970237786.m3u8
 
 #EXTINF:-1 source-url="https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8" tvg-id="CanalGOAT.br" tvg-name="Canal GOAT" group-title="Esportes",Canal GOAT
