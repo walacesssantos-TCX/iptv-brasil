@@ -1760,5 +1760,10 @@
   "quality_report": "data/verificacao_hd.json",
   "hd_sources": 37,
   "sd_sources": 3,
-  "http_source_note": "Fontes HTTP numéricas selecionadas utilizam um nome DNS que resolve para o mesmo IP público, permitindo a conexão do servidor e o encaminhamento HTTPS de playlists e segmentos. Os endereços numéricos originais estão registrados nos campos original_source_url."
+  "http_source_note": "Fontes HTTP numéricas selecionadas utilizam um nome DNS que resolve para o mesmo IP público, permitindo a conexão do servidor e o encaminhamento HTTPS de playlists e segmentos. Os endereços numéricos originais estão registrados nos campos original_source_url.",
+  "published_server_verified": true,
+  "published_channels_tested": 40,
+  "published_channels_passed": 40,
+  "published_checked_at": "2026-10-09T17:54:50.974033+00:00",
+  "published_hd_channels": 37
 }
