@@ -1,223 +1,1320 @@
 #EXTM3U size="medium"
 # Biblioteca VOD - SS IPTV
-# Apenas filmes de 2000 em diante; fontes oficiais e licenciadas
-# Archive.org: licença CC/domínio público declarada nos metadados do item
-# URLs MP4/M4V verificadas por leitura parcial; reprodução depende da TV
-# Registros Movies Deluxe lidos: 26700
-# Filmes Archive.org com vídeo direto: 43
-
-# Fonte: https://studio.blender.org/projects/wing-it/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Wing It! (2023)
-https://archive.org/download/wing_it/wing_it.ia.mp4
-
-# Fonte: https://studio.blender.org/projects/charge/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Ficção Científica",Charge (2022)
-https://archive.org/download/charge-blender-open-movie-1608p/Charge%20-%20Blender%20Open%20Movie%201608p.mp4
-
-# Fonte: https://studio.blender.org/projects/sprite-fright/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Sprite Fright (2021)
-https://archive.org/download/sprite-fright/Sprite%20Fright%20-%20Open%20Movie%20by%20Blender%20Studio-804p.mp4
-
-# Fonte: https://studio.blender.org/projects/coffee-run/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Coffee Run (2020)
-https://archive.org/download/coffee_202209/coffee.mp4
-
-# Fonte: https://studio.blender.org/projects/spring/; Licença: https://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Spring (2019)
-https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4
-
-# Fonte: https://archive.org/details/seder-masochism-final-05-18-18; Licença: https://creativecommons.org/publicdomain/mark/1.0/; Autor: Nina Paley
-#EXTINF:0 type="video" group-title="Animação",Seder-Masochism (2018)
-https://archive.org/download/seder-masochism-final-05-18-18/Seder-Masochism%20final%2005-18-18.mp4
-
-# Fonte: https://studio.blender.org/projects/cosmos-laundromat/; Licença: http://creativecommons.org/licenses/by/4.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Cosmos Laundromat (2015)
-https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
-
-# Fonte: https://archive.org/details/LaEducacionProhibida; Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: La Educación Prohibida
-#EXTINF:0 type="video" group-title="Documentários",A Educação Proibida (2012)
-https://archive.org/download/LaEducacionProhibida/la_educacion_prohibida.mp4
-
-# Fonte: https://studio.blender.org/projects/tears-of-steel/; Licença: http://creativecommons.org/licenses/by/3.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Ficção Científica",Tears of Steel (2012)
-https://archive.org/download/Tears-of-Steel/tears_of_steel_1080p.mp4
-
-# Fonte: https://studio.blender.org/projects/sintel/; Licença: http://creativecommons.org/licenses/by/3.0/; Autor: Blender Foundation / Blender Studio
-#EXTINF:0 type="video" group-title="Curtas de Animação",Sintel (2010)
-https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
-
-# Fonte: https://archive.org/details/valkaama; Licença: https://creativecommons.org/licenses/by-sa/4.0/; Autor: Tim Baumann
-#EXTINF:0 type="video" group-title="Drama",Valkaama (2010)
-https://archive.org/download/valkaama/Valkaama_1080p.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Nina Paley
-#EXTINF:0 tvg-id="tt1172203" group-title="Animação" type="video" tvg-logo="https://archive.org/services/img/Sita_Sings_the_Blues",Sita Sings the Blues (2008)
-https://archive.org/download/Sita_Sings_the_Blues/Sita_Sings_the_Blues_1080p.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc/4.0/; Autor:  Christophe Gans
-#EXTINF:0 tvg-id="tt0237534" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/brotherhood-of-the-wolf",Brotherhood of the Wolf (2001)
-https://archive.org/download/brotherhood-of-the-wolf/Brotherhood%20Of%20The%20Wolf.ia.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Vishal Bhardwaj
-#EXTINF:0 tvg-id="tt3390572" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/haider-2014_202202",Haider (2014)
-https://archive.org/download/haider-2014_202202/Haider%20%282014%29.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Clint Eastwood
-#EXTINF:0 tvg-id="tt0498380" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/letters.-from.-iwo.-jima.-2006_202511",Letters from Iwo Jima (2006)
-https://archive.org/download/letters.-from.-iwo.-jima.-2006_202511/Letters%20From%20Iwo%20Jima%20%282006%29/Letters.From.Iwo.Jima.2006.ia.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Shane Felux
-#EXTINF:0 tvg-id="tt0457489" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/star_wars_revelations_vose",Star Wars: Revelations (2005)
-https://archive.org/download/star_wars_revelations_vose/STAR_WARS_-_Revelations.mp4
-
-# Licença: http://creativecommons.org/licenses/by-sa/3.0/; Autor: 
-#EXTINF:0 tvg-id="tt0472566" group-title="Ação" type="video" tvg-logo="https://archive.org/services/img/StarWreckInThePirkining",Star Wreck: In the Pirkinning (2005)
-https://archive.org/download/StarWreckInThePirkining/StarWreck_512kb.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
-#EXTINF:0 tvg-id="tt1334226" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/DeadManDrinking",Dead Man Drinking (2008)
-https://archive.org/download/DeadManDrinking/DeadManDrinking-720p.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Exploding Goldfish Films
-#EXTINF:0 tvg-id="tt1245916" group-title="Comédia" type="video" tvg-logo="https://archive.org/services/img/WholesaleSoulsInc",Wholesale Souls, Inc. (2006)
-https://archive.org/download/WholesaleSoulsInc/wholesale-souls-inc.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Jeremy Saulnier,
-#EXTINF:0 tvg-id="tt2359024" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/blue-ruin-2013",Blue Ruin (2013)
-https://archive.org/download/blue-ruin-2013/Blue%20Ruin%20%282013%29/Blue%20Ruin%20-%202013.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Park Chan-wook
-#EXTINF:0 tvg-id="tt0451094" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/lady-vengeance-2005",Lady Vengeance (2005)
-https://archive.org/download/lady-vengeance-2005/Lady%20Vengeance%20%282005%29.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Clearly Ambiguous Productions
-#EXTINF:0 tvg-id="tt1337542" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/Sobaka",Sobaka (2008)
-https://archive.org/download/Sobaka/sobaka.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Park Chan-wook
-#EXTINF:0 tvg-id="tt0310775" group-title="Crime" type="video" tvg-logo="https://archive.org/services/img/sympathy-for-mr.-vengeance-2002",Sympathy for Mr. Vengeance (2002)
-https://archive.org/download/sympathy-for-mr.-vengeance-2002/Sympathy%20For%20Mr.%20Vengeance%20%282002%29.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Ron James
-#EXTINF:0 tvg-id="tt26443953" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/accidental.-truth.-ufo.-revelations.-2023",Accidental Truth: UFO Revelations (2023)
-https://archive.org/download/accidental.-truth.-ufo.-revelations.-2023/Accidental%20Truth%20UFO%20Revelations%20%282023%29/Accidental.Truth.UFO.Revelations.2023.ia.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Armand Mesaros
-#EXTINF:0 tvg-id="tt34700831" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/MuzikaSaJasibare",Muzika sa Jasibare (2011)
-https://archive.org/download/MuzikaSaJasibare/jasibara.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/2.0/; Autor: Stefan Kluge
-#EXTINF:0 tvg-id="tt0419100" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/Route66",Route 66: Ein amerikanischer Albtraum (2004)
-https://archive.org/download/Route66/Route66.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Silent Hall of Fame
-#EXTINF:0 tvg-id="tt6326174" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/SilentHallOfFameDocumentary",Silent Hall of Fame Documentary Breaking the Silence (2015)
-https://archive.org/download/SilentHallOfFameDocumentary/Silent-Hall-of-Fame-documentary.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Michael Mazzola
-#EXTINF:0 tvg-id="tt6400614" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/unacknowledged.-2017.308p",Unacknowledged (2017)
-https://archive.org/download/unacknowledged.-2017.308p/Unacknowledged%20%282017%29/Unacknowledged.2017.308p.ia.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Steven Okazaki
-#EXTINF:0 tvg-id="tt0911010" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki-2007",White Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)
-https://archive.org/download/white-light-black-rain-the-destruction-of-hiroshima-and-nagasaki-2007/White%20Light%20Black%20Rain/White%20Light%20Black%20Rain%20-%20The%20Destruction%20Of%20Hiroshima%20And%20Nagasaki%20-%202007.ia.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Peter Joseph
-#EXTINF:0 tvg-id="tt1332128" group-title="Documentários" type="video" tvg-logo="https://archive.org/services/img/Zeitgeist.Addendum",Zeitgeist: Addendum (2008)
-https://archive.org/download/Zeitgeist.Addendum/Zeitgeist.Addendum.mp4
-
-# Licença: http://creativecommons.org/licenses/by-sa/3.0/us/; Autor: KillaCozzy Productions
-#EXTINF:0 tvg-id="tt1379199" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/ChiaroscuroBaby",Chiaroscuro, Baby (2009)
-https://archive.org/download/ChiaroscuroBaby/ChiaroscuroBaby-1280x720.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: Rohan Harris
-#EXTINF:0 tvg-id="tt1265599" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/insecurity",Insecurity (2007)
-https://archive.org/download/insecurity/Insecurity.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/us/; Autor: James Brittain
-#EXTINF:0 tvg-id="tt2049483" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/King_Lear",King Lear (2008)
-https://archive.org/download/King_Lear/King_Lear.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Nandita Roy and Shiboprosad Mukherjee
-#EXTINF:0 tvg-id="tt9110380" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/konttho-2019_202108",Konttho (2019)
-https://archive.org/download/konttho-2019_202108/Konttho%20%282019%29.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: 
-#EXTINF:0 tvg-id="tt0249846" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/Nobody_Needs_To_Know",Nobody Needs to Know (2003)
-https://archive.org/download/Nobody_Needs_To_Know/nobody-needs-to-know.mp4
-
-# Licença: http://creativecommons.org/publicdomain/zero/1.0/; Autor: Imtiaz Ali
-#EXTINF:0 tvg-id="tt1839596" group-title="Drama" type="video" tvg-logo="https://archive.org/services/img/rockstar-2011",Rockstar (2011)
-https://archive.org/download/rockstar-2011/Rockstar%20%282011%29.mp4
-
-# Licença: http://creativecommons.org/licenses/by-sa/3.0/; Autor: Donald Morin
-#EXTINF:0 tvg-id="archive-7Fires4UKitchiManitou" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/7Fires4UKitchiManitou",7Fires 4 U.Kitchi Manitou (2004)
-https://archive.org/download/7Fires4UKitchiManitou/7Fires4UKitchiManitou2010-release.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Bob Georgeson
-#EXTINF:0 tvg-id="archive-DarkCloudsHangAboveTheBirds" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/DarkCloudsHangAboveTheBirds",DarkCloudsHangAboveTheBirds (2016)
-https://archive.org/download/DarkCloudsHangAboveTheBirds/Dark%20Clouds%20Hang%20Above%20The%20Birds.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="archive-Depthiness" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Depthiness",Depthiness (2016)
-https://archive.org/download/Depthiness/2017_Depthiness_Hans_Rombach.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="archive-2017SteuererklrungLutzMommartz" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2017SteuererklrungLutzMommartz",Der durchsichtige Mensch (2017)
-https://archive.org/download/2017SteuererklrungLutzMommartz/2017_Tax_return_EN_1280-1080.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="archive-MargretsFilm" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/MargretsFilm",MargretsFilm (2007)
-https://archive.org/download/MargretsFilm/2007-Margrets_Film_engl_U-titel-1440-1080.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz 
-#EXTINF:0 tvg-id="archive-2013MommartzVonAndreasKopnick" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2013MommartzVonAndreasKopnick",Mommartz von Andreas Köpnick (2013)
-https://archive.org/download/2013MommartzVonAndreasKopnick/2013_Mommartz_vonAndreasKopnick.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc/3.0/; Autor: José Miguel Colmenero Fdez.
-#EXTINF:0 tvg-id="archive-Ondas_Yaiza_videoteca" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Ondas_Yaiza_videoteca",Ondas Yaiza Videoteca (2013)
-https://archive.org/download/Ondas_Yaiza_videoteca/Jes%C3%BAs%20de%20Nazaret%2C%20el%20hombre%201.ia.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Rick Prelinger
-#EXTINF:0 tvg-id="tt0469153" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/panorama_ephemera2004",Panorama Ephemera (2004)
-https://archive.org/download/panorama_ephemera2004/panorama_ephemera.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="tt7322294" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Schwarzweiss201010349SecDvVideo",Schwarz/Weiß (2010)
-https://archive.org/download/Schwarzweiss201010349SecDvVideo/2010_schwarz-wei.mp4
-
-# Licença: http://creativecommons.org/licenses/by/3.0/; Autor: 
-#EXTINF:0 tvg-id="archive-ShadowFilmsTheDeadCreeper" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/ShadowFilmsTheDeadCreeper",ShadowFilmsTheDeadCreeper (2009)
-https://archive.org/download/ShadowFilmsTheDeadCreeper/The_Dead_CreeperVideoWrap.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/4.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="archive-SONATA_VOLUME" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SONATA_VOLUME",SONATA VOLUME (2003)
-https://archive.org/download/SONATA_VOLUME/SONATA_VOLUME.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Vance Capley
-#EXTINF:0 tvg-id="archive-SpookShowEpisode9KingOfTheNon-alcoholicZombies" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/SpookShowEpisode9KingOfTheNon-alcoholicZombies",SpookShowEpisode9KingOfTheNon AlcoholicZombies (2011)
-https://archive.org/download/SpookShowEpisode9KingOfTheNon-alcoholicZombies/Ss9SmallerFile.mp4
-
-# Licença: https://creativecommons.org/licenses/by-nc-nd/4.0/; Autor: Roberto Carlos Ortiz
-#EXTINF:0 tvg-id="archive-that-walks-at-night" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/that-walks-at-night",That Walks At Night (2020)
-https://archive.org/download/that-walks-at-night/That%20Walks%20At%20Night.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/2.0/; Autor: Jerry White Jr.
-#EXTINF:0 tvg-id="archive-theotherdragon" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/theotherdragon",The Other Dragon (2003)
-https://archive.org/download/theotherdragon/theotherdragon_512kb.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: Lutz Mommartz
-#EXTINF:0 tvg-id="archive-2017TaxdeclarationLutzMommartz" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/2017TaxdeclarationLutzMommartz",The Transparent Man (2017)
-https://archive.org/download/2017TaxdeclarationLutzMommartz/2017_taxdeclaration_LutzMommartz.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/3.0/; Autor: NoseSilo
-#EXTINF:0 tvg-id="archive-TheMonsterLonChaney" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/TheMonsterLonChaney",TheMonsterLonChaney (2015)
-https://archive.org/download/TheMonsterLonChaney/TheMonster.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-sa/3.0/; Autor: 
-#EXTINF:0 tvg-id="archive-Vance_Capley_Spook_Show_ep14" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/Vance_Capley_Spook_Show_ep14",Vance Capley Spook Show (2011)
-https://archive.org/download/Vance_Capley_Spook_Show_ep14/spook_show_14_small_mpeg2video.mp4
-
-# Licença: http://creativecommons.org/licenses/by-nc-nd/2.0/; Autor: http://www.warriorsofthe.net/
-#EXTINF:0 tvg-id="archive-warriors_of_net" group-title="Outros Filmes" type="video" tvg-logo="https://archive.org/services/img/warriors_of_net",Warriors of The Net (2002)
-https://archive.org/download/warriors_of_net/warriors_full_1227.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Identidade" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0309698.jpg" group-title="On Demand: Degustacao",Identidade
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3643.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INATIVIDADE PARANORMAL (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2243537.jpg" group-title="On Demand: Degustacao",INATIVIDADE PARANORMAL (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4094.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INATIVIDADE PARANORMAL 2 (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2828996.jpg" group-title="On Demand: Degustacao",INATIVIDADE PARANORMAL 2 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4093.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INDEPENDENCE DAY (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0116629.jpg" group-title="On Demand: Degustacao",INDEPENDENCE DAY (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4092.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Independence Day: O Ressurgimento (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1628841.jpg" group-title="On Demand: Lancamentos Degustacao",Independence Day: O Ressurgimento (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4655.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Inferno (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3062096.jpg" group-title="On Demand: Lancamentos Degustacao",Inferno (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4687.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INSENSÍVEIS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",INSENSÍVEIS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4091.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INTERESTELAR (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",INTERESTELAR (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4090.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Internet: O Filme (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6571110.jpg" group-title="On Demand: Lancamentos Degustacao",Internet: O Filme (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4755.mp4
+#EXTINF:-1 tvg-id="" tvg-name="INVASÃO DO MUNDO: BATALHA DE LOS ANGELES(2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",INVASÃO DO MUNDO: BATALHA DE LOS ANGELES(2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4089.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Invocacao do Mal (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1457767.jpg" group-title="On Demand: Degustacao",Invocacao do Mal (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4496.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Invocacao do Mal 2 (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3065204.jpg" group-title="On Demand: Lancamentos Degustacao",Invocacao do Mal 2 (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4651.mp4
+#EXTINF:-1 tvg-id="" tvg-name="IP MAN: A BATALHA FINAL (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2495118.jpg" group-title="On Demand: Degustacao",IP MAN: A BATALHA FINAL (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4088.mp4
+#EXTINF:-1 tvg-id="" tvg-name="IP MAN: NASCE UMA LENDA (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1641638.jpg" group-title="On Demand: Degustacao",IP MAN: NASCE UMA LENDA (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4087.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Irmãs (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1641638.jpg" group-title="On Demand: Lancamentos Degustacao",Irmãs (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4626.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JÁ ESTOU COM SAUDADES (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",JÁ ESTOU COM SAUDADES (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4086.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JACK E A MECÂNICA DO CORAÇÃO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",JACK E A MECÂNICA DO CORAÇÃO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4085.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jack Reacher: Sem Retorno (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3393786.jpg" group-title="On Demand: Lancamentos Degustacao",Jack Reacher: Sem Retorno (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4711.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JACK; O CAÇADOR DE GIGANTES(2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",JACK; O CAÇADOR DE GIGANTES(2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4084.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jason Bourne (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4196776.jpg" group-title="On Demand: Lancamentos Degustacao",Jason Bourne (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4606.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JASON VAI PARA O INFERNO: A ÚLTIMA SEXTA-FEIRA (1993)" tvg-logo="n/A" group-title="On Demand: Degustacao",JASON VAI PARA O INFERNO: A ÚLTIMA SEXTA-FEIRA (1993)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4083.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JASON X (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",JASON X (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4082.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JIMI: TUDO AO MEU FAVOR (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",JIMI: TUDO AO MEU FAVOR (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4081.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOÃO E MARIA: CAÇADORES DE BRUXAS (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",JOÃO E MARIA: CAÇADORES DE BRUXAS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4080.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOÃO; MARIA: E A BRUXA DA FLORESTA NEGRA (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",JOÃO; MARIA: E A BRUXA DA FLORESTA NEGRA (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4079.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOBS (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2357129.jpg" group-title="On Demand: Degustacao",JOBS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4078.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jogo da Morte (1979)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Jogo da Morte (1979)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4535.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jogo da Morte (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Jogo da Morte (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4543.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jogo da Morte 2 (1982)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Jogo da Morte 2 (1982)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4536.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jogo da Morte: A Ultima Jogada (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Jogo da Morte: A Ultima Jogada (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4537.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGO DE ASSASSINOS (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1067773.jpg" group-title="On Demand: Lancamentos Degustacao",JOGO DE ASSASSINOS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4077.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGO DURO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2231253.jpg" group-title="On Demand: Degustacao",JOGO DURO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4076.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0387564.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4075.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS 2 (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0432348.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS 2 (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4074.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS 3 (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0489270.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS 3 (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4073.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS IV (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0890870.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS IV (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4072.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS V (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1132626.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS V (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4071.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS VI (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1233227.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS VI (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4070.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS MORTAIS:O FINAL (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1233227.jpg" group-title="On Demand: Degustacao",JOGOS MORTAIS:O FINAL (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4069.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS VORAZES (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1392170.jpg" group-title="On Demand: Degustacao",JOGOS VORAZES (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4068.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS VORAZES: A ESPERANÇA |PARTE 1| (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",JOGOS VORAZES: A ESPERANÇA |PARTE 1| (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4067.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOGOS VORAZES: EM CHAMAS (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1951264.jpg" group-title="On Demand: Degustacao",JOGOS VORAZES: EM CHAMAS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4066.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Johnny & June (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1502422.jpg" group-title="On Demand: Degustacao",Johnny & June (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4538.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jonas (2016)" tvg-logo="http://i.imgur.com/GMZ9os4.jpg" group-title="On Demand: Lancamentos Degustacao",Jonas (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4699.mp4
+#EXTINF:-1 tvg-id="" tvg-name="José do Egito: O Filme - (2016)" tvg-logo="http://i.imgur.com/D2JyKm0.jpg" group-title="On Demand: Lancamentos Degustacao",José do Egito: O Filme - (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4701.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JOVEM & BELA (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2084712.jpg" group-title="On Demand: Degustacao",JOVEM & BELA (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4065.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jovens Titãs: O Contrato de Judas (2015)" tvg-logo="http://i.imgur.com/EpRQJ5X.jpg" group-title="On Demand: Lancamentos Degustacao",Jovens Titãs: O Contrato de Judas (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4756.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Jovens Titãs:Missão Tóquio (2006)" tvg-logo="http://i.imgur.com/EpRQJ5X.jpg" group-title="On Demand: Degustacao",Jovens Titãs:Missão Tóquio (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4484.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JUMANJI (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0115228.jpg" group-title="On Demand: Degustacao",JUMANJI (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4064.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JURASSIC PARK - PARQUE DOS DINOSSAUROS (1993)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0107290.jpg" group-title="On Demand: Degustacao",JURASSIC PARK - PARQUE DOS DINOSSAUROS (1993)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4063.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JURASSIC PARK 3 (2001)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",JURASSIC PARK 3 (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4062.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JURASSIC WORLD: O MUNDO DOS DINOSSAUROS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0369610.jpg" group-title="On Demand: Degustacao",JURASSIC WORLD: O MUNDO DOS DINOSSAUROS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4061.mp4
+#EXTINF:-1 tvg-id="" tvg-name="JUVENTUDES ROUBADAS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0369610.jpg" group-title="On Demand: Degustacao",JUVENTUDES ROUBADAS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4060.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KARATÊ KID (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",KARATÊ KID (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4059.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KARATÊ KID 2: A HORA DA VERDADE CONTINUA (1986)" tvg-logo="n/A" group-title="On Demand: Degustacao",KARATÊ KID 2: A HORA DA VERDADE CONTINUA (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4058.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KARATÊ KID 3: O DESAFIO FINAL (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",KARATÊ KID 3: O DESAFIO FINAL (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4057.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KARATÊ KID 4: A NOVA AVENTURA (1995)" tvg-logo="n/A" group-title="On Demand: Degustacao",KARATÊ KID 4: A NOVA AVENTURA (1995)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4056.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KARATÊ KID: A HORA DA VERDADE (1984)" tvg-logo="n/A" group-title="On Demand: Degustacao",KARATÊ KID: A HORA DA VERDADE (1984)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4055.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Kick-Ass 2 (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1650554.jpg" group-title="On Demand: Degustacao",Kick-Ass 2 (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4573.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Kick-Ass: Quebrando Tudo (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1250777.jpg" group-title="On Demand: Degustacao",Kick-Ass: Quebrando Tudo (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4572.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KILL BILL - VOLUME 1 (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0266697.jpg" group-title="On Demand: Degustacao",KILL BILL - VOLUME 1 (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4054.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KILL BILL - VOLUME 2 (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0422704.jpg" group-title="On Demand: Degustacao",KILL BILL - VOLUME 2 (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4053.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KINGSMAN: SERVIÇO SECRATE (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",KINGSMAN: SERVIÇO SECRATE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4052.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KUNG FU PANDA (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0441773.jpg" group-title="On Demand: Kids Degustação",KUNG FU PANDA (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4051.mp4
+#EXTINF:-1 tvg-id="" tvg-name="KUNG FU PANDA 2 (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1302011.jpg" group-title="On Demand: Kids Degustação",KUNG FU PANDA 2 (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4050.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Kung Fu Panda 3 (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2267968.jpg" group-title="On Demand: Kids Degustação",Kung Fu Panda 3 (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4619.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LAGOA AZUL: O DESPERTAR (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2287663.jpg" group-title="On Demand: Degustacao",LAGOA AZUL: O DESPERTAR (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4049.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lanterna Verde: Cavaleiros Esmeralda (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1683043.jpg" group-title="On Demand: Degustacao",Lanterna Verde: Cavaleiros Esmeralda (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4475.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lanterna Verde: Primeiro Voo (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1384590.jpg" group-title="On Demand: Degustacao",Lanterna Verde: Primeiro Voo (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4479.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LAR DOCE INFERNO (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1384590.jpg" group-title="On Demand: Degustacao",LAR DOCE INFERNO (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4048.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lavanda (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4084056.jpg" group-title="On Demand: Lancamentos Degustacao",Lavanda (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4757.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lego Batman: O Filme - Super Herois se Unem (2013)" tvg-logo="http://i.imgur.com/fLkKCPz.png" group-title="On Demand: Kids Degustação",Lego Batman: O Filme - Super Herois se Unem (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4474.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LEGO Batman: O Filme (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4116284.jpg" group-title="On Demand: Kids Degustação",LEGO Batman: O Filme (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4768.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lego DC Comics Super Heróis: Liga da Justiça: Combate Cósmico(2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5251438.jpg" group-title="On Demand: Lancamentos Degustacao",Lego DC Comics Super Heróis: Liga da Justiça: Combate Cósmico(2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4630.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LEGO FRIENDS: GIRLZ 4 LIFE (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5424368.jpg" group-title="On Demand: Lancamentos Degustacao",LEGO FRIENDS: GIRLZ 4 LIFE (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4047.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lenda Urbana 3 - A Vinganca de Mary" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0451957.jpg" group-title="On Demand: Degustacao",Lenda Urbana 3 - A Vinganca de Mary
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3646.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LIÇÕES EM FAMÍLIA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",LIÇÕES EM FAMÍLIA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4046.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justica Sombria (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2494376.jpg" group-title="On Demand: Lancamentos Degustacao",Liga da Justica Sombria (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4726.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justiça vs. Jovens Titãs (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5091548.jpg" group-title="On Demand: Lancamentos Degustacao",Liga da Justiça vs. Jovens Titãs (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4625.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justiça: A Legião do Mal  (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2027128.jpg" group-title="On Demand: Degustacao",Liga da Justiça: A Legião do Mal  (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4430.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justiça: A Nova Fronteira (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0902272.jpg" group-title="On Demand: Degustacao",Liga da Justiça: A Nova Fronteira (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4478.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justiça: Crise em Duas Terras (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1494772.jpg" group-title="On Demand: Degustacao",Liga da Justiça: Crise em Duas Terras (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4477.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LIGA DA JUSTIÇA: DEUSES E MONSTROS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",LIGA DA JUSTIÇA: DEUSES E MONSTROS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4045.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Liga da Justiça: Ponto de Ignição (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2820466.jpg" group-title="On Demand: Degustacao",Liga da Justiça: Ponto de Ignição (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4476.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LIGEIRAMENTE GRÁVIDOS (2007)" tvg-logo="n/A" group-title="On Demand: Degustacao",LIGEIRAMENTE GRÁVIDOS (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4044.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LINDA DE MORRER (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4543578.jpg" group-title="On Demand: Degustacao",LINDA DE MORRER (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4043.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Lisbela e o Prisioneiro (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0367975.jpg" group-title="On Demand: Degustacao",Lisbela e o Prisioneiro (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4579.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LIVRE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2445178.jpg" group-title="On Demand: Degustacao",LIVRE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4042.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOBOS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5923020.jpg" group-title="On Demand: Degustacao",LOBOS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4041.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA (1984)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA (1984)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4040.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA 2: A PRIMEIRA MISSÃO (1985)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA 2: A PRIMEIRA MISSÃO (1985)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4039.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA 4: O CIDADÃO SE DEFENDE (1987)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA 4: O CIDADÃO SE DEFENDE (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4037.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA 5: MISSÃO MIAMI BEACH (1988)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA 5: MISSÃO MIAMI BEACH (1988)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4036.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA 6 (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA 6 (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4035.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍCIA 7: MISSÃO MOSCOU (1994)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍCIA 7: MISSÃO MOSCOU (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4034.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCADEMIA DE POLÍLIA 3: DE VOLTA AO TREINAMENTO (1986)" tvg-logo="n/A" group-title="On Demand: Degustacao",LOUCADEMIA DE POLÍLIA 3: DE VOLTA AO TREINAMENTO (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4038.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LOUCAS PRA CASAR (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3948438.jpg" group-title="On Demand: Degustacao",LOUCAS PRA CASAR (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4033.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LUTADOR DE RUA (1975)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0073092.jpg" group-title="On Demand: Degustacao",LUTADOR DE RUA (1975)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4032.mp4
+#EXTINF:-1 tvg-id="" tvg-name="LUTADOR DE RUA (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0346631.jpg" group-title="On Demand: Degustacao",LUTADOR DE RUA (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4031.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAD MAX (1979)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0079501.jpg" group-title="On Demand: Degustacao",MAD MAX (1979)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4030.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAD MAX 2: A CAÇADA CONTINUA (1981)" tvg-logo="n/A" group-title="On Demand: Degustacao",MAD MAX 2: A CAÇADA CONTINUA (1981)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4029.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAD MAX: ALÉM DA CÚPULA DO DRAGÃO (1985)" tvg-logo="n/A" group-title="On Demand: Degustacao",MAD MAX: ALÉM DA CÚPULA DO DRAGÃO (1985)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4028.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAD MAX: ESTRADA DA FÚRIA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",MAD MAX: ESTRADA DA FÚRIA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4027.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MADAGASCAR (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0351283.jpg" group-title="On Demand: Kids Degustação",MADAGASCAR (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4026.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MADAGASCAR 2: A GRANDE ESCAPADA (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0479952.jpg" group-title="On Demand: Kids Degustação",MADAGASCAR 2: A GRANDE ESCAPADA (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4025.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MADAGASCAR 3: OS PROCURADOS (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1277953.jpg" group-title="On Demand: Kids Degustação",MADAGASCAR 3: OS PROCURADOS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4024.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mãe Só Há Uma (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5452964.jpg" group-title="On Demand: Lancamentos Degustacao",Mãe Só Há Uma (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4702.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAIS ESTRANHO QUE A FICÇÃO  (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",MAIS ESTRANHO QUE A FICÇÃO  (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4023.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mais Forte que o Mundo: A História de José Aldo (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3918584.jpg" group-title="On Demand: Lancamentos Degustacao",Mais Forte que o Mundo: A História de José Aldo (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4683.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Malévola (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1587310.jpg" group-title="On Demand: Degustacao",Malévola (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4567.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Malicia" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0107497.jpg" group-title="On Demand: Degustacao",Malicia
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3635.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MALUCA PAIXÃO (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",MALUCA PAIXÃO (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4022.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Manchester à Beira Mar (2017)" tvg-logo="http://i.imgur.com/SgNZwJw.jpg" group-title="On Demand: Lancamentos Degustacao",Manchester à Beira Mar (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4751.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MÁQUINA MORTÍFERA (1987)" tvg-logo="n/A" group-title="On Demand: Degustacao",MÁQUINA MORTÍFERA (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4021.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MÁQUINA MORTÍFERA 2 (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",MÁQUINA MORTÍFERA 2 (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4020.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MÁQUINA MORTÍFERA 3 (1992)" tvg-logo="n/A" group-title="On Demand: Degustacao",MÁQUINA MORTÍFERA 3 (1992)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4019.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MÁQUINA MORTÍFERA 4 (1998)" tvg-logo="n/A" group-title="On Demand: Degustacao",MÁQUINA MORTÍFERA 4 (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4018.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Marcados Pela Guerra (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2994190.jpg" group-title="On Demand: Degustacao",Marcados Pela Guerra (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4497.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MATA-ME DE PRAZER (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0250468.jpg" group-title="On Demand: Degustacao",MATA-ME DE PRAZER (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4017.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MATA-ME MAIS UMA VEZ (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0250468.jpg" group-title="On Demand: Degustacao",MATA-ME MAIS UMA VEZ (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4016.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Matrix (1999)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0133093.jpg" group-title="On Demand: Degustacao",Matrix (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4506.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Matrix Reloaded (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0234215.jpg" group-title="On Demand: Degustacao",Matrix Reloaded (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4507.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Matrix Revolution (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0242653.jpg" group-title="On Demand: Degustacao",Matrix Revolution (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4508.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Max Steel (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1472584.jpg" group-title="On Demand: Lancamentos Degustacao",Max Steel (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4758.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MAZE RUNNER: CORRER OU MORRER (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1790864.jpg" group-title="On Demand: Degustacao",MAZE RUNNER: CORRER OU MORRER (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4015.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Maze Runner: Prova de Fogo (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4046784.jpg" group-title="On Demand: Degustacao",Maze Runner: Prova de Fogo (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4609.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MCFARLAND; USA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",MCFARLAND; USA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4014.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Menina Ma.com" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0424136.jpg" group-title="On Demand: Degustacao",Menina Ma.com
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3660.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Meninas Malvadas" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0377092.jpg" group-title="On Demand: Degustacao",Meninas Malvadas
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4400.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Meninas Malvadas 2" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1679235.jpg" group-title="On Demand: Degustacao",Meninas Malvadas 2
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4399.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mente Criminosa (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3014866.jpg" group-title="On Demand: Lancamentos Degustacao",Mente Criminosa (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4646.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mercy (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5710042.jpg" group-title="On Demand: Lancamentos Degustacao",Mercy (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4672.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MERGULHO RADICAL (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0378109.jpg" group-title="On Demand: Degustacao",MERGULHO RADICAL (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4013.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Meu Irmao Cego (2015)" tvg-logo="http://i.imgur.com/IZ1b8BA.png" group-title="On Demand: Lancamentos Degustacao",Meu Irmao Cego (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4708.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Meu Malvado Favorito 3 DUB (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3469046.jpg" group-title="On Demand: Lancamentos Degustacao",Meu Malvado Favorito 3 DUB (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5030.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MEU PASSADO ME CONDENA 2 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2450290.jpg" group-title="On Demand: Degustacao",MEU PASSADO ME CONDENA 2 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4012.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MEU PASSADO ME CONDENA: O FILME (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3034258.jpg" group-title="On Demand: Degustacao",MEU PASSADO ME CONDENA: O FILME (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4011.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MIB: HOMENS DE PRETO (1997)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0119654.jpg" group-title="On Demand: Degustacao",MIB: HOMENS DE PRETO (1997)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4010.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MIB: HOMENS DE PRETO 2 (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120912.jpg" group-title="On Demand: Degustacao",MIB: HOMENS DE PRETO 2 (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4009.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MIB: HOMENS DE PRETO 3 (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1409024.jpg" group-title="On Demand: Degustacao",MIB: HOMENS DE PRETO 3 (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4008.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Minha Mãe é Uma Peça 2 (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3212812.jpg" group-title="On Demand: Lancamentos Degustacao",Minha Mãe é Uma Peça 2 (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4719.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Minha Mãe é Uma Peça: O Filme (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2464018.jpg" group-title="On Demand: Degustacao",Minha Mãe é Uma Peça: O Filme (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4574.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MINIONS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2293640.jpg" group-title="On Demand: Kids Degustação",MINIONS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4007.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISSÃO IMPOSSÍVEL (1996)" tvg-logo="n/A" group-title="On Demand: Degustacao",MISSÃO IMPOSSÍVEL (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4006.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISSÃO IMPOSSÍVEL 2 (2000)" tvg-logo="n/A" group-title="On Demand: Degustacao",MISSÃO IMPOSSÍVEL 2 (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4005.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISSÃO IMPOSSÍVEL 3 (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",MISSÃO IMPOSSÍVEL 3 (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4004.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISSÃO IMPOSSÍVEL: NAÇÃO SECRETA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",MISSÃO IMPOSSÍVEL: NAÇÃO SECRETA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4003.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISSÃO IMPOSSÍVEL: PROTOCOLO FANTASMA (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",MISSÃO IMPOSSÍVEL: PROTOCOLO FANTASMA (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4002.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Misterio de Anubis: A Pedra de Ra (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",Misterio de Anubis: A Pedra de Ra (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4512.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MISTRESS AMERICA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2872462.jpg" group-title="On Demand: Degustacao",MISTRESS AMERICA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4001.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Moana: Um Mar de Aventuras (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3521164.jpg" group-title="On Demand: Kids Degustação",Moana: Um Mar de Aventuras (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4731.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mogli:O Menino Lobo (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3521164.jpg" group-title="On Demand: Lancamentos Degustacao",Mogli:O Menino Lobo (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4647.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MOMMY (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3612616.jpg" group-title="On Demand: Degustacao",MOMMY (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4000.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Monster Trucks (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/7247934.jpg" group-title="On Demand: Lancamentos Degustacao",Monster Trucks (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4745.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MORRENDO E APRENDENDO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/7247934.jpg" group-title="On Demand: Degustacao",MORRENDO E APRENDENDO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3999.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MORTE NO FUNERAL (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/7247934.jpg" group-title="On Demand: Degustacao",MORTE NO FUNERAL (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3998.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MOSCOU CONTRA 007 (1963)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0057076.jpg" group-title="On Demand: Degustacao",MOSCOU CONTRA 007 (1963)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3997.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MOTOQUEIRO FANTASMA - ESPÍRITO DE VINGANÇA (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",MOTOQUEIRO FANTASMA - ESPÍRITO DE VINGANÇA (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3995.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MOTOQUEIRO FANTASMA (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0259324.jpg" group-title="On Demand: Degustacao",MOTOQUEIRO FANTASMA (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3996.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MUITA CALMA NESSA HORA (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1781866.jpg" group-title="On Demand: Degustacao",MUITA CALMA NESSA HORA (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3994.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MUITA CALMA NESSA HORA 2 (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2216536.jpg" group-title="On Demand: Degustacao",MUITA CALMA NESSA HORA 2 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3993.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MULAN (1998)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120762.jpg" group-title="On Demand: Kids Degustação",MULAN (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3992.mp4
+#EXTINF:-1 tvg-id="" tvg-name="MULAN 2: A LENDA CONTINUA (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0279967.jpg" group-title="On Demand: Kids Degustação",MULAN 2: A LENDA CONTINUA (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3991.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mulher Maravilha (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Mulher Maravilha (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4429.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mulher Solteira Procura" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0105414.jpg" group-title="On Demand: Degustacao",Mulher Solteira Procura
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3649.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mulher-Maravilha (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0451279.jpg" group-title="On Demand: Lancamentos Degustacao",Mulher-Maravilha (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4916.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Múmia a Ressurreição(2015)" tvg-logo="https://goo.gl/wKEAp1" group-title="On Demand: Lancamentos Degustacao",Múmia a Ressurreição(2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4632.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Mundo Cão (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6450000.jpg" group-title="On Demand: Lancamentos Degustacao",Mundo Cão (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4703.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Na Companhia Do Medo" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0348836.jpg" group-title="On Demand: Degustacao",Na Companhia Do Medo
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3656.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NA TOCA DO TIGRE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2911674.jpg" group-title="On Demand: Degustacao",NA TOCA DO TIGRE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3990.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Namorada de Aluguel (1987)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0092718.jpg" group-title="On Demand: Degustacao",Namorada de Aluguel (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4540.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Não é Mais Um Besteirol Americano (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0092718.jpg" group-title="On Demand: Degustacao",Não é Mais Um Besteirol Americano (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4599.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Não Me Abandone Jamais (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0092718.jpg" group-title="On Demand: Degustacao",Não Me Abandone Jamais (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4600.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Navio Fantasma (2001)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Navio Fantasma (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4498.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NEED FOR SPEED: O FILME (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2369135.jpg" group-title="On Demand: Degustacao",NEED FOR SPEED: O FILME (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3989.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nerve: Um Jogo Sem Regras (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3531824.jpg" group-title="On Demand: Lancamentos Degustacao",Nerve: Um Jogo Sem Regras (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4677.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NINFOMANÍACA: VOLUME 1 (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",NINFOMANÍACA: VOLUME 1 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3988.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NINFOMANÍACA: VOLUME 2 (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",NINFOMANÍACA: VOLUME 2 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3987.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ninguém Entra, Ninguém Sai (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6230488.jpg" group-title="On Demand: Lancamentos Degustacao",Ninguém Entra, Ninguém Sai (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5004.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NINJA ASSASSINO (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",NINJA ASSASSINO (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3986.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NOÉ (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",NOÉ (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3985.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NOITE SEM FIM (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2199571.jpg" group-title="On Demand: Degustacao",NOITE SEM FIM (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3984.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NÓS NUNCA TEREMOS PARIS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",NÓS NUNCA TEREMOS PARIS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3983.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nosso Fiel Traidor (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1995390.jpg" group-title="On Demand: Lancamentos Degustacao",Nosso Fiel Traidor (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4673.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NOSSO LAR (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",NOSSO LAR (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3982.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Nossos Amantes (2017)" tvg-logo="http://i.imgur.com/JhaLfZH.jpg" group-title="On Demand: Lancamentos Degustacao",Nossos Amantes (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4752.mp4
+#EXTINF:-1 tvg-id="" tvg-name="NOVEMBER MAN: UM ESPIÃO NUNCA MORRE (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",NOVEMBER MAN: UM ESPIÃO NUNCA MORRE (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3981.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Albergue  (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",O Albergue  (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4428.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Albergue 2 (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0498353.jpg" group-title="On Demand: Degustacao",O Albergue 2 (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4427.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Albergue 3 (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1255916.jpg" group-title="On Demand: Degustacao",O Albergue 3 (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4426.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O AMOR É CEGO (2002)" tvg-logo="n/A" group-title="On Demand: Degustacao",O AMOR É CEGO (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3980.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Auto da Compadecida (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0197139.jpg" group-title="On Demand: Degustacao",O Auto da Compadecida (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4580.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Aviador (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0197139.jpg" group-title="On Demand: Degustacao",O Aviador (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4541.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O BOM DINOSSAURO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1979388.jpg" group-title="On Demand: Lancamentos Degustacao",O BOM DINOSSAURO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3979.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Bom Gigante Amigo (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3691740.jpg" group-title="On Demand: Lancamentos Degustacao",O Bom Gigante Amigo (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4678.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CANDIDATO HONESTO (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4083076.jpg" group-title="On Demand: Degustacao",O CANDIDATO HONESTO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3978.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CARA PERFEITO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3862750.jpg" group-title="On Demand: Degustacao",O CARA PERFEITO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3977.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CAVALEIRO SOLITÁRIO (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O CAVALEIRO SOLITÁRIO (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3976.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Ceu e de Verdade (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1929263.jpg" group-title="On Demand: Degustacao",O Ceu e de Verdade (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4509.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CHAMADO (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0242092.jpg" group-title="On Demand: Degustacao",O CHAMADO (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3975.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CHAMADO 2 (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0242092.jpg" group-title="On Demand: Degustacao",O CHAMADO 2 (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3974.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Chamado 3 (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0498381.jpg" group-title="On Demand: Lancamentos Degustacao",O Chamado 3 (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4743.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Círculo (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4287320.jpg" group-title="On Demand: Lancamentos Degustacao",O Círculo (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5008.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Codigo Da Vinci" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0382625.jpg" group-title="On Demand: Degustacao",O Codigo Da Vinci
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3655.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Código Da Vinci (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0382625.jpg" group-title="On Demand: Degustacao",O Código Da Vinci (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4557.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Contador (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2140479.jpg" group-title="On Demand: Lancamentos Degustacao",O Contador (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4684.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Contrato" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0445946.jpg" group-title="On Demand: Degustacao",O Contrato
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3659.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CORCUNDA DE NOTRE DAME (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O CORCUNDA DE NOTRE DAME (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3973.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CORCUNDA DE NOTRE DAME 2 (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O CORCUNDA DE NOTRE DAME 2 (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3972.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O CULTO DE CHUCKY (LEG - 2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3280262.jpg" group-title="On Demand: Lancamentos Degustacao",O CULTO DE CHUCKY (LEG - 2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5029.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Demolidor (1993)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0106697.jpg" group-title="On Demand: Degustacao",O Demolidor (1993)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4435.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O DESTINO DE JÚPITER (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",O DESTINO DE JÚPITER (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3971.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Desvio (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1592576.jpg" group-title="On Demand: Degustacao",O Desvio (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4587.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O DOADOR DE MEMÓRIAS (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",O DOADOR DE MEMÓRIAS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3970.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Dragao Chines (1972)" tvg-logo="n/A" group-title="On Demand: Degustacao",O Dragao Chines (1972)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4542.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Dragao do Natal (2016)" tvg-logo="http://i.imgur.com/DaP3SSK.jpg" group-title="On Demand: Lancamentos Degustacao",O Dragao do Natal (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4674.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ENCONTRO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3534602.jpg" group-title="On Demand: Degustacao",O ENCONTRO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3969.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ESPETACULAR HOMEM-ARANHA (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O ESPETACULAR HOMEM-ARANHA (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3968.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ESPETACULAR HOMEM-ARANHA 2: A AMEAÇA DE ELECTRO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ESPETACULAR HOMEM-ARANHA 2: A AMEAÇA DE ELECTRO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3967.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Exorcismo de Anna Ecklund (2017)" tvg-logo="http://i.imgur.com/nxLKWNi.jpg" group-title="On Demand: Lancamentos Degustacao",O Exorcismo de Anna Ecklund (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4732.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXORCISMO DE EMILY ROSE (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0404032.jpg" group-title="On Demand: Degustacao",O EXORCISMO DE EMILY ROSE (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3966.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXORCISTA - O INÍCIO (2004)" tvg-logo="n/A" group-title="On Demand: Degustacao",O EXORCISTA - O INÍCIO (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3964.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXORCISTA (1974)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0072019.jpg" group-title="On Demand: Degustacao",O EXORCISTA (1974)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3965.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXPRESSO POLAR (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0338348.jpg" group-title="On Demand: Degustacao",O EXPRESSO POLAR (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3963.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXTERMINADOR DO FUTURO (1985)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O EXTERMINADOR DO FUTURO (1985)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3962.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXTERMINADOR DO FUTURO 2: O JULGAMENTO FINAL (1991)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0103064.jpg" group-title="On Demand: Degustacao",O EXTERMINADOR DO FUTURO 2: O JULGAMENTO FINAL (1991)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3961.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXTERMINADOR DO FUTURO 3: A REBELIÃO DAS MÁQUINAS (2003)" tvg-logo="n/A" group-title="On Demand: Degustacao",O EXTERMINADOR DO FUTURO 3: A REBELIÃO DAS MÁQUINAS (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3960.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXTERMINADOR DO FUTURO: A SALVAÇÃO (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",O EXTERMINADOR DO FUTURO: A SALVAÇÃO (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3959.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O EXTERMINADOR DO FUTURO: GÊNESIS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",O EXTERMINADOR DO FUTURO: GÊNESIS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3958.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O FILHO DE CHUCKY (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0387575.jpg" group-title="On Demand: Degustacao",O FILHO DE CHUCKY (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3957.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O FINAL DA TURNÊ (2016)" tvg-logo="n/A" group-title="On Demand: Lancamentos Degustacao",O FINAL DA TURNÊ (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3956.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O GAROTO DA CASA AO LADO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3181822.jpg" group-title="On Demand: Degustacao",O GAROTO DA CASA AO LADO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3955.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O GRANDE MESTRE (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O GRANDE MESTRE (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3954.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O GRANDE MESTRE 2 (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1386932.jpg" group-title="On Demand: Degustacao",O GRANDE MESTRE 2 (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3953.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Grande Mestre 3 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2888046.jpg" group-title="On Demand: Lancamentos Degustacao",O Grande Mestre 3 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4624.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOBBIT: A BATALHA DOS CINCO EXÉRCITOS (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",O HOBBIT: A BATALHA DOS CINCO EXÉRCITOS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3952.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOBBIT: A DESOLAÇÃO DE SMAUG (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O HOBBIT: A DESOLAÇÃO DE SMAUG (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3951.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOBBIT: UMA JORNADA INESPERADA (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0903624.jpg" group-title="On Demand: Degustacao",O HOBBIT: UMA JORNADA INESPERADA (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3950.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOMEM DA MÁSCARA DE FERRO (1998)" tvg-logo="n/A" group-title="On Demand: Degustacao",O HOMEM DA MÁSCARA DE FERRO (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3949.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOMEM DE AÇO (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O HOMEM DE AÇO (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3948.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O HOMEM QUE MUDOU O JOGO (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",O HOMEM QUE MUDOU O JOGO (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3947.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O INCRÍVEL HULK (2008)" tvg-logo="n/A" group-title="On Demand: Degustacao",O INCRÍVEL HULK (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3946.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O JARDIM DOS ESCOLHIDOS (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",O JARDIM DOS ESCOLHIDOS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3945.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Lar das Crianças Peculiares (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1935859.jpg" group-title="On Demand: Lancamentos Degustacao",O Lar das Crianças Peculiares (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4685.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O LEGADO BOURNE (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1194173.jpg" group-title="On Demand: Degustacao",O LEGADO BOURNE (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3944.mp4
+#EXTINF:-1 tvg-id="" tvg-name="o Lobo Solitario (1983)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0085862.jpg" group-title="On Demand: Degustacao",o Lobo Solitario (1983)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4560.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O LUTADOR (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0085862.jpg" group-title="On Demand: Degustacao",O LUTADOR (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3943.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MÁSKARA (1994)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MÁSKARA (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3942.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA (1987)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3941.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA (2003)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3940.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA 3 (1990)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA 3 (1990)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3939.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA 3D: A LENDA CONTINUA (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA 3D: A LENDA CONTINUA (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3938.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA PARTE 2 (1986)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA PARTE 2 (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3937.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA: O INÍCIO (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA: O INÍCIO (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3936.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MASSACRE DA SERRA ELÉTRICA: O RETORNO (1995)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MASSACRE DA SERRA ELÉTRICA: O RETORNO (1995)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3935.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MESTRE DOS BRINQUEDOS (1991)" tvg-logo="n/A" group-title="On Demand: Degustacao",O MESTRE DOS BRINQUEDOS (1991)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3934.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Mestre dos Gênios (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1703957.jpg" group-title="On Demand: Lancamentos Degustacao",O Mestre dos Gênios (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4679.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MESTRE DOS JOGOS (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3444184.jpg" group-title="On Demand: Degustacao",O MESTRE DOS JOGOS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3933.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MESTRE DOS JOGOS 2 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4310772.jpg" group-title="On Demand: Degustacao",O MESTRE DOS JOGOS 2 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3932.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MISTERIOSO CASO DE JUDITH WINSTEAD (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3280916.jpg" group-title="On Demand: Degustacao",O MISTERIOSO CASO DE JUDITH WINSTEAD (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3931.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Monstro no Armário (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3638396.jpg" group-title="On Demand: Lancamentos Degustacao",O Monstro no Armário (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4733.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O MUNDO PERDIDO - JURASSIC PARK (1997)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0119567.jpg" group-title="On Demand: Degustacao",O MUNDO PERDIDO - JURASSIC PARK (1997)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3930.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O NATAL DOS PADRINHOS MÁGICOS (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O NATAL DOS PADRINHOS MÁGICOS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3929.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O NEVOEIRO (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0884328.jpg" group-title="On Demand: Degustacao",O NEVOEIRO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3928.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Nome do Jogo (1995)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0113161.jpg" group-title="On Demand: Degustacao",O Nome do Jogo (1995)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4561.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O NOVO PESADELO - O RETORNO DE FREDDY KRUEGER (1994)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0111686.jpg" group-title="On Demand: Degustacao",O NOVO PESADELO - O RETORNO DE FREDDY KRUEGER (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3927.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Olho do Mal (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0406759.jpg" group-title="On Demand: Degustacao",O Olho do Mal (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4589.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O PEQUENO PRÍNCIPE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1754656.jpg" group-title="On Demand: Kids Degustação",O PEQUENO PRÍNCIPE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3926.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O PLANETA DOS MACACOS (1968)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O PLANETA DOS MACACOS (1968)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3925.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Poderoso Chefão (1972)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O Poderoso Chefão (1972)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4456.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Poderoso Chefão 2 (1974)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O Poderoso Chefão 2 (1974)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4455.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Poderoso Chefão 3 (1990)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O Poderoso Chefão 3 (1990)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4454.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O PRESENTE (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5426522.jpg" group-title="On Demand: Lancamentos Degustacao",O PRESENTE (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3924.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Professor Aloprado (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0117218.jpg" group-title="On Demand: Degustacao",O Professor Aloprado (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4433.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Professor Aloprado 2: A Família Klump  (200)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0117218.jpg" group-title="On Demand: Degustacao",O Professor Aloprado 2: A Família Klump  (200)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4432.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Programa (2015)" tvg-logo="http://i.imgur.com/iNllxkO.jpg" group-title="On Demand: Lancamentos Degustacao",O Programa (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4680.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O QUE SERÁ DE NOZES? (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",O QUE SERÁ DE NOZES? (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3923.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O REI LEÃO (1994)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0110357.jpg" group-title="On Demand: Kids Degustação",O REI LEÃO (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3922.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O REI LEÃO 2: O REINO DE SIMBA (1998)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120131.jpg" group-title="On Demand: Kids Degustação",O REI LEÃO 2: O REINO DE SIMBA (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3921.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O REI LEÃO 3: HAKUNA MATATA (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0318403.jpg" group-title="On Demand: Kids Degustação",O REI LEÃO 3: HAKUNA MATATA (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3920.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O RETORNO DA MÚMIA (2001)" tvg-logo="n/A" group-title="On Demand: Degustacao",O RETORNO DA MÚMIA (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3919.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O RETRATO DE DORIAN GRAY (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",O RETRATO DE DORIAN GRAY (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3918.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O RITUAL (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1161864.jpg" group-title="On Demand: Degustacao",O RITUAL (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3917.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Ritual (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1745958.jpg" group-title="On Demand: Degustacao",O Ritual (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3661.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Roubo da Taça (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5519250.jpg" group-title="On Demand: Lancamentos Degustacao",O Roubo da Taça (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4693.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SEGREDO DA BORBOLETA (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5519250.jpg" group-title="On Demand: Degustacao",O SEGREDO DA BORBOLETA (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3916.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SENHOR DOS ANÉIS: A SOCIEDADE DO ANEL (2001)" tvg-logo="n/A" group-title="On Demand: Degustacao",O SENHOR DOS ANÉIS: A SOCIEDADE DO ANEL (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3915.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SENHOR DOS ANÉIS: AS DUAS TORRES (2002)" tvg-logo="n/A" group-title="On Demand: Degustacao",O SENHOR DOS ANÉIS: AS DUAS TORRES (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3914.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SENHOR DOS ANÉIS: O RETORNO DO REI (2003)" tvg-logo="n/A" group-title="On Demand: Degustacao",O SENHOR DOS ANÉIS: O RETORNO DO REI (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3913.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SÉTIMO FILHO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",O SÉTIMO FILHO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3912.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Shaolin do Sertão (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5786508.jpg" group-title="On Demand: Lancamentos Degustacao",O Shaolin do Sertão (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4715.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O SILÊNCIO DOS INOCENTES (1991)" tvg-logo="n/A" group-title="On Demand: Degustacao",O SILÊNCIO DOS INOCENTES (1991)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3911.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Tigre e o Dragão: A Espada do Destino (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2652118.jpg" group-title="On Demand: Lancamentos Degustacao",O Tigre e o Dragão: A Espada do Destino (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4623.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ULTIMATO BOURNE (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0440963.jpg" group-title="On Demand: Degustacao",O ULTIMATO BOURNE (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3910.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ÚLTIMO CAÇADOR DE BRUXAS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ÚLTIMO CAÇADOR DE BRUXAS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3909.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ÚLTIMO DOS MOICANOS (1992)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ÚLTIMO DOS MOICANOS (1992)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3908.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ÚLTIMO EXORCISMO (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ÚLTIMO EXORCISMO (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3907.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ÚLTIMO EXORCISMO: PARTE II (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ÚLTIMO EXORCISMO: PARTE II (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3906.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O ÚLTIMO MESTRE DO AR (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",O ÚLTIMO MESTRE DO AR (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3905.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Vendedor de Sonhos (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5496926.jpg" group-title="On Demand: Lancamentos Degustacao",O Vendedor de Sonhos (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5007.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O VIZINHO (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0947802.jpg" group-title="On Demand: Degustacao",O VIZINHO (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3904.mp4
+#EXTINF:-1 tvg-id="" tvg-name="O Zelador Animal (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1222817.jpg" group-title="On Demand: Degustacao",O Zelador Animal (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4439.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OLHOS FAMINTOS (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1222817.jpg" group-title="On Demand: Degustacao",OLHOS FAMINTOS (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3903.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OLHOS FAMINTOS 2 (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0301470.jpg" group-title="On Demand: Degustacao",OLHOS FAMINTOS 2 (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3902.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OLIVER TWIST (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0380599.jpg" group-title="On Demand: Degustacao",OLIVER TWIST (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3901.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ONDE NASCE A ESPERANÇA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",ONDE NASCE A ESPERANÇA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3900.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ONG BAK 2: O GUERREIRO SAGRADO VOLTOU (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",ONG BAK 2: O GUERREIRO SAGRADO VOLTOU (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3899.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ONG BAK 3 (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1653690.jpg" group-title="On Demand: Degustacao",ONG BAK 3 (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3898.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ONG BAK: GUERREIRO SAGRADO (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0368909.jpg" group-title="On Demand: Degustacao",ONG BAK: GUERREIRO SAGRADO (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3897.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OPERAÇÕES ESPECIAIS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",OPERAÇÕES ESPECIAIS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3896.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os 101 Dalmatas (1996)" tvg-logo="http://i.imgur.com/PQaikK4.jpg" group-title="On Demand: Kids Degustação",Os 101 Dalmatas (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4504.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os 102 Dalmatas (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0211181.jpg" group-title="On Demand: Degustacao",Os 102 Dalmatas (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4544.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os 12 Macacos (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0211181.jpg" group-title="On Demand: Degustacao",Os 12 Macacos (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4453.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS 33 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",OS 33 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3895.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS BAD BOYS (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",OS BAD BOYS (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3894.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Caca-Fantasmas (1984)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0087332.jpg" group-title="On Demand: Degustacao",Os Caca-Fantasmas (1984)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4514.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Caca-Fantasmas 2 (1989)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0097428.jpg" group-title="On Demand: Degustacao",Os Caca-Fantasmas 2 (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4515.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Cacadores (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5725894.jpg" group-title="On Demand: Lancamentos Degustacao",Os Cacadores (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4658.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS CARAS DE PAU EM O MISTERIOSO ROUBO DO ANEL (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4320900.jpg" group-title="On Demand: Degustacao",OS CARAS DE PAU EM O MISTERIOSO ROUBO DO ANEL (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3893.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS CAVALEIROS DO ZODÍACO: A LENDA DO SANTUÁRIO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS CAVALEIROS DO ZODÍACO: A LENDA DO SANTUÁRIO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3892.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS CONDENADOS (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0201533.jpg" group-title="On Demand: Degustacao",OS CONDENADOS (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3891.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS CONDENADOS 2 (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0201533.jpg" group-title="On Demand: Lancamentos Degustacao",OS CONDENADOS 2 (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3890.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS CROODS (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0481499.jpg" group-title="On Demand: Degustacao",OS CROODS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3889.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS DESCARTADOS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",OS DESCARTADOS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3888.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Dez Mandamentos: O Filme (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5431016.jpg" group-title="On Demand: Lancamentos Degustacao",Os Dez Mandamentos: O Filme (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4631.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS ESPECIALISTAS (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1448755.jpg" group-title="On Demand: Degustacao",OS ESPECIALISTAS (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3887.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS ESPÍRITOS (1996)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS ESPÍRITOS (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3886.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS INFILTRADOS (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",OS INFILTRADOS (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3885.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS MENINOS QUE ENGANAVAM NAZISTAS (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5091612.jpg" group-title="On Demand: Lancamentos Degustacao",OS MENINOS QUE ENGANAVAM NAZISTAS (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5022.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS MERCENÁRIOS (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS MERCENÁRIOS (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3884.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS MERCENÁRIOS 2 (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS MERCENÁRIOS 2 (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3883.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS MERCENÁRIOS 3 (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS MERCENÁRIOS 3 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3882.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Normais: O Filme (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0351459.jpg" group-title="On Demand: Degustacao",Os Normais: O Filme (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4601.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Penetras (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0452664.jpg" group-title="On Demand: Degustacao",Os Penetras (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4602.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS PINGUINS DO PAPAI (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1396218.jpg" group-title="On Demand: Degustacao",OS PINGUINS DO PAPAI (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3881.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS SMURFS (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0472181.jpg" group-title="On Demand: Degustacao",OS SMURFS (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3880.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS SMURFS 2 (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2017020.jpg" group-title="On Demand: Degustacao",OS SMURFS 2 (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3879.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Os Smurfs e a Vila Perdida (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2398241.jpg" group-title="On Demand: Lancamentos Degustacao",Os Smurfs e a Vila Perdida (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4763.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS TRÊS MOSQUETEIROS (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS TRÊS MOSQUETEIROS (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3878.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS ÚLTIMOS CAVALEIROS (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS ÚLTIMOS CAVALEIROS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3877.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS ÚLTIMOS MACHÕES (1976)" tvg-logo="n/A" group-title="On Demand: Degustacao",OS ÚLTIMOS MACHÕES (1976)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3876.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OS VINGADORES: THE AVENGERS (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0848228.jpg" group-title="On Demand: Degustacao",OS VINGADORES: THE AVENGERS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3875.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OUIJA: A RESSUREIÇÃO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",OUIJA: A RESSUREIÇÃO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3874.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ouija: Exorcismo (2016)" tvg-logo="http://i.imgur.com/YQBz1j3.jpg" group-title="On Demand: Lancamentos Degustacao",Ouija: Exorcismo (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4709.mp4
+#EXTINF:-1 tvg-id="" tvg-name="OUIJA: O JOGO DOS ESPÍRITOS (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",OUIJA: O JOGO DOS ESPÍRITOS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3873.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ouija: Onde Tudo Comecou (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2364842.jpg" group-title="On Demand: Degustacao",Ouija: Onde Tudo Comecou (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4568.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Ouija: Origem Do Mal (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4361050.jpg" group-title="On Demand: Lancamentos Degustacao",Ouija: Origem Do Mal (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4729.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PACTO MALIGNO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4361050.jpg" group-title="On Demand: Degustacao",PACTO MALIGNO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3872.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PACTO SECRETO (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1232783.jpg" group-title="On Demand: Degustacao",PACTO SECRETO (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3871.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PAGUE PARA ENTRAR; REZE PARA SAIR (1981)" tvg-logo="n/A" group-title="On Demand: Degustacao",PAGUE PARA ENTRAR; REZE PARA SAIR (1981)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3870.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PAIXÃO OBSESSIVA (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3462710.jpg" group-title="On Demand: Lancamentos Degustacao",PAIXÃO OBSESSIVA (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5023.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pandora (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6302160.jpg" group-title="On Demand: Lancamentos Degustacao",Pandora (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4735.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PÂNICO (1997)" tvg-logo="n/A" group-title="On Demand: Degustacao",PÂNICO (1997)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3869.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PÂNICO 2 (1999)" tvg-logo="n/A" group-title="On Demand: Degustacao",PÂNICO 2 (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3868.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PÂNICO 3 (2000)" tvg-logo="n/A" group-title="On Demand: Degustacao",PÂNICO 3 (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3867.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PÂNICO 4 (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",PÂNICO 4 (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3866.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PARA SEMPRE ALICE (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",PARA SEMPRE ALICE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3865.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PARAÍSOS ARTIFICIAIS (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",PARAÍSOS ARTIFICIAIS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3864.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Passageiros (2016)" tvg-logo="http://i.imgur.com/xRGAw6m.jpg" group-title="On Demand: Lancamentos Degustacao",Passageiros (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4734.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PATCH ADAMS: O AMOR É CONTAGIOSO (1998)" tvg-logo="n/A" group-title="On Demand: Degustacao",PATCH ADAMS: O AMOR É CONTAGIOSO (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3863.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PEGANDO FOGO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2503944.jpg" group-title="On Demand: Degustacao",PEGANDO FOGO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3862.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Peles (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2503944.jpg" group-title="On Demand: Lancamentos Degustacao",Peles (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4753.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PEQUENOS GUERREIROS (1998)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0122718.jpg" group-title="On Demand: Degustacao",PEQUENOS GUERREIROS (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3861.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERCY JACKSON E O LADRÃO DE RAIOS (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",PERCY JACKSON E O LADRÃO DE RAIOS (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3860.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERCY JACKSON E O MAR DE MONSTROS (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1854564.jpg" group-title="On Demand: Degustacao",PERCY JACKSON E O MAR DE MONSTROS (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3859.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERDIDO EM MARTE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3659388.jpg" group-title="On Demand: Degustacao",PERDIDO EM MARTE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3858.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Perfeita e a Mae (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4651520.jpg" group-title="On Demand: Lancamentos Degustacao",Perfeita e a Mae (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4669.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERIGO EXTREMO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4651520.jpg" group-title="On Demand: Degustacao",PERIGO EXTREMO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3857.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERSEGUIÇÃO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",PERSEGUIÇÃO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3856.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERSEGUIÇÃO (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6601072.jpg" group-title="On Demand: Lancamentos Degustacao",PERSEGUIÇÃO (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3855.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PERSEGUIÇÃO MORTAL (1981)" tvg-logo="n/A" group-title="On Demand: Degustacao",PERSEGUIÇÃO MORTAL (1981)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3854.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pets: A Vida Secreta dos Bichos (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2709768.jpg" group-title="On Demand: Lancamentos Degustacao",Pets: A Vida Secreta dos Bichos (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4652.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIRATAS DA INFORMÁTICA / PIRATAS DO VALE DO SILÍCIO (1999)" tvg-logo="n/A" group-title="On Demand: Degustacao",PIRATAS DA INFORMÁTICA / PIRATAS DO VALE DO SILÍCIO (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3853.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIRATAS DO CARIBE: A MALDIÇÃO DO PÉROLA NEGRA (2003)" tvg-logo="n/A" group-title="On Demand: Degustacao",PIRATAS DO CARIBE: A MALDIÇÃO DO PÉROLA NEGRA (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3852.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Piratas do Caribe: A Vingança de Salazar (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1790809.jpg" group-title="On Demand: Lancamentos Degustacao",Piratas do Caribe: A Vingança de Salazar (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5002.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIRATAS DO CARIBE: NAVEGANDO EM ÁGUAS MISTERIOSAS (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",PIRATAS DO CARIBE: NAVEGANDO EM ÁGUAS MISTERIOSAS (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3851.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIRATAS DO CARIBE: NO FIM DO MUNDO (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0449088.jpg" group-title="On Demand: Degustacao",PIRATAS DO CARIBE: NO FIM DO MUNDO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3850.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIRATAS DO CARIBE: O BAÚ DA MORTE (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",PIRATAS DO CARIBE: O BAÚ DA MORTE (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3849.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PIXELS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2120120.jpg" group-title="On Demand: Kids Degustação",PIXELS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3848.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PLANETA DOS MACACOS (2001)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",PLANETA DOS MACACOS (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3847.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Planeta dos Macacos: A Guerra (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3450958.jpg" group-title="On Demand: Lancamentos Degustacao",Planeta dos Macacos: A Guerra (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5028.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PLANETA DOS MACACOS: A ORIGEM (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1318514.jpg" group-title="On Demand: Degustacao",PLANETA DOS MACACOS: A ORIGEM (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3846.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PLANETA DOS MACACOS: O CONFRONTO (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2103281.jpg" group-title="On Demand: Degustacao",PLANETA DOS MACACOS: O CONFRONTO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3845.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon Branco: Victini e Zekrom (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1739212.jpg" group-title="On Demand: Degustacao",Pokémon Branco: Victini e Zekrom (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4547.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon Preto: Victini e Reshiram (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1961324.jpg" group-title="On Demand: Degustacao",Pokémon Preto: Victini e Reshiram (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4548.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon: Diancie e o Casulo da Destruicao (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3918368.jpg" group-title="On Demand: Degustacao",Pokémon: Diancie e o Casulo da Destruicao (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4551.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon: Genesect e a Lenda Revelada (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3257582.jpg" group-title="On Demand: Degustacao",Pokémon: Genesect e a Lenda Revelada (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4550.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon: Hoopa e o Duelo Lendário (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4503906.jpg" group-title="On Demand: Degustacao",Pokémon: Hoopa e o Duelo Lendário (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4552.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Pokémon: Kyurem contra a Espada da Justiça (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2549540.jpg" group-title="On Demand: Degustacao",Pokémon: Kyurem contra a Espada da Justiça (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4549.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PONTE DOS ESPIÕES (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",PONTE DOS ESPIÕES (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3844.mp4
+#EXTINF:-1 tvg-id="" tvg-name="POR AMOR OU POR DINHEIRO (1993)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0106941.jpg" group-title="On Demand: Degustacao",POR AMOR OU POR DINHEIRO (1993)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3843.mp4
+#EXTINF:-1 tvg-id="" tvg-name="POR UM PUNHADO DE DÓLARES (1966)" tvg-logo="n/A" group-title="On Demand: Degustacao",POR UM PUNHADO DE DÓLARES (1966)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3842.mp4
+#EXTINF:-1 tvg-id="" tvg-name="POR UNS DÓLARES A MAIS (1965)" tvg-logo="n/A" group-title="On Demand: Degustacao",POR UNS DÓLARES A MAIS (1965)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3841.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Porta dos Fundos: Contrato Vitalício (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5708172.jpg" group-title="On Demand: Lancamentos Degustacao",Porta dos Fundos: Contrato Vitalício (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4694.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Power Rangers (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3717490.jpg" group-title="On Demand: Lancamentos Degustacao",Power Rangers (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4761.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PPREMONIÇÃO 5 (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",PPREMONIÇÃO 5 (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3836.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PREMONIÇÃO (2000)" tvg-logo="n/A" group-title="On Demand: Degustacao",PREMONIÇÃO (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3840.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PREMONIÇÃO 2 (2003)" tvg-logo="n/A" group-title="On Demand: Degustacao",PREMONIÇÃO 2 (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3839.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PREMONIÇÃO 3 (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",PREMONIÇÃO 3 (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3838.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PREMONIÇÃO 4 (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",PREMONIÇÃO 4 (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3837.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PRIMAVERA (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",PRIMAVERA (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3835.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PRIMEIRO MATARAM O MEU PAI (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4882376.jpg" group-title="On Demand: Lancamentos Degustacao",PRIMEIRO MATARAM O MEU PAI (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5020.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PRIMITIVO (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0808096.jpg" group-title="On Demand: Degustacao",PRIMITIVO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3834.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PRISIONEIROS DO HOLOCAUSTO (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0808096.jpg" group-title="On Demand: Degustacao",PRISIONEIROS DO HOLOCAUSTO (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3833.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Procurando Dory (2015)" tvg-logo="http://i.imgur.com/xVJ2D3J.jpg" group-title="On Demand: Kids Degustação",Procurando Dory (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4659.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PROJETO ALMANAQUE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2436386.jpg" group-title="On Demand: Degustacao",PROJETO ALMANAQUE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3832.mp4
+#EXTINF:-1 tvg-id="" tvg-name="PROMETHEUS (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1446714.jpg" group-title="On Demand: Degustacao",PROMETHEUS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3831.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Qualquer Gato Vira-Lata (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1730133.jpg" group-title="On Demand: Degustacao",Qualquer Gato Vira-Lata (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4581.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Qualquer Gato Vira-Lata 2 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4657092.jpg" group-title="On Demand: Degustacao",Qualquer Gato Vira-Lata 2 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4614.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Quando as Luzes se Apagam (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4786282.jpg" group-title="On Demand: Lancamentos Degustacao",Quando as Luzes se Apagam (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4665.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Quando um Estranho Chama" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0455857.jpg" group-title="On Demand: Degustacao",Quando um Estranho Chama
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3648.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Quarentena" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1082868.jpg" group-title="On Demand: Degustacao",Quarentena
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3644.mp4
+#EXTINF:-1 tvg-id="" tvg-name="QUARTETO FANTÁSTICO (2005)" tvg-logo="n/A" group-title="On Demand: Degustacao",QUARTETO FANTÁSTICO (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3830.mp4
+#EXTINF:-1 tvg-id="" tvg-name="QUARTETO FANTÁSTICO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",QUARTETO FANTÁSTICO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3829.mp4
+#EXTINF:-1 tvg-id="" tvg-name="QUARTETO FANTÁSTICO E O SURFISTA PRATEADO (2007)" tvg-logo="n/A" group-title="On Demand: Degustacao",QUARTETO FANTÁSTICO E O SURFISTA PRATEADO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3828.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Quatro Vidas de Um Cachorro (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1753383.jpg" group-title="On Demand: Lancamentos Degustacao",Quatro Vidas de Um Cachorro (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4764.mp4
+#EXTINF:-1 tvg-id="" tvg-name="QUE HORAS ELA VOLTA? (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3742378.jpg" group-title="On Demand: Degustacao",QUE HORAS ELA VOLTA? (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3827.mp4
+#EXTINF:-1 tvg-id="" tvg-name="QUESTÃO DE TEMPO (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",QUESTÃO DE TEMPO (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3826.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RAFINHA BASTOS: A ARTE DO INSULTO (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3952760.jpg" group-title="On Demand: Degustacao",RAFINHA BASTOS: A ARTE DO INSULTO (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3825.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RASTROS DE ÓDIO (1956)" tvg-logo="n/A" group-title="On Demand: Degustacao",RASTROS DE ÓDIO (1956)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3824.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Red Corner" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0119994.jpg" group-title="On Demand: Degustacao",Red Corner
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3651.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Refém (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0340163.jpg" group-title="On Demand: Degustacao",Refém (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4438.mp4
+#EXTINF:-1 tvg-id="" tvg-name="REGRESSO DO MAL (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1524575.jpg" group-title="On Demand: Lancamentos Degustacao",REGRESSO DO MAL (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3823.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RELATOS SELVAGENS (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3011894.jpg" group-title="On Demand: Degustacao",RELATOS SELVAGENS (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3822.mp4
+#EXTINF:-1 tvg-id="" tvg-name="REMANESCENTE: ESQUECIDOS POR DEUS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3011894.jpg" group-title="On Demand: Degustacao",REMANESCENTE: ESQUECIDOS POR DEUS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3821.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Resgate Suicida (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4382872.jpg" group-title="On Demand: Lancamentos Degustacao",Resgate Suicida (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4744.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL 3: A EXTINÇÃO (2007)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL 3: A EXTINÇÃO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3820.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL 4: RECOMEÇO (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL 4: RECOMEÇO (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3819.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL 5: RETRIBUIÇÃO (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL 5: RETRIBUIÇÃO (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3818.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Resident Evil 6: O Capítulo Final (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2592614.jpg" group-title="On Demand: Lancamentos Degustacao",Resident Evil 6: O Capítulo Final (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4759.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Resident Evil: A Vingança (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5776208.jpg" group-title="On Demand: Lancamentos Degustacao",Resident Evil: A Vingança (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5005.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL: APOCALIPSE (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0318627.jpg" group-title="On Demand: Degustacao",RESIDENT EVIL: APOCALIPSE (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3817.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL: CONDENAÇÃO (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL: CONDENAÇÃO (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3816.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL: DEGENERAÇÃO (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL: DEGENERAÇÃO (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3815.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESIDENT EVIL: O HÓSPEDE MALDITO (2002)" tvg-logo="n/A" group-title="On Demand: Degustacao",RESIDENT EVIL: O HÓSPEDE MALDITO (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3814.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RESULTADOS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3824412.jpg" group-title="On Demand: Degustacao",RESULTADOS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3813.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Reza a Lenda (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5026038.jpg" group-title="On Demand: Lancamentos Degustacao",Reza a Lenda (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4696.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Rio (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1436562.jpg" group-title="On Demand: Degustacao",Rio (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4575.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Rio 2 (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2357291.jpg" group-title="On Demand: Degustacao",Rio 2 (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4576.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RIO; EU TE AMO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",RIO; EU TE AMO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3812.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Rios Vermelhos" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0228786.jpg" group-title="On Demand: Degustacao",Rios Vermelhos
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3654.mp4
+#EXTINF:-1 tvg-id="" tvg-name="RITMO DE UM SONHO (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0410097.jpg" group-title="On Demand: Degustacao",RITMO DE UM SONHO (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3811.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROBOCOP (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1234721.jpg" group-title="On Demand: Degustacao",ROBOCOP (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3810.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROBOCOP 2 (1990)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0100502.jpg" group-title="On Demand: Degustacao",ROBOCOP 2 (1990)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3809.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROBOCOP 3 (1994)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",ROBOCOP 3 (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3808.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROBOCOP: O POLICIAL DO FUTURO (1987)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0093870.jpg" group-title="On Demand: Degustacao",ROBOCOP: O POLICIAL DO FUTURO (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3807.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY 2: A REVANCHE (1979)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0079817.jpg" group-title="On Demand: Degustacao",ROCKY 2: A REVANCHE (1979)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3806.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY 3: O DESAFIO SUPREMO (1982)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0084602.jpg" group-title="On Demand: Degustacao",ROCKY 3: O DESAFIO SUPREMO (1982)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3805.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY 4 (1986)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0084602.jpg" group-title="On Demand: Degustacao",ROCKY 4 (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3804.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY 5 (1990)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0100507.jpg" group-title="On Demand: Degustacao",ROCKY 5 (1990)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3803.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY BALBOA (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0479143.jpg" group-title="On Demand: Degustacao",ROCKY BALBOA (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3802.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ROCKY; UM LUTADOR (1977)" tvg-logo="n/A" group-title="On Demand: Degustacao",ROCKY; UM LUTADOR (1977)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3801.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Rogue One: Uma História Star Wars (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3748528.jpg" group-title="On Demand: Lancamentos Degustacao",Rogue One: Uma História Star Wars (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4692.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Romeu e Julieta (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2428892.jpg" group-title="On Demand: Degustacao",Romeu e Julieta (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4437.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sacrifício (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6109956.jpg" group-title="On Demand: Lancamentos Degustacao",Sacrifício (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4725.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SAFÁRI NA ÁFRICA (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",SAFÁRI NA ÁFRICA (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3800.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sahara (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4466894.jpg" group-title="On Demand: Lancamentos Degustacao",Sahara (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4767.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SAMBA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SAMBA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3799.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SAMURAI X (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1979319.jpg" group-title="On Demand: Degustacao",SAMURAI X (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3798.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SAMURAI X 2: O INFERNO DE KYOTO (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3029558.jpg" group-title="On Demand: Degustacao",SAMURAI X 2: O INFERNO DE KYOTO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3797.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SAMURAI X: O FIM DE UMA LENDA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3029558.jpg" group-title="On Demand: Degustacao",SAMURAI X: O FIM DE UMA LENDA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3796.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sandy Wexler (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5893332.jpg" group-title="On Demand: Lancamentos Degustacao",Sandy Wexler (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4754.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sangue Azul (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5893332.jpg" group-title="On Demand: Degustacao",Sangue Azul (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4590.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Scooby-Doo (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0267913.jpg" group-title="On Demand: Kids Degustação",Scooby-Doo (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4436.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Scooby-Doo 2: Monstros à Solta (2004)" tvg-logo="http://1.bp.blogspot.com/-zO1qkO724UY/VGo6ivZsjRI/AAAAAAAALZ8/pSyzVoIK544/s1600/scob2.jpg" group-title="On Demand: Kids Degustação",Scooby-Doo 2: Monstros à Solta (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4446.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Scooby-Doo! e a Maldição do Monstro do Lago (2011)" tvg-logo="http://3.bp.blogspot.com/-Ml0Bm8UsDhg/TXOy-dK0e3I/AAAAAAAACMA/XkfU-2ViZvw/s400/Scooby-Doo%2521+A+Maldi%25C3%25A7%25C3%25A3o+do+Monstro+do+Lago.jpg" group-title="On Demand: Kids Degustação",Scooby-Doo! e a Maldição do Monstro do Lago (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4444.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Scooby-Doo!: O Mistério Começa (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1258157.jpg" group-title="On Demand: Kids Degustação",Scooby-Doo!: O Mistério Começa (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4445.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SE BEBER; NÃO CASE! (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",SE BEBER; NÃO CASE! (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3795.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SE BEBER; NÃO CASE! PARTE II (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",SE BEBER; NÃO CASE! PARTE II (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3794.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SE BEBER; NÃO CASE! PARTE III (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",SE BEBER; NÃO CASE! PARTE III (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3793.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEA REX: JORNADA A UM MUNDO PRÉ-HISTÓRICO (2010)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEA REX: JORNADA A UM MUNDO PRÉ-HISTÓRICO (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3792.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Segundas Intencoes 3" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0391891.jpg" group-title="On Demand: Degustacao",Segundas Intencoes 3
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3657.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEGUNDOS FATAIS: BLACK HAWK DOWN (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0391891.jpg" group-title="On Demand: Degustacao",SEGUNDOS FATAIS: BLACK HAWK DOWN (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3791.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEM ATIVIDADE PARANORMAL (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0391891.jpg" group-title="On Demand: Degustacao",SEM ATIVIDADE PARANORMAL (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3790.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEM DIREITO A RESGATE (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0391891.jpg" group-title="On Demand: Degustacao",SEM DIREITO A RESGATE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3789.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEM LEI E SEM ALMA (1957)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0050468.jpg" group-title="On Demand: Degustacao",SEM LEI E SEM ALMA (1957)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3788.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEM LICENÇA PARA DIRIGIR (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEM LICENÇA PARA DIRIGIR (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3787.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEM RETORNO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2140379.jpg" group-title="On Demand: Degustacao",SEM RETORNO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3786.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sem Vestigios" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0880578.jpg" group-title="On Demand: Degustacao",Sem Vestigios
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3653.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SENTIMENTOS QUE CURAM (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0880578.jpg" group-title="On Demand: Degustacao",SENTIMENTOS QUE CURAM (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3785.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sete Homens e Um Destino (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2404435.jpg" group-title="On Demand: Lancamentos Degustacao",Sete Homens e Um Destino (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4686.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sete Minutos Depois da Meia-Noite (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3416532.jpg" group-title="On Demand: Lancamentos Degustacao",Sete Minutos Depois da Meia-Noite (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4697.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SETE VIDAS (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0814314.jpg" group-title="On Demand: Degustacao",SETE VIDAS (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3784.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13 - O CAPÍTULO FINAL (1984)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEXTA-FEIRA 13 - O CAPÍTULO FINAL (1984)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3781.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13 - PARTE VIII: JASON ATACA EM NOVA YORK (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEXTA-FEIRA 13 - PARTE VIII: JASON ATACA EM NOVA YORK (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3780.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13 (1980)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SEXTA-FEIRA 13 (1980)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3783.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13 (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SEXTA-FEIRA 13 (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3782.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13: PARTE II (1981)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0082418.jpg" group-title="On Demand: Degustacao",SEXTA-FEIRA 13: PARTE II (1981)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3779.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13: PARTE III (1982)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0083972.jpg" group-title="On Demand: Degustacao",SEXTA-FEIRA 13: PARTE III (1982)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3778.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13: PARTE V: UM NOVO RECOMEÇO (1985)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEXTA-FEIRA 13: PARTE V: UM NOVO RECOMEÇO (1985)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3777.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13: PARTE VI: JASON VIVE (1987)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEXTA-FEIRA 13: PARTE VI: JASON VIVE (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3776.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SEXTA-FEIRA 13: PARTE VII: A MATANÇA CONTINUA (1988)" tvg-logo="n/A" group-title="On Demand: Degustacao",SEXTA-FEIRA 13: PARTE VII: A MATANÇA CONTINUA (1988)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3775.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHAOLIN (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1533749.jpg" group-title="On Demand: Degustacao",SHAOLIN (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3774.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHERLOCK HOLMES (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0988045.jpg" group-title="On Demand: Degustacao",SHERLOCK HOLMES (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3773.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHERLOCK HOLMES: O JOGO DE SOMBRAS (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0988045.jpg" group-title="On Demand: Degustacao",SHERLOCK HOLMES: O JOGO DE SOMBRAS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3772.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHREK (2001)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0126029.jpg" group-title="On Demand: Degustacao",SHREK (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3771.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHREK 2 (2004)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0298148.jpg" group-title="On Demand: Degustacao",SHREK 2 (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3770.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHREK PARA SEMPRE (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0892791.jpg" group-title="On Demand: Degustacao",SHREK PARA SEMPRE (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3769.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SHREK TERCEIRO (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0413267.jpg" group-title="On Demand: Degustacao",SHREK TERCEIRO (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3768.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SICARIO: TERRA DE NINGUÉM (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",SICARIO: TERRA DE NINGUÉM (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3767.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SILÊNCIO (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0490215.jpg" group-title="On Demand: Lancamentos Degustacao",SILÊNCIO (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5018.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SILENT HILL: REVELAÇÃO (2012)" tvg-logo="n/A" group-title="On Demand: Degustacao",SILENT HILL: REVELAÇÃO (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3766.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SINAIS (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SINAIS (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3765.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sing: Quem Canta Seus Males Espanta (2016)" tvg-logo="http://i.imgur.com/EHTy5H5.jpg" group-title="On Demand: Lancamentos Degustacao",Sing: Quem Canta Seus Males Espanta (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4700.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SNIPER AMERICANO (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SNIPER AMERICANO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3764.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SNOOPY E CHARLIE BROWN: PEANUTS; O FILME (2016)" tvg-logo="n/A" group-title="On Demand: Lancamentos Degustacao",SNOOPY E CHARLIE BROWN: PEANUTS; O FILME (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3763.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SOBRENATURAL (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SOBRENATURAL (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3762.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SOBRENATURAL: A ORIGEM (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3195644.jpg" group-title="On Demand: Degustacao",SOBRENATURAL: A ORIGEM (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3761.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SOBRENATURAL: CAPÍTULO 2 (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",SOBRENATURAL: CAPÍTULO 2 (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3760.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Sociedade Feroz" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0401420.jpg" group-title="On Demand: Degustacao",Sociedade Feroz
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3634.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Spectral (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2106651.jpg" group-title="On Demand: Lancamentos Degustacao",Spectral (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4681.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SPEED RACER (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0811080.jpg" group-title="On Demand: Degustacao",SPEED RACER (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3759.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SPLICE: A NOVA ESPÉCIE (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",SPLICE: A NOVA ESPÉCIE (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3758.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Spotlight: Segredos Revelados (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1895587.jpg" group-title="On Demand: Lancamentos Degustacao",Spotlight: Segredos Revelados (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4622.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SR. SHERLOCK HOLMES (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Lancamentos Degustacao",SR. SHERLOCK HOLMES (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3757.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STALLONE COBRA (1986)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0090859.jpg" group-title="On Demand: Degustacao",STALLONE COBRA (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3756.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Star Trek (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0796366.jpg" group-title="On Demand: Degustacao",Star Trek (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4518.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Star Trek: Sem Fronteiras (2016)" tvg-logo="http://i.imgur.com/9EEC5iM.jpg" group-title="On Demand: Lancamentos Degustacao",Star Trek: Sem Fronteiras (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4661.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO I - A AMEAÇA FANTASMA (1999)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO I - A AMEAÇA FANTASMA (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3755.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO II - ATAQUE DOS CLONES (2002)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO II - ATAQUE DOS CLONES (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3754.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO III - A VINGANÇA DOS SITH (2005)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO III - A VINGANÇA DOS SITH (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3753.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO IV: UMA NOVA ESPERANÇA (1978)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO IV: UMA NOVA ESPERANÇA (1978)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3752.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO V: O IMPÉRIO CONTRA-ATACA (1980)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO V: O IMPÉRIO CONTRA-ATACA (1980)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3751.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STAR WARS: EPISÓDIO VI: O RETORNO DE JEDI (1983)" tvg-logo="n/A" group-title="On Demand: Degustacao",STAR WARS: EPISÓDIO VI: O RETORNO DE JEDI (1983)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3750.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Stereo (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3478186.jpg" group-title="On Demand: Lancamentos Degustacao",Stereo (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4728.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Stigmata" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0145531.jpg" group-title="On Demand: Degustacao",Stigmata
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3645.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STREET FIGHTER II: O FILME (1994)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0114563.jpg" group-title="On Demand: Degustacao",STREET FIGHTER II: O FILME (1994)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3749.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STREET FIGHTER: A LENDA DE CHUN-LI (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0891592.jpg" group-title="On Demand: Degustacao",STREET FIGHTER: A LENDA DE CHUN-LI (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3748.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STREET FIGHTER: A ÚLTIMA BATALHA (1995)" tvg-logo="n/A" group-title="On Demand: Degustacao",STREET FIGHTER: A ÚLTIMA BATALHA (1995)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3747.mp4
+#EXTINF:-1 tvg-id="" tvg-name="STREET FIGHTER: PUNHO ASSASSINO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",STREET FIGHTER: PUNHO ASSASSINO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3746.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Striptease (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0117765.jpg" group-title="On Demand: Degustacao",Striptease (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4442.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUBURRA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4025514.jpg" group-title="On Demand: Degustacao",SUBURRA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3745.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Suor e Lagrimas (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Suor e Lagrimas (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4608.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN - FILME - BRAINIAC ATACA (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",SUPERMAN - FILME - BRAINIAC ATACA (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3744.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN - O FILME (1978)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0078346.jpg" group-title="On Demand: Degustacao",SUPERMAN - O FILME (1978)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3743.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 2 - A AVENTURA CONTINUA (1980)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0081573.jpg" group-title="On Demand: Degustacao",SUPERMAN 2 - A AVENTURA CONTINUA (1980)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3742.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 3 (1983)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0086393.jpg" group-title="On Demand: Degustacao",SUPERMAN 3 (1983)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3741.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN 4 - EM BUSCA DA PAZ (1987)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0094074.jpg" group-title="On Demand: Degustacao",SUPERMAN 4 - EM BUSCA DA PAZ (1987)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3740.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman Contra a Elite (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2224455.jpg" group-title="On Demand: Degustacao",Superman Contra a Elite (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4481.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN: O RETORNO (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0348150.jpg" group-title="On Demand: Degustacao",SUPERMAN: O RETORNO (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3738.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN: SEM LIMITES (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2617456.jpg" group-title="On Demand: Degustacao",SUPERMAN: SEM LIMITES (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3737.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SUPERMAN/BATMAN: APOCALYPSE (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1673430.jpg" group-title="On Demand: Kids Degustação",SUPERMAN/BATMAN: APOCALYPSE (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3739.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superman/Batman:Inimigos Públicos (2009)" tvg-logo="http://i.imgur.com/HHhUEEE.jpg" group-title="On Demand: Kids Degustação",Superman/Batman:Inimigos Públicos (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4483.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Superpai (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3653518.jpg" group-title="On Demand: Degustacao",Superpai (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4613.mp4
+#EXTINF:-1 tvg-id="" tvg-name="SWINDLE (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2545440.jpg" group-title="On Demand: Degustacao",SWINDLE (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3736.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TED (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1637725.jpg" group-title="On Demand: Degustacao",TED (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3735.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TED 2 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2637276.jpg" group-title="On Demand: Degustacao",TED 2 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3734.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TEKKEN (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",TEKKEN (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3733.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TEMPO DE GLÓRIA (1989)" tvg-logo="n/A" group-title="On Demand: Degustacao",TEMPO DE GLÓRIA (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3732.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TENACIOUS D: UMA DUPLA INFERNAL (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0365830.jpg" group-title="On Demand: Degustacao",TENACIOUS D: UMA DUPLA INFERNAL (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3731.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TERREMOTO: A FALHA DE SAN ANDREAS (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2126355.jpg" group-title="On Demand: Degustacao",TERREMOTO: A FALHA DE SAN ANDREAS (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3730.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TERROR EM SILENT HILL (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0384537.jpg" group-title="On Demand: Degustacao",TERROR EM SILENT HILL (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3729.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TERROR NOS BASTIDORES (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2118624.jpg" group-title="On Demand: Degustacao",TERROR NOS BASTIDORES (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3728.mp4
+#EXTINF:-1 tvg-id="" tvg-name="THE BEACH BOYS: UMA HISTÓRIA DE SUCESSO (2016)" tvg-logo="n/A" group-title="On Demand: Lancamentos Degustacao",THE BEACH BOYS: UMA HISTÓRIA DE SUCESSO (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3727.mp4
+#EXTINF:-1 tvg-id="" tvg-name="THE RIDICULOUS 6 (20115)" tvg-logo="n/A" group-title="On Demand: Degustacao",THE RIDICULOUS 6 (20115)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3726.mp4
+#EXTINF:-1 tvg-id="" tvg-name="The Warrior's Gate (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4652532.jpg" group-title="On Demand: Lancamentos Degustacao",The Warrior's Gate (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4760.mp4
+#EXTINF:-1 tvg-id="" tvg-name="THOR (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0800369.jpg" group-title="On Demand: Degustacao",THOR (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3725.mp4
+#EXTINF:-1 tvg-id="" tvg-name="THOR: O MUNDO SOMBRIO (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",THOR: O MUNDO SOMBRIO (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3724.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tim Maia (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Tim Maia (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4480.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tini: Depois de Violetta (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5122374.jpg" group-title="On Demand: Lancamentos Degustacao",Tini: Depois de Violetta (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4662.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TITANIC (1998)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",TITANIC (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3723.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TODO MUNDO EM PÂNICO 2 (2001)" tvg-logo="n/A" group-title="On Demand: Degustacao",TODO MUNDO EM PÂNICO 2 (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3721.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TODO MUNDO EM PÂNICO 3 (2004)" tvg-logo="n/A" group-title="On Demand: Degustacao",TODO MUNDO EM PÂNICO 3 (2004)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3720.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TODO MUNDO EM PÂNICO 4 (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",TODO MUNDO EM PÂNICO 4 (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3719.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TODO MUNDO EM PÂNICO 5 (2013)" tvg-logo="n/A" group-title="On Demand: Degustacao",TODO MUNDO EM PÂNICO 5 (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3718.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TODO MUNDO EM PÂNICO(2000)" tvg-logo="n/A" group-title="On Demand: Degustacao",TODO MUNDO EM PÂNICO(2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3722.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOMBSTONE: A JUSTIÇA ESTÁ CHEGANDO (1993)" tvg-logo="n/A" group-title="On Demand: Degustacao",TOMBSTONE: A JUSTIÇA ESTÁ CHEGANDO (1993)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3717.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOMORROWLAND: UM LUGAR ONDE NADA É IMPOSSÍVEL (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",TOMORROWLAND: UM LUGAR ONDE NADA É IMPOSSÍVEL (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3716.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOY STORY 2 (1999)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120363.jpg" group-title="On Demand: Kids Degustação",TOY STORY 2 (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3715.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOY STORY 3 (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0435761.jpg" group-title="On Demand: Kids Degustação",TOY STORY 3 (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3714.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOY STORY: ESQUECIDOS PELO TEMPO (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3473654.jpg" group-title="On Demand: Kids Degustação",TOY STORY: ESQUECIDOS PELO TEMPO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3713.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TOY STORY: UM MUNDO DE AVENTURAS (1995)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0114709.jpg" group-title="On Demand: Kids Degustação",TOY STORY: UM MUNDO DE AVENTURAS (1995)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3712.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Trair e Roubar" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0107451.jpg" group-title="On Demand: Degustacao",Trair e Roubar
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3641.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Tramps (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4991512.jpg" group-title="On Demand: Lancamentos Degustacao",Tramps (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5031.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRANSCENDENCE: A REVOLUÇÃO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",TRANSCENDENCE: A REVOLUÇÃO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3711.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRANSFORMERS (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0418279.jpg" group-title="On Demand: Degustacao",TRANSFORMERS (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3710.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRANSFORMERS: A ERA DA EXTINÇÃO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",TRANSFORMERS: A ERA DA EXTINÇÃO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3707.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRANSFORMERS: A VINGANÇA DOS DERROTADOS (2009)" tvg-logo="n/A" group-title="On Demand: Degustacao",TRANSFORMERS: A VINGANÇA DOS DERROTADOS (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3709.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Transformers: O Filme (1986)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0092106.jpg" group-title="On Demand: Degustacao",Transformers: O Filme (1986)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4510.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRANSFORMERS: O LADO OCULTO DA LUA (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1399103.jpg" group-title="On Demand: Degustacao",TRANSFORMERS: O LADO OCULTO DA LUA (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3708.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Transformers: O Último Cavaleiro (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3371366.jpg" group-title="On Demand: Lancamentos Degustacao",Transformers: O Último Cavaleiro (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5001.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRASH: A ESPERANÇA VEM DO LIXO (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",TRASH: A ESPERANÇA VEM DO LIXO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3706.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Trem Fantasma (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Trem Fantasma (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4495.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TRÊS HOMENS EM CONFLITO (1966)" tvg-logo="n/A" group-title="On Demand: Degustacao",TRÊS HOMENS EM CONFLITO (1966)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3705.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Triple 9 (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1712261.jpg" group-title="On Demand: Lancamentos Degustacao",Triple 9 (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4638.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Triplo X" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0295701.jpg" group-title="On Demand: Lancamentos Degustacao",Triplo X
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5027.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Trolls (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1679335.jpg" group-title="On Demand: Lancamentos Degustacao",Trolls (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4562.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TROPA DE ELITE (2007)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",TROPA DE ELITE (2007)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3704.mp4
+#EXTINF:-1 tvg-id="" tvg-name="TROPA DE ELITE 2 (2010)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",TROPA DE ELITE 2 (2010)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3703.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Truque de Mestre (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1670345.jpg" group-title="On Demand: Degustacao",Truque de Mestre (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4521.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Truque de Mestre: O Segundo Ato (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3110958.jpg" group-title="On Demand: Lancamentos Degustacao",Truque de Mestre: O Segundo Ato (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4666.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ULTRAVIOLETA (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4053000.jpg" group-title="On Demand: Degustacao",ULTRAVIOLETA (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3702.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM AMOR A CADA ESQUINA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4053000.jpg" group-title="On Demand: Degustacao",UM AMOR A CADA ESQUINA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3701.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM AMOR PARA RECORDAR (2002)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0281358.jpg" group-title="On Demand: Degustacao",UM AMOR PARA RECORDAR (2002)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3700.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM BRINDE A AMIZADE (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0281358.jpg" group-title="On Demand: Degustacao",UM BRINDE A AMIZADE (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3699.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM CASO DE AMOR (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0281358.jpg" group-title="On Demand: Degustacao",UM CASO DE AMOR (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3698.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Drink no Inferno (1996)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",Um Drink no Inferno (1996)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4403.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Drink no Inferno 2: Texas Sangrento (1999)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120860.jpg" group-title="On Demand: Degustacao",Um Drink no Inferno 2: Texas Sangrento (1999)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4402.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Drink no Inferno 3: A Filha do Carrasco (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120860.jpg" group-title="On Demand: Degustacao",Um Drink no Inferno 3: A Filha do Carrasco (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4401.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Limite Entre Nós (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2671706.jpg" group-title="On Demand: Lancamentos Degustacao",Um Limite Entre Nós (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4736.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM MILHÃO DE MANEIRAS DE PEGAR NA PISTOLA (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",UM MILHÃO DE MANEIRAS DE PEGAR NA PISTOLA (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3697.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Príncipe em Nova York (1998)" tvg-logo="n/A" group-title="On Demand: Degustacao",Um Príncipe em Nova York (1998)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4441.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM ROMANCE NA ALTA MODA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/3717016.jpg" group-title="On Demand: Degustacao",UM ROMANCE NA ALTA MODA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3696.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UM SENHOR ESTAGIÁRIO (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",UM SENHOR ESTAGIÁRIO (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3695.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Um Suburbano Sortudo (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5529392.jpg" group-title="On Demand: Lancamentos Degustacao",Um Suburbano Sortudo (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4698.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Uma Aventura de Babas (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4456850.jpg" group-title="On Demand: Lancamentos Degustacao",Uma Aventura de Babas (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4501.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA CHAMADA PERDIDA (2008)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0479968.jpg" group-title="On Demand: Degustacao",UMA CHAMADA PERDIDA (2008)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3694.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA DUPLA QUASE PERFEITA (1989)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0098536.jpg" group-title="On Demand: Degustacao",UMA DUPLA QUASE PERFEITA (1989)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3693.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Uma Noite de Crime (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2184339.jpg" group-title="On Demand: Degustacao",Uma Noite de Crime (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4577.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Uma Noite de Crime 2:Anarquia (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2975578.jpg" group-title="On Demand: Degustacao",Uma Noite de Crime 2:Anarquia (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4578.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA NOITE NO MUSEU (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2975578.jpg" group-title="On Demand: Degustacao",UMA NOITE NO MUSEU (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3692.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA NOITE NO MUSEU 2 (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1078912.jpg" group-title="On Demand: Degustacao",UMA NOITE NO MUSEU 2 (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3691.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA NOITE NO MUSEU 3: O SEGREDO DA TUMBA (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1078912.jpg" group-title="On Demand: Degustacao",UMA NOITE NO MUSEU 3: O SEGREDO DA TUMBA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3690.mp4
+#EXTINF:-1 tvg-id="" tvg-name="UMA NOTÍCIA INESPERADA (2014)" tvg-logo="n/A" group-title="On Demand: Degustacao",UMA NOTÍCIA INESPERADA (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3689.mp4
+#EXTINF:-1 tvg-id="" tvg-name="V DE VINGANÇA (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",V DE VINGANÇA (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3688.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VAI QUE COLA: O FILME (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4694404.jpg" group-title="On Demand: Degustacao",VAI QUE COLA: O FILME (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3687.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vai que Dá Certo (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2220408.jpg" group-title="On Demand: Degustacao",Vai que Dá Certo (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4440.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vai que Dá Certo 2 (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/5325210.jpg" group-title="On Demand: Lancamentos Degustacao",Vai que Dá Certo 2 (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4621.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES   FURIOSOS (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0322259.jpg" group-title="On Demand: Degustacao",VELOZES   FURIOSOS (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4398.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS (2001)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4630562.jpg" group-title="On Demand: Degustacao",VELOZES & FURIOSOS (2001)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3686.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS 4 (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4630562.jpg" group-title="On Demand: Degustacao",VELOZES & FURIOSOS 4 (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3685.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS 5: OPERAÇÃO RIO (2011)" tvg-logo="n/A" group-title="On Demand: Degustacao",VELOZES & FURIOSOS 5: OPERAÇÃO RIO (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3684.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS 6 (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4630562.jpg" group-title="On Demand: Degustacao",VELOZES & FURIOSOS 6 (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3683.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS 7 (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4630562.jpg" group-title="On Demand: Degustacao",VELOZES & FURIOSOS 7 (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3682.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VELOZES & FURIOSOS: DESAFIO EM TÓQUIO (2006)" tvg-logo="n/A" group-title="On Demand: Degustacao",VELOZES & FURIOSOS: DESAFIO EM TÓQUIO (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3681.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Velozes e Furiosos 8 (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/4630562.jpg" group-title="On Demand: Lancamentos Degustacao",Velozes e Furiosos 8 (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5000.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VENOM (2005)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0428251.jpg" group-title="On Demand: Degustacao",VENOM (2005)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3680.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VERÃO EM STATEN ISLAND (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",VERÃO EM STATEN ISLAND (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3679.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VIAGEM DAS LOUCAS (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2334871.jpg" group-title="On Demand: Lancamentos Degustacao",VIAGEM DAS LOUCAS (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5021.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VÍCIO INERENTE (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",VÍCIO INERENTE (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3678.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Victor Frankenstein (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1976009.jpg" group-title="On Demand: Degustacao",Victor Frankenstein (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4488.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vida (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/6289162.jpg" group-title="On Demand: Lancamentos Degustacao",Vida (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5014.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VIGILANTES DA GUERRA (2015)" tvg-logo="https://3.bp.blogspot.com/-WHZWuNdlcrQ/VstO7Ov_vTI/AAAAAAAAAe0/XIF9F91-M9M/s300/Vigilantes-da-Guerra" group-title="On Demand: Lancamentos Degustacao",VIGILANTES DA GUERRA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3677.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VINGADORES: ERA DE ULTRON (2015)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/not-found.jpg" group-title="On Demand: Degustacao",VINGADORES: ERA DE ULTRON (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3676.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VINGANÇA AO ANOITECER (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",VINGANÇA AO ANOITECER (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3675.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VIRANDO A PAGINA (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",VIRANDO A PAGINA (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3674.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VIZINHOS IMEDIATOS DE 3° GRAU (2012)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1298649.jpg" group-title="On Demand: Degustacao",VIZINHOS IMEDIATOS DE 3° GRAU (2012)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3673.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vizinhos Nada Secretos (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/2387499.jpg" group-title="On Demand: Lancamentos Degustacao",Vizinhos Nada Secretos (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4737.mp4
+#EXTINF:-1 tvg-id="" tvg-name="VOCÊ ACREDITA? (2015)" tvg-logo="n/A" group-title="On Demand: Degustacao",VOCÊ ACREDITA? (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3672.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vovó... Zona (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0208003.jpg" group-title="On Demand: Degustacao",Vovó... Zona (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4421.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vovó... Zona 2 (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0421729.jpg" group-title="On Demand: Degustacao",Vovó... Zona 2 (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4420.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Vovó... Zona 3 (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1464174.jpg" group-title="On Demand: Degustacao",Vovó... Zona 3 (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4419.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Warcraft: O Primeiro Encontro de Dois Mundos  (2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0803096.jpg" group-title="On Demand: Lancamentos Degustacao",Warcraft: O Primeiro Encontro de Dois Mundos  (2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4635.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Watchmen - O Filme (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0409459.jpg" group-title="On Demand: Degustacao",Watchmen - O Filme (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4418.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WHIPLASH: EM BUSCA DA PERFEIÇÃO (2014)" tvg-logo="http://3.bp.blogspot.com/-zG70Ub-nqKA/VTKyu699KDI/AAAAAAAAOb4/6qFJ6W5Cs3c/s300/whiplas.jpg" group-title="On Demand: Degustacao",WHIPLASH: EM BUSCA DA PERFEIÇÃO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3671.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WOLVERINE: IMORTAL (2013)" tvg-logo="http://3.bp.blogspot.com/-rC6soMhQSdo/UfbiHKNBr6I/AAAAAAAABgg/sohDVYmbWgM/s300/Wolverine-Imortal-poster-1Jun2013.jpg" group-title="On Demand: Degustacao",WOLVERINE: IMORTAL (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3670.mp4
+#EXTINF:-1 tvg-id="" tvg-name="WOODLAWN: TALENTO E FÉ (2015)" tvg-logo="http://2.bp.blogspot.com/-lxCGm2CEdOc/VoxOLuPmIXI/AAAAAAAAWsw/U3Rga7eSM1g/s300/qrbiyTh.jpg" group-title="On Demand: Lancamentos Degustacao",WOODLAWN: TALENTO E FÉ (2015)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3669.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN - O FILME (2000)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0120903.jpg" group-title="On Demand: Degustacao",X-MEN - O FILME (2000)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3668.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN 2 (2003)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0290334.jpg" group-title="On Demand: Degustacao",X-MEN 2 (2003)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3667.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN ORIGENS: WOLVERINE (2009)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0458525.jpg" group-title="On Demand: Degustacao",X-MEN ORIGENS: WOLVERINE (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3666.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-Men: Apocalipse(2016)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0458525.jpg" group-title="On Demand: Lancamentos Degustacao",X-Men: Apocalipse(2016)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4628.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN: DIAS DE UM FUTURO ESQUECIDO (2014)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1877832.jpg" group-title="On Demand: Degustacao",X-MEN: DIAS DE UM FUTURO ESQUECIDO (2014)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3665.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN: O CONFRONTO FINAL (2006)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0376994.jpg" group-title="On Demand: Degustacao",X-MEN: O CONFRONTO FINAL (2006)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3664.mp4
+#EXTINF:-1 tvg-id="" tvg-name="X-MEN: PRIMEIRA CLASSE (2011)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1270798.jpg" group-title="On Demand: Degustacao",X-MEN: PRIMEIRA CLASSE (2011)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3663.mp4
+#EXTINF:-1 tvg-id="" tvg-name="xXx: Reativado (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1293847.jpg" group-title="On Demand: Lancamentos Degustacao",xXx: Reativado (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5025.mp4
+#EXTINF:-1 tvg-id="" tvg-name="XXX2 - Estado de Emergencia" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/0329774.jpg" group-title="On Demand: Lancamentos Degustacao",XXX2 - Estado de Emergencia
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5026.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Z: A Cidade Perdida (2017)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1212428.jpg" group-title="On Demand: Lancamentos Degustacao",Z: A Cidade Perdida (2017)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/5003.mp4
+#EXTINF:-1 tvg-id="" tvg-name="Zootopia: Essa Cidade é o Bicho (2013)" tvg-logo="http://giantofthefuture.gleeze.com:25461/images/1212428.jpg" group-title="On Demand: Kids Degustação",Zootopia: Essa Cidade é o Bicho (2013)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/4620.mp4
+#EXTINF:-1 tvg-id="" tvg-name="ZUMBILÂNDIA (2009)" tvg-logo="http://1.bp.blogspot.com/-JnErnJeds7Q/UaKVXmoX9rI/AAAAAAAACQk/lZCgA0rpEzo/s300/Zumbil%25C3%25A2ndia-P%25C3%25B4ster.jpg" group-title="On Demand: Degustacao",ZUMBILÂNDIA (2009)
+http://giantofthefuture.gleeze.com:25461/movie/colepty1679/Hbplloxye/3662.mp4
