@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-09T16:20:01.409468+00:00",
+  "selection_count": 39,
+  "playlist_changed": false,
+  "method": "Manifesto HLS, download de segmento, ffprobe e decodificação de um segundo com ffmpeg. Band Rio conferida pelo player oficial da emissora.",
+  "streams": [
+    {
+      "id": "TVGloboRio.br",
+      "name": "Globo RJ — candidato público",
+      "group": "Abertos Brasil",
+      "url": "https://live.video.globo.com/hls-globo-rj/index.m3u8",
+      "tested_at": "2026-10-09T16:17:00.479401+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "BandRio.br",
+      "name": "Band Rio de Janeiro",
+      "group": "Abertos Brasil",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/band.m3u8",
+      "website": "https://www.band.com.br/ao-vivo/band-rio-de-janeiro",
+      "tested_at": "2026-10-09T16:17:00.477428+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "1790507495",
+      "segment_status": 200,
+      "segment_bytes": 1112396,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 640,
+      "height": 360
+    }
+  ],
+  "official_globo_playback": {
+    "url": "https://playback.video.globo.com/v4/video-session",
+    "video_id": "7832875",
+    "authentication": "anonymous",
+    "http_status": 401,
+    "sources_confirmed": false,
+    "geolocation_override": false,
+    "reference": "https://ajuda.globo.com/article/Como-assistir-a-Globo-ao-vivo-no-Globoplay"
+  },
+  "limitations": [
+    "Teste pontual fora da TV do usuário; não garante disponibilidade futura.",
+    "Login do servidor WCS não substitui uma sessão Conta Globo.",
+    "Globo RJ permanece fora da lista porque não foi confirmado um M3U funcional."
+  ]
+}
