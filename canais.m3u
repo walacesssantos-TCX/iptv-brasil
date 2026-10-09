@@ -20,15 +20,6 @@ https://isaocorp.cloudecast.com/playtv/index.m3u8
 #EXTINF:-1 tvg-id="RedeBrasil.br" tvg-name="Rede Brasil" group-title="Abertos Brasil",Rede Brasil
 https://redebrasil.nuvemplay.live/hls/stream.m3u8
 
-#EXTINF:-1 tvg-id="RedeMeioNorte.br" tvg-name="Rede Meio Norte" group-title="Abertos Brasil",Rede Meio Norte
-https://maystreaming.cloudecast.com/redemeio/index.m3u8
-
-#EXTINF:-1 tvg-id="RedeNGT.br" tvg-name="Rede NGT" group-title="Abertos Brasil",Rede NGT
-https://isaocorp.cloudecast.com/ngt/index.m3u8
-
-#EXTINF:-1 tvg-id="RedeTVMais.br" tvg-name="Rede TV! Mais" group-title="Abertos Brasil",Rede TV! Mais
-https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
-
 #EXTINF:-1 tvg-id="TVSenado.br" tvg-name="TV Senado" group-title="Legislativos",TV Senado
 http://168.197.104.22/TV_SENADO/index.m3u8
 
@@ -41,41 +32,14 @@ https://canalgov-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="GospelCartoon.br" tvg-name="Gospel Cartoon" group-title="Desenhos Cristãos",Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KuriakosKids.pt" tvg-name="Kuriakos Kids (Portugal)" group-title="Desenhos Cristãos",Kuriakos Kids (Portugal)
-https://w2.manasat.com/kkids/smil:kkids.smil/playlist.m3u8
-
 #EXTINF:-1 tvg-id="BoasNovas.br" tvg-name="Boas Novas Manaus" group-title="Cristãos",Boas Novas Manaus
 https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FonteTV.br" tvg-name="Fonte TV" group-title="Cristãos",Fonte TV
-https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 
 #EXTINF:-1 tvg-id="GospelMovieTV.br" tvg-name="Gospel Movie TV" group-title="Cristãos",Gospel Movie TV
 https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 
-#EXTINF:-1 tvg-id="IMPDTVWorldwide.br" tvg-name="IMPD TV Worldwide" group-title="Cristãos",IMPD TV Worldwide
-https://igrejamundial.nuvemplay.live/hls/stream.m3u8
-
-#EXTINF:-1 tvg-id="PlenitudeTV.br" tvg-name="Plenitude TV" group-title="Cristãos",Plenitude TV
-https://strv.painelvox.top/plenitude/plenitude/playlist.m3u8
-
 #EXTINF:-1 tvg-id="RedeGospel.br" tvg-name="Rede Gospel" group-title="Cristãos",Rede Gospel
 https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RITTV.br" tvg-name="RIT TV" group-title="Cristãos",RIT TV
-https://acesso.ecast.site:3648/live/ritlive.m3u8
-
-#EXTINF:-1 tvg-id="TVAparecida.br" tvg-name="TV Aparecida" group-title="Cristãos",TV Aparecida
-https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVCancaoNova.br" tvg-name="TV Cancao Nova" group-title="Cristãos",TV Cancao Nova
-https://5c65286fc6ace.streamlock.net/cancaonova/CancaoNova.stream_720p/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVPadreCicero.br" tvg-name="TV Padre Cicero" group-title="Cristãos",TV Padre Cicero
-https://video01.logicahost.com.br/tvpadrecicero/tvpadrecicero/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVPaiEterno.br" tvg-name="TV Pai Eterno" group-title="Cristãos",TV Pai Eterno
-https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 
 #EXTINF:-1 tvg-id="geFast.br" tvg-name="ge Fast" group-title="Esportes",ge Fast
 https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
@@ -83,17 +47,8 @@ https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u
 #EXTINF:-1 tvg-id="NSports.br" tvg-name="N Sports" group-title="Esportes",N Sports
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 
-#EXTINF:-1 tvg-id="BemMaisTV.br" tvg-name="Bem Mais TV" group-title="Educativos e Públicos",Bem Mais TV
-https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
-
 #EXTINF:-1 tvg-id="CanalEducacao.br" tvg-name="Canal Educação" group-title="Educativos e Públicos",Canal Educação
 https://canaleducacao-stream.ebc.com.br/index.m3u8
-
-#EXTINF:-1 tvg-id="CanalFDR.br" tvg-name="Canal FDR" group-title="Educativos e Públicos",Canal FDR
-https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
-
-#EXTINF:-1 tvg-id="ISTV.br" tvg-name="ISTV" group-title="Educativos e Públicos",ISTV
-https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RedeMinas.br" tvg-name="Rede Minas" group-title="Educativos e Públicos",Rede Minas
 https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
@@ -101,161 +56,26 @@ https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCultura.br" tvg-name="TV Cultura" group-title="Educativos e Públicos",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 
-#EXTINF:-1 tvg-id="TVERS.br" tvg-name="TVE RS" group-title="Educativos e Públicos",TVE RS
-https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVUFOP.br" tvg-name="TV UFOP" group-title="Educativos e Públicos",TV UFOP
-https://app.tvufop.com.br/hls/tvufop.m3u8
-
-#EXTINF:-1 tvg-id="UnisulTV.br" tvg-name="UNISUL TV" group-title="Educativos e Públicos",UNISUL TV
-https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
-
-#EXTINF:-1 tvg-id="AratuOn.br" tvg-name="Aratu On" group-title="Jornalismo",Aratu On
-https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Canal38.br" tvg-name="Canal 38" group-title="Jornalismo",Canal 38
-https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8
-
-#EXTINF:-1 tvg-id="J3NEWSTV.br" tvg-name="J3NEWS TV" group-title="Jornalismo",J3NEWS TV
-https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
-
-#EXTINF:-1 tvg-id="PlenaTV.br" tvg-name="Plena TV" group-title="Jornalismo",Plena TV
-https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
-
 #EXTINF:-1 tvg-id="RecordNews.br" tvg-name="Record News" group-title="Jornalismo",Record News
 https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
 
 #EXTINF:-1 tvg-id="SBTNews.br" tvg-name="SBT News" group-title="Jornalismo",SBT News
 https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
 
-#EXTINF:-1 tvg-id="STZTV.br" tvg-name="STZ TV" group-title="Jornalismo",STZ TV
-https://cdn.live.br1.jmvstream.com/webtv/AVJ-12952/playlist/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVAFolha.br" tvg-name="TV A Folha" group-title="Jornalismo",TV A Folha
-https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVParaense.br" tvg-name="TV Paraense" group-title="Jornalismo",TV Paraense
-https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
-
-#EXTINF:-1 tvg-id="TVSimCachoeiro.br" tvg-name="TV Sim Cachoeiro" group-title="Jornalismo",TV Sim Cachoeiro
-https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVSimSaoMateus.br" tvg-name="TV Sim São Mateus" group-title="Jornalismo",TV Sim São Mateus
-https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVZoom.br" tvg-name="TV Zoom" group-title="Jornalismo",TV Zoom
-https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
-
 #EXTINF:-1 tvg-id="VEJAPlusTV.br" tvg-name="VEJA+ TV" group-title="Jornalismo",VEJA+ TV
 https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
-
-#EXTINF:-1 tvg-id="AgroCanal.br" tvg-name="AgroCanal" group-title="Agro",AgroCanal
-https://aovivo.equipea.com.br:5443/aovivort/streams/pshRLrnv6isXq7RG4747567774043229.m3u8
-
-#EXTINF:-1 tvg-id="AdessoTV.br" tvg-name="Adesso TV" group-title="Regionais e WebTV",Adesso TV
-https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AmazonSat.br" tvg-name="Amazon Sat" group-title="Regionais e WebTV",Amazon Sat
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 
-#EXTINF:-1 tvg-id="ArarunaTV.br" tvg-name="Araruna TV" group-title="Regionais e WebTV",Araruna TV
-https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CanalSete.br" tvg-name="Canal Sete" group-title="Regionais e WebTV",Canal Sete
-http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8
-
 #EXTINF:-1 tvg-id="CanalUOL.br" tvg-name="Canal UOL" group-title="Regionais e WebTV",Canal UOL
 https://video24.mais.uol.com.br/live/6146.m3u8
-
-#EXTINF:-1 tvg-id="ConecTVBrasil.br" tvg-name="ConecTV Brasil" group-title="Regionais e WebTV",ConecTV Brasil
-https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
-
-#EXTINF:-1 tvg-id="DemaisTV.br" tvg-name="Demais TV" group-title="Regionais e WebTV",Demais TV
-https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
-
-#EXTINF:-1 tvg-id="EUTV.br" tvg-name="EUTV" group-title="Regionais e WebTV",EUTV
-https://video01.logicahost.com.br/ypetv/ypetv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FalaLitoral.br" tvg-name="Fala Litoral" group-title="Regionais e WebTV",Fala Litoral
-https://5c483b9d1019c.streamlock.net/falalitoraltv/falalitoraltv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="NTV.br" tvg-name="NTV" group-title="Regionais e WebTV",NTV
-https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ODiaTV.br" tvg-name="O Dia TV" group-title="Regionais e WebTV",O Dia TV
 https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RBATV.br" tvg-name="RBATV" group-title="Regionais e WebTV",RBATV
-https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RedeSPTV.br" tvg-name="Rede SPTV" group-title="Regionais e WebTV",Rede SPTV
-https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SBTInterior.br" tvg-name="SBT Interior" group-title="Regionais e WebTV",SBT Interior
-https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SOUTV.br" tvg-name="SOU TV" group-title="Regionais e WebTV",SOU TV
-https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVAldeia.br" tvg-name="TV Aldeia" group-title="Regionais e WebTV",TV Aldeia
-https://stmv1.samcast.com.br/giovane7843/giovane7843/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVAliancaCatarinense.br" tvg-name="TV Aliança Catarinense" group-title="Regionais e WebTV",TV Aliança Catarinense
-https://video01.logicahost.com.br/tvalianca/tvalianca/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVArapuan.br" tvg-name="TV Arapuan" group-title="Regionais e WebTV",TV Arapuan
-https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVBrasilOeste.br" tvg-name="TV Brasil Oeste" group-title="Regionais e WebTV",TV Brasil Oeste
-https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVClube.br" tvg-name="TV Clube" group-title="Regionais e WebTV",TV Clube
-https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVComunitaria.br" tvg-name="TVCOM DF" group-title="Regionais e WebTV",TVCOM DF
-https://5b7f3c45ab7c2.streamlock.net/8008/smil:8008.smil/playlist.m3u8?DVR=
-
-#EXTINF:-1 tvg-id="TVCOMMaceio.br" tvg-name="TVCOM Maceió" group-title="Regionais e WebTV",TVCOM Maceió
-https://srv5.zcast.com.br/tvcommaceio/tvcommaceio/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVCRio.br" tvg-name="TVC-Rio" group-title="Regionais e WebTV",TVC-Rio
-https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVGuara.br" tvg-name="TV Guará" group-title="Regionais e WebTV",TV Guará
-https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVGuarapari.br" tvg-name="TV Guarapari" group-title="Regionais e WebTV",TV Guarapari
-https://video.welltecnologia.com.br/tvguarapari/tvguarapari/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVitape.br" tvg-name="TVitapé" group-title="Regionais e WebTV",TVitapé
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
-
 #EXTINF:-1 tvg-id="TVLatinaSat.br" tvg-name="TVLatinaSat" group-title="Regionais e WebTV",TVLatinaSat
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
-
-#EXTINF:-1 tvg-id="TVMaisMarica.br" tvg-name="TV Mais Maricá" group-title="Regionais e WebTV",TV Mais Maricá
-https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVMarajoara.br" tvg-name="TV Marajoara" group-title="Regionais e WebTV",TV Marajoara
-https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
-
-#EXTINF:-1 tvg-id="WCS.tvmetropole" tvg-name="TV Metrópole" group-title="Regionais e WebTV",TV Metrópole
-https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVNBN.br" tvg-name="TVNBN" group-title="Regionais e WebTV",TVNBN
-https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="WCS.tvouronegro" tvg-name="TV Ouro Negro" group-title="Regionais e WebTV",TV Ouro Negro
-https://stmv1.srvstm.com/diegodemenezes3156/diegodemenezes3156/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVPassoFundo.br" tvg-name="TV Passo Fundo" group-title="Regionais e WebTV",TV Passo Fundo
-https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="TVShowFortaleza.br" tvg-name="TV Show Fortaleza" group-title="Regionais e WebTV",TV Show Fortaleza
-https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamororo1908/playlist.m3u8
-
-#EXTINF:-1 tvg-id="WCS.tvvicosa" tvg-name="TV Viçosa" group-title="Regionais e WebTV",TV Viçosa
-http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-name="Red Bull TV Brasil" group-title="Esportes",Red Bull TV Brasil
 https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
