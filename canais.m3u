@@ -257,3 +257,44 @@ https://stmv8.samcast.com.br/raimundoanselmolimamororo1908/raimundoanselmolimamo
 #EXTINF:-1 tvg-id="WCS.tvvicosa" tvg-name="TV Viçosa" group-title="Regionais e WebTV",TV Viçosa
 http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
 
+#EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-name="Red Bull TV Brasil" group-title="Esportes",Red Bull TV Brasil
+https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-name="FIFA+ (Português)" group-title="Esportes",FIFA+ (Português)
+https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SFTCombat.br" tvg-name="SFT Combat" group-title="Esportes",SFT Combat
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/49a71877481f422f8f469e231e7876b3/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Desimpedidos.br" tvg-name="Desimpedidos" group-title="Esportes",Desimpedidos
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/638d61ba125e45f09c18e95d6caea8c7/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Acelerados.br" tvg-name="Acelerados" group-title="Esportes",Acelerados
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/15e0929cac2745c59c7a6bc1455a8ab2/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GloryKickboxing.us@Portuguese" tvg-name="GLORY Kickboxing (FAST)" group-title="Esportes",GLORY Kickboxing (FAST)
+https://87e5452b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PFLMMA.us@Portuguese" tvg-name="PFL MMA (FAST)" group-title="Esportes",PFL MMA (FAST)
+https://b829cb56.wurl.com/VENMLWJyX1BGTE1NQV9ITFM/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RACERBrasil.br" tvg-name="RACER Brasil" group-title="Esportes",RACER Brasil
+https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist/amg16379-sports7fast-mavtvbrasil-tclus/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WorldPokerTour.us@Portuguese" tvg-name="World Poker Tour (Português)" group-title="Esportes",World Poker Tour (Português)
+https://d8nb73nfb7dd5.cloudfront.net/scheduler/scheduleMaster/466.m3u8
+
+#EXTINF:-1 tvg-id="FUELTV.pt@BR" tvg-name="FUEL TV Brasil" group-title="Esportes",FUEL TV Brasil
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-tcl/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TennisTVClassics.br" tvg-name="Tennis TV Classics" group-title="Esportes",Tennis TV Classics
+https://amg01470-amg01470c1-samsung-br-4768.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CazeTV.br" tvg-name="CazéTV" group-title="Esportes",CazéTV
+https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8
+
+#EXTINF:-1 tvg-id="CanalGOAT.br" tvg-name="Canal GOAT" group-title="Esportes",Canal GOAT
+https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
+
+#EXTINF:-1 tvg-id="WooHooSurf.br" tvg-name="Woohoo Surf" group-title="Esportes",Woohoo Surf
+https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/1edb59fc36da4004ba4452a3e00993b2/playlist.m3u8

@@ -1,6 +1,6 @@
 # IPTV Brasil — WCS
 
-Lista com 85 canais selecionados, agrupados em M3U. Inclui SBT, Record, Band Rio, afiliadas da RedeTV!, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon, Kuriakos Kids (Portugal) e canais públicos, educativos, religiosos e regionais.
+Lista com 99 canais selecionados, agrupados em M3U. Inclui SBT, Record, Band Rio, afiliadas da RedeTV!, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon, Kuriakos Kids (Portugal) e canais públicos, educativos, religiosos e regionais.
 
 ## Acesso nos aplicativos
 
@@ -11,6 +11,10 @@ No Prime IPTV ou IPTV Smarters Pro, escolha **Xtream Codes / API** e informe o s
 Lista M3U direta: https://raw.githubusercontent.com/walacesssantos-TCX/iptv-brasil/main/canais.m3u
 
 SporTV, Premiere, Discovery Turbo e Pluto TV foram retirados. ge Fast foi mantido. Globo RJ segue pendente de uma fonte estável confirmada.
+
+## Ampliação de esportes
+
+Adicionados 14 canais: Red Bull TV Brasil, FIFA+ (Português), SFT Combat, Desimpedidos, Acelerados, GLORY Kickboxing (FAST), PFL MMA (FAST), RACER Brasil, World Poker Tour (Português), FUEL TV Brasil, Tennis TV Classics, CazéTV, Canal GOAT, Woohoo Surf. ge Fast e N Sports foram mantidos. O relatório de fontes aprovadas e rejeitadas está em `data/verificacao_esportes.json`. O login WCS é do servidor da lista; não substitui logins de emissoras ou plataformas externas. Os canais de marcas com serviços pagos correspondem às versões FAST disponibilizadas publicamente, com programação própria.
 
 ## Verificação
 
