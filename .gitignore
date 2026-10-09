@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.vercel/
+ACESSO-TV.txt
+__pycache__/

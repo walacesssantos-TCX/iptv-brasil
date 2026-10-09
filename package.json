@@ -1,0 +1,10 @@
+{
+  "name": "iptv-wcs",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/iptv-api.test.mjs",
+    "gerar-login": "node scripts/gerar_login.mjs"
+  }
+}
