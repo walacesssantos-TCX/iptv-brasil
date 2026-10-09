@@ -1,6 +1,6 @@
 # IPTV Brasil — WCS
 
-Lista com 39 canais selecionados, agrupados em M3U, após as exclusões feitas pelo proprietário. Inclui SBT, Record, Band Rio, RedeTV! Paraná, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon e canais públicos, educativos, religiosos e regionais.
+Lista com 40 canais selecionados, agrupados em M3U, preservando a seleção do proprietário e acrescentando a RedeTV! nacional. Inclui SBT, Record, Band Rio, RedeTV! Paraná, TV Senado, TV Câmara, ge Fast, N Sports, Gospel Cartoon e canais públicos, educativos, religiosos e regionais.
 
 ## Acesso nos aplicativos
 
@@ -21,6 +21,18 @@ Adicionados 14 canais: Red Bull TV Brasil, FIFA+ (Português), SFT Combat, Desim
 O relatório em `data/verificacao_canais.json` registra testes de manifesto HLS, download de segmentos de vídeo e áudio, inspeção com ffprobe e decodificação de um segundo com ffmpeg. A seleção considera os canais que passaram nesses testes em 9 de outubro de 2026. Um teste pontual não garante disponibilidade futura, nem acesso em todas as regiões. A lista contém também WebTVs e afiliadas regionais; não representa todas as emissoras brasileiras.
 
 A Band Rio usa um endereço estável que consulta a configuração pública do player oficial e atualiza seu endereço temporário. Ela passou novamente no teste de manifesto, segmento e decodificação de vídeo H.264 e áudio AAC em 09/10/2026; os resultados desta revisão estão em `data/verificacao_rj.json`. Fontes HTTP usam encaminhamento HTTPS no servidor autenticado. A API utiliza HLS; não converte o vídeo em MPEG-TS. Não há programação EPG nesta versão. O protocolo foi testado automaticamente; a reprodução nos aparelhos Prime e Smarters deve ser conferida no dispositivo.
+
+## Qualidade de imagem e estabilidade
+
+Foram confirmadas fontes HD para 37 dos 40 canais. TV Cultura foi atualizada para 1080p e TV Senado para 720p. RedeTV! nacional foi acrescentada em 1080p; a RedeTV! Paraná foi preservada.
+
+Gospel Cartoon (854×480), Gospel Movie TV (640×360) e O Dia TV (800×450) seguem na resolução disponível. Mudar o nome para HD não melhora o vídeo original.
+
+Cada canal tem uma entrada fixa `/stream/<id>.m3u8`. O servidor consulta a fonte atual, mantém as faixas de áudio e legenda, escolhe perfis HD entre 720p e 1080p e prefere H.264 quando há uma opção HD nesse codec. Fontes sem HD continuam disponíveis em SD. O parâmetro `?quality=auto` permite manter os perfis de menor resolução da fonte. TV Senado, TV Cultura e RedeTV! possuem fontes reserva; uma reserva pode ter resolução menor. Os atributos `source-url` e `backup-url` guardam as fontes no M3U, sem usuário ou senha. As fontes numéricas HTTP selecionadas usam nomes DNS para o mesmo IP público; o servidor entrega as playlists e os segmentos por HTTPS. Esse encaminhamento também depende da disponibilidade do DNS usado pela fonte.
+
+As três URLs recebidas não reproduziram neste ambiente: GloboNews e RedeTV! retornaram 502; Globo SP expirou por tempo limite. A nova RedeTV! utiliza outra fonte pública testada. Globo SP e Globo RJ permanecem pendentes de um sinal validado. O login WCS não substitui acesso ao Globoplay. O relatório completo está em `data/verificacao_hd.json`.
+
+Endereços fixos e fontes reserva reduzem a dependência de links temporários, mas não garantem o funcionamento contínuo das emissoras. A qualidade recebida na TV depende também da conexão e do aplicativo.
 
 ## API deste repositório
 

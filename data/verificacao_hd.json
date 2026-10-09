@@ -1,22 +1,27 @@
 {
-  "verified_at": "2026-10-09",
-  "method": "HLS manifest, video and audio segment download, ffprobe and one-second ffmpeg decoding",
-  "candidate_urls_tested": 252,
+  "checked_at": "2026-10-09T17:28:11.727141+00:00",
+  "method": "HLS master and media playlists; highest available video profile; media download; ffprobe and one-second audio/video ffmpeg decode",
   "selected_channels": 40,
+  "hd_sources": 37,
+  "sd_sources": 3,
   "channels": [
     {
       "id": "SBTNacional.br",
       "name": "SBT",
+      "group": "Abertos Brasil",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1214683075.m3u8",
-      "website": "https://www.sbt.com.br/",
-      "categories": [],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:39.773768+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 2482107,
+          "codecs": "avc1.42c01f,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "9668",
@@ -26,14 +31,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Abertos Brasil",
-      "advertised_qualities": [
-        {
-          "resolution": "1920x1080",
-          "bandwidth": 2482107,
-          "codecs": "avc1.42c01f,mp4a.40.2"
-        }
-      ],
       "source_url": "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1214683075
@@ -41,13 +38,8 @@
     {
       "id": "Record.br",
       "name": "Record",
+      "group": "Abertos Brasil",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1843789765.m3u8",
-      "website": "http://rederecord.r7.com/",
-      "categories": [
-        "general"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:39.776345+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -62,7 +54,6 @@
       "audio_codec": "aac",
       "width": 1280,
       "height": 720,
-      "group": "Abertos Brasil",
       "source_url": "https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8",
       "backup_url": null,
       "stream_id": 1843789765
@@ -70,27 +61,13 @@
     {
       "id": "BandRio.br",
       "name": "Band Rio de Janeiro",
-      "website": "https://www.band.com.br/ao-vivo/band-rio-de-janeiro",
-      "categories": [
-        "general"
-      ],
+      "group": "Abertos Brasil",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/435237942.m3u8",
       "tested_at": "2026-10-09T17:08:39.777656+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "1790507804",
-      "segment_status": 200,
-      "segment_bytes": 411908,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/435237942.m3u8",
-      "group": "Abertos Brasil",
-      "source_type": "player oficial com URL renovada",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -108,6 +85,15 @@
           "codecs": "avc1.42c01e,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "1790507804",
+      "segment_status": 200,
+      "segment_bytes": 411908,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://wcs-tv.walacesssantos.chatgpt.site/band.m3u8",
       "backup_url": null,
       "stream_id": 435237942
@@ -115,16 +101,20 @@
     {
       "id": "RedeTVParana.br",
       "name": "RedeTV! Parana",
+      "group": "Abertos Brasil",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1408647123.m3u8",
-      "website": "https://www.redetvparana.com.br/",
-      "categories": [],
-      "country": "BR",
-      "network": "RedeTV!",
       "tested_at": "2026-10-09T17:08:39.779181+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 3892871,
+          "codecs": "avc1.4d002a,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "156818",
@@ -134,14 +124,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Abertos Brasil",
-      "advertised_qualities": [
-        {
-          "resolution": "1920x1080",
-          "bandwidth": 3892871,
-          "codecs": "avc1.4d002a,mp4a.40.2"
-        }
-      ],
       "source_url": "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1408647123
@@ -149,16 +131,20 @@
     {
       "id": "PlayTV.br",
       "name": "Play TV",
+      "group": "Abertos Brasil",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/85586428.m3u8",
-      "website": "http://playtv.com.br/",
-      "categories": [],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:39.785273+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 8380000,
+          "codecs": "avc1.640029,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "29445",
@@ -168,14 +154,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Abertos Brasil",
-      "advertised_qualities": [
-        {
-          "resolution": "1920x1080",
-          "bandwidth": 8380000,
-          "codecs": "avc1.640029,mp4a.40.2"
-        }
-      ],
       "source_url": "https://isaocorp.cloudecast.com/playtv/index.m3u8",
       "backup_url": null,
       "stream_id": 85586428
@@ -183,13 +161,8 @@
     {
       "id": "RedeBrasil.br",
       "name": "Rede Brasil",
+      "group": "Abertos Brasil",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/646323857.m3u8",
-      "website": "https://rbtv.com.br/",
-      "categories": [
-        "general"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:39.796607+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -204,7 +177,6 @@
       "audio_codec": "aac",
       "width": 1280,
       "height": 720,
-      "group": "Abertos Brasil",
       "source_url": "https://redebrasil.nuvemplay.live/hls/stream.m3u8",
       "backup_url": null,
       "stream_id": 646323857
@@ -213,15 +185,19 @@
       "id": "TVSenado.br",
       "name": "TV Senado",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/141540828.m3u8",
-      "website": "https://www12.senado.leg.br/tv",
-      "categories": [
-        "legislative"
-      ],
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
       "tested_at": "2026-10-09T17:12:52.657419+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1310x720",
+          "bandwidth": 3920000,
+          "codecs": "avc1.4d4020,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "546330",
@@ -232,14 +208,6 @@
       "width": 1310,
       "height": 720,
       "group": "Legislativos",
-      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
-      "advertised_qualities": [
-        {
-          "resolution": "1310x720",
-          "bandwidth": 3920000,
-          "codecs": "avc1.4d4020,mp4a.40.2"
-        }
-      ],
       "source_url": "http://170.83.16.50.nip.io/TV_SENADO/index.m3u8",
       "backup_url": "http://168.197.104.22.nip.io/TV_SENADO/index.m3u8",
       "stream_id": 141540828,
@@ -249,18 +217,20 @@
     {
       "id": "TVCamara.br",
       "name": "TV Câmara",
+      "group": "Legislativos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/930790852.m3u8",
-      "website": "https://www.camara.leg.br/tv",
-      "categories": [
-        "legislative"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:39.817103+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 3345945,
+          "codecs": "avc1.4d4028,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "2831",
@@ -270,14 +240,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Legislativos",
-      "advertised_qualities": [
-        {
-          "resolution": "1920x1080",
-          "bandwidth": 3345945,
-          "codecs": "avc1.4d4028,mp4a.40.2"
-        }
-      ],
       "source_url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
       "backup_url": null,
       "stream_id": 930790852
@@ -285,28 +247,13 @@
     {
       "id": "CanalGov.br",
       "name": "Canal Gov",
+      "group": "Legislativos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/496442836.m3u8",
-      "website": "https://agenciagov.ebc.com.br/",
-      "categories": [
-        "legislative"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:54.693439+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "96743564",
-      "segment_status": 200,
-      "segment_bytes": 917816,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "group": "Legislativos",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -324,6 +271,15 @@
           "codecs": "avc1.4d401f,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "96743564",
+      "segment_status": 200,
+      "segment_bytes": 917816,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://canalgov-stream.ebc.com.br/index.m3u8",
       "backup_url": null,
       "stream_id": 496442836
@@ -331,13 +287,8 @@
     {
       "id": "GospelCartoon.br",
       "name": "Gospel Cartoon",
+      "group": "Desenhos Cristãos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/94399088.m3u8",
-      "website": null,
-      "categories": [
-        "religious"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:55.347152+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -352,7 +303,6 @@
       "audio_codec": "aac",
       "width": 854,
       "height": 480,
-      "group": "Desenhos Cristãos",
       "source_url": "https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8",
       "backup_url": null,
       "stream_id": 94399088
@@ -360,16 +310,20 @@
     {
       "id": "BoasNovas.br",
       "name": "Boas Novas Manaus",
+      "group": "Cristãos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1585711135.m3u8",
-      "website": "http://boasnovas.tv/",
-      "categories": [],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:56.925011+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 3412576,
+          "codecs": "avc1.64002a,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "4063",
@@ -379,14 +333,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Cristãos",
-      "advertised_qualities": [
-        {
-          "resolution": "1920x1080",
-          "bandwidth": 3412576,
-          "codecs": "avc1.64002a,mp4a.40.2"
-        }
-      ],
       "source_url": "https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1585711135
@@ -394,13 +340,8 @@
     {
       "id": "GospelMovieTV.br",
       "name": "Gospel Movie TV",
+      "group": "Cristãos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1659053188.m3u8",
-      "website": "https://ipgotv.net.br/tv/gmovies/",
-      "categories": [
-        "religious"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:57.408365+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -415,7 +356,6 @@
       "audio_codec": "aac",
       "width": 640,
       "height": 360,
-      "group": "Cristãos",
       "source_url": "https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1659053188
@@ -423,18 +363,20 @@
     {
       "id": "RedeGospel.br",
       "name": "Rede Gospel",
+      "group": "Cristãos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/699492706.m3u8",
-      "website": "https://www.redegospel.tv.br/",
-      "categories": [
-        "religious"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:08:58.620213+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 2001326,
+          "codecs": "avc1.42c01f,mp4a.40.2"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "37889",
@@ -444,14 +386,6 @@
       "audio_codec": "aac",
       "width": 1280,
       "height": 720,
-      "group": "Cristãos",
-      "advertised_qualities": [
-        {
-          "resolution": "1280x720",
-          "bandwidth": 2001326,
-          "codecs": "avc1.42c01f,mp4a.40.2"
-        }
-      ],
       "source_url": "https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8",
       "backup_url": null,
       "stream_id": 699492706
@@ -459,28 +393,13 @@
     {
       "id": "geFast.br",
       "name": "ge Fast",
+      "group": "Esportes",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1069354042.m3u8",
-      "website": "https://ge.globo.com/ge-fast/ao-vivo/ge-fast-assista-agora-ao-canal-com-24-horas-de-esporte.ghtml",
-      "categories": [
-        "sports"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:05.244331+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "871787",
-      "segment_status": 200,
-      "segment_bytes": 3155768,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "group": "Esportes",
       "advertised_qualities": [
         {
           "resolution": "1920x1080",
@@ -508,6 +427,15 @@
           "codecs": "avc1.4d4029,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "871787",
+      "segment_status": 200,
+      "segment_bytes": 3155768,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1069354042
@@ -515,28 +443,13 @@
     {
       "id": "NSports.br",
       "name": "N Sports",
+      "group": "Esportes",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/2071364474.m3u8",
-      "website": "https://nsports.com.br/",
-      "categories": [
-        "sports"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:05.586769+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "158473",
-      "segment_status": 200,
-      "segment_bytes": 2784468,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "group": "Esportes",
       "advertised_qualities": [
         {
           "resolution": "1920x1080",
@@ -564,6 +477,15 @@
           "codecs": "avc1.64001e,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "158473",
+      "segment_status": 200,
+      "segment_bytes": 2784468,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8",
       "backup_url": null,
       "stream_id": 2071364474
@@ -571,28 +493,13 @@
     {
       "id": "CanalEducacao.br",
       "name": "Canal Educação",
+      "group": "Educativos e Públicos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1220224931.m3u8",
-      "website": "https://www.gov.br/mec/pt-br/canal-educacao",
-      "categories": [
-        "education"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:05.742470+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "96743567",
-      "segment_status": 200,
-      "segment_bytes": 920824,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "group": "Educativos e Públicos",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -610,6 +517,15 @@
           "codecs": "avc1.4d401f,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "96743567",
+      "segment_status": 200,
+      "segment_bytes": 920824,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://canaleducacao-stream.ebc.com.br/index.m3u8",
       "backup_url": null,
       "stream_id": 1220224931
@@ -617,28 +533,13 @@
     {
       "id": "RedeMinas.br",
       "name": "Rede Minas",
+      "group": "Educativos e Públicos",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/2144546657.m3u8",
-      "website": "http://redeminas.tv/",
-      "categories": [
-        "education"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:08.921808+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "617",
-      "segment_status": 200,
-      "segment_bytes": 1857816,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "group": "Educativos e Públicos",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -666,6 +567,15 @@
           "codecs": "avc1.4d401e,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "617",
+      "segment_status": 200,
+      "segment_bytes": 1857816,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8",
       "backup_url": null,
       "stream_id": 2144546657
@@ -674,26 +584,12 @@
       "id": "TVCultura.br",
       "name": "TV Cultura",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/530687884.m3u8",
-      "website": "https://cultura.uol.com.br/",
-      "categories": [],
-      "country": "BR",
-      "network": null,
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
       "tested_at": "2026-10-09T17:12:26.379968+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "49991",
-      "segment_status": 200,
-      "segment_bytes": 3062144,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "group": "Educativos e Públicos",
-      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
       "advertised_qualities": [
         {
           "resolution": "854x480",
@@ -711,6 +607,16 @@
           "codecs": "avc1.4d0028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "49991",
+      "segment_status": 200,
+      "segment_bytes": 3062144,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
+      "group": "Educativos e Públicos",
       "source_url": "http://45.177.114.115.nip.io/TV_CULTURA/index.m3u8",
       "backup_url": "http://168.197.104.22.nip.io/TV_CULTURA/index.m3u8",
       "stream_id": 530687884,
@@ -720,28 +626,13 @@
     {
       "id": "RecordNews.br",
       "name": "Record News",
+      "group": "Jornalismo",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/593176982.m3u8",
-      "website": "https://noticias.r7.com/record-news/",
-      "categories": [
-        "news"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:12.899089+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "279299",
-      "segment_status": 200,
-      "segment_bytes": 2047884,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "group": "Jornalismo",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -764,6 +655,15 @@
           "codecs": "avc1.64001e,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "279299",
+      "segment_status": 200,
+      "segment_bytes": 2047884,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
       "backup_url": null,
       "stream_id": 593176982
@@ -771,28 +671,13 @@
     {
       "id": "SBTNews.br",
       "name": "SBT News",
+      "group": "Jornalismo",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1358566855.m3u8",
-      "website": "https://sbtnews.sbt.com.br/",
-      "categories": [
-        "news"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:20.731574+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "635012",
-      "segment_status": 200,
-      "segment_bytes": 1526560,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "group": "Jornalismo",
       "advertised_qualities": [
         {
           "resolution": "320x180",
@@ -810,6 +695,15 @@
           "codecs": "avc1.42e01f,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "635012",
+      "segment_status": 200,
+      "segment_bytes": 1526560,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8",
       "backup_url": null,
       "stream_id": 1358566855
@@ -817,28 +711,13 @@
     {
       "id": "VEJAPlusTV.br",
       "name": "VEJA+ TV",
+      "group": "Jornalismo",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1256454361.m3u8",
-      "website": "https://veja.abril.com.br/veja-mais-tv/",
-      "categories": [
-        "news"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:22.625195+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "461481",
-      "segment_status": 200,
-      "segment_bytes": 2812856,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "group": "Jornalismo",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -866,6 +745,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "461481",
+      "segment_status": 200,
+      "segment_bytes": 2812856,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8",
       "backup_url": null,
       "stream_id": 1256454361
@@ -873,11 +761,8 @@
     {
       "id": "AmazonSat.br",
       "name": "Amazon Sat",
+      "group": "Regionais e WebTV",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1467618066.m3u8",
-      "website": null,
-      "categories": [],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:24.752643+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -892,7 +777,6 @@
       "audio_codec": "aac",
       "width": 1920,
       "height": 1080,
-      "group": "Regionais e WebTV",
       "source_url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
       "backup_url": null,
       "stream_id": 1467618066
@@ -900,28 +784,13 @@
     {
       "id": "CanalUOL.br",
       "name": "Canal UOL",
+      "group": "Regionais e WebTV",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1713153455.m3u8",
-      "website": "https://www.uol.com.br/",
-      "categories": [
-        "general"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:24.829034+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "2531328",
-      "segment_status": 200,
-      "segment_bytes": 2121016,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "group": "Regionais e WebTV",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -944,6 +813,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "2531328",
+      "segment_status": 200,
+      "segment_bytes": 2121016,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://video24.mais.uol.com.br/live/6146.m3u8",
       "backup_url": null,
       "stream_id": 1713153455
@@ -951,18 +829,20 @@
     {
       "id": "ODiaTV.br",
       "name": "O Dia TV",
+      "group": "Regionais e WebTV",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/49307943.m3u8",
-      "website": "https://portalodia.com/odiatv",
-      "categories": [
-        "general"
-      ],
-      "country": "BR",
-      "network": "RedeTV!",
       "tested_at": "2026-10-09T17:09:25.813780+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "800x450",
+          "bandwidth": 908178,
+          "codecs": "avc1.42001f,mp4a.40.34"
+        }
+      ],
       "manifest_status": 200,
       "live": true,
       "sequence": "70236",
@@ -972,14 +852,6 @@
       "audio_codec": "mp3",
       "width": 800,
       "height": 450,
-      "group": "Regionais e WebTV",
-      "advertised_qualities": [
-        {
-          "resolution": "800x450",
-          "bandwidth": 908178,
-          "codecs": "avc1.42001f,mp4a.40.34"
-        }
-      ],
       "source_url": "https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8",
       "backup_url": null,
       "stream_id": 49307943
@@ -987,13 +859,8 @@
     {
       "id": "TVLatinaSat.br",
       "name": "TVLatinaSat",
+      "group": "Regionais e WebTV",
       "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1602411811.m3u8",
-      "website": "https://latinasat.com.br/",
-      "categories": [
-        "general"
-      ],
-      "country": "BR",
-      "network": null,
       "tested_at": "2026-10-09T17:09:27.830507+00:00",
       "ok": true,
       "manifest_ok": true,
@@ -1008,7 +875,6 @@
       "audio_codec": "aac",
       "width": 1280,
       "height": 720,
-      "group": "Regionais e WebTV",
       "source_url": "https://www.latinasat.com.br/hls/live/stream/index.m3u8",
       "backup_url": null,
       "stream_id": 1602411811
@@ -1016,24 +882,13 @@
     {
       "id": "RedBullTV.at@BR",
       "name": "Red Bull TV Brasil",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1566677554.m3u8",
       "group": "Esportes",
-      "source": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1566677554.m3u8",
       "tested_at": "2026-10-09T17:09:28.620670+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "261272",
-      "segment_status": 200,
-      "segment_bytes": 2514876,
-      "video_codec": "hevc",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1920x1080",
@@ -1056,6 +911,15 @@
           "codecs": "hvc1.1.6.L63.B0,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "261272",
+      "segment_status": 200,
+      "segment_bytes": 2514876,
+      "video_codec": "hevc",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1566677554
@@ -1063,24 +927,13 @@
     {
       "id": "FIFAPlus.uk@Portuguese",
       "name": "FIFA+ (Português)",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/503566477.m3u8",
       "group": "Esportes",
-      "source": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/503566477.m3u8",
       "tested_at": "2026-10-09T17:09:34.878307+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "756055",
-      "segment_status": 200,
-      "segment_bytes": 1746896,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "384x216",
@@ -1103,6 +956,15 @@
           "codecs": "avc1.640029,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "756055",
+      "segment_status": 200,
+      "segment_bytes": 1746896,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8",
       "backup_url": null,
       "stream_id": 503566477
@@ -1110,24 +972,13 @@
     {
       "id": "SFTCombat.br",
       "name": "SFT Combat",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/844753861.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/844753861.m3u8",
       "tested_at": "2026-10-09T17:09:35.152989+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "259008",
-      "segment_status": 200,
-      "segment_bytes": 2523148,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -1150,6 +1001,15 @@
           "codecs": "avc1.4d401e,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "259008",
+      "segment_status": 200,
+      "segment_bytes": 2523148,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/49a71877481f422f8f469e231e7876b3/playlist.m3u8",
       "backup_url": null,
       "stream_id": 844753861
@@ -1157,24 +1017,13 @@
     {
       "id": "Desimpedidos.br",
       "name": "Desimpedidos",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/91882897.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/91882897.m3u8",
       "tested_at": "2026-10-09T17:09:35.564003+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "239385",
-      "segment_status": 200,
-      "segment_bytes": 2686332,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -1197,6 +1046,15 @@
           "codecs": "avc1.77.30,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "239385",
+      "segment_status": 200,
+      "segment_bytes": 2686332,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/638d61ba125e45f09c18e95d6caea8c7/playlist.m3u8",
       "backup_url": null,
       "stream_id": 91882897
@@ -1204,24 +1062,13 @@
     {
       "id": "Acelerados.br",
       "name": "Acelerados",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1080675759.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1080675759.m3u8",
       "tested_at": "2026-10-09T17:09:37.741492+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "231153",
-      "segment_status": 200,
-      "segment_bytes": 3812076,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -1249,6 +1096,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "231153",
+      "segment_status": 200,
+      "segment_bytes": 3812076,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/15e0929cac2745c59c7a6bc1455a8ab2/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1080675759
@@ -1256,24 +1112,13 @@
     {
       "id": "GloryKickboxing.us@Portuguese",
       "name": "GLORY Kickboxing (FAST)",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/458497103.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/458497103.m3u8",
       "tested_at": "2026-10-09T17:09:41.979930+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "769512",
-      "segment_status": 200,
-      "segment_bytes": 1604016,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "384x216",
@@ -1301,6 +1146,15 @@
           "codecs": "avc1.640029,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "769512",
+      "segment_status": 200,
+      "segment_bytes": 1604016,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://87e5452b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8",
       "backup_url": null,
       "stream_id": 458497103
@@ -1308,24 +1162,13 @@
     {
       "id": "PFLMMA.us@Portuguese",
       "name": "PFL MMA (FAST)",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/30444247.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/30444247.m3u8",
       "tested_at": "2026-10-09T17:09:42.261722+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "756822",
-      "segment_status": 200,
-      "segment_bytes": 3035260,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "384x216",
@@ -1358,6 +1201,15 @@
           "codecs": "avc1.640029,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "756822",
+      "segment_status": 200,
+      "segment_bytes": 3035260,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://b829cb56.wurl.com/VENMLWJyX1BGTE1NQV9ITFM/playlist.m3u8",
       "backup_url": null,
       "stream_id": 30444247
@@ -1365,24 +1217,13 @@
     {
       "id": "RACERBrasil.br",
       "name": "RACER Brasil",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/429400669.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/429400669.m3u8",
       "tested_at": "2026-10-09T17:09:44.327587+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "3249596",
-      "segment_status": 200,
-      "segment_bytes": 3863964,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1920x1080",
@@ -1410,6 +1251,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "3249596",
+      "segment_status": 200,
+      "segment_bytes": 3863964,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist/amg16379-sports7fast-mavtvbrasil-tclus/playlist.m3u8",
       "backup_url": null,
       "stream_id": 429400669
@@ -1417,24 +1267,13 @@
     {
       "id": "WorldPokerTour.us@Portuguese",
       "name": "World Poker Tour (Português)",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1469873934.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1469873934.m3u8",
       "tested_at": "2026-10-09T17:09:47.756925+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "8738152",
-      "segment_status": 200,
-      "segment_bytes": 3306544,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "960x540",
@@ -1452,6 +1291,15 @@
           "codecs": "avc1.640029,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "8738152",
+      "segment_status": 200,
+      "segment_bytes": 3306544,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://d8nb73nfb7dd5.cloudfront.net/scheduler/scheduleMaster/466.m3u8",
       "backup_url": null,
       "stream_id": 1469873934
@@ -1459,24 +1307,13 @@
     {
       "id": "FUELTV.pt@BR",
       "name": "FUEL TV Brasil",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/657030701.m3u8",
       "group": "Esportes",
-      "source": "https://git.axenov.dev/Mirella70/PLAYLISTS-BRAZIL/src/commit/91e246a6fb2d84c1e9c5b7dc166637ee0a6024e5/moviearkbr.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/657030701.m3u8",
       "tested_at": "2026-10-09T17:09:47.964369+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "310654",
-      "segment_status": 200,
-      "segment_bytes": 2526908,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -1499,6 +1336,15 @@
           "codecs": "avc1.4d4028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "310654",
+      "segment_status": 200,
+      "segment_bytes": 2526908,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-tcl/playlist.m3u8",
       "backup_url": null,
       "stream_id": 657030701
@@ -1506,24 +1352,13 @@
     {
       "id": "TennisTVClassics.br",
       "name": "Tennis TV Classics",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1129136729.m3u8",
       "group": "Esportes",
-      "source": "https://www.apsattv.com/ssungbra.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1129136729.m3u8",
       "tested_at": "2026-10-09T17:09:48.625381+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "469432",
-      "segment_status": 200,
-      "segment_bytes": 3396408,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -1546,6 +1381,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "469432",
+      "segment_status": 200,
+      "segment_bytes": 3396408,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://amg01470-amg01470c1-samsung-br-4768.playouts.now.amagi.tv/playlist.m3u8",
       "backup_url": null,
       "stream_id": 1129136729
@@ -1553,24 +1397,13 @@
     {
       "id": "CazeTV.br",
       "name": "CazéTV",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/970237786.m3u8",
       "group": "Esportes",
-      "source": "https://www.apsattv.com/ssungbra.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/970237786.m3u8",
       "tested_at": "2026-10-09T17:09:49.052271+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "1641547",
-      "segment_status": 200,
-      "segment_bytes": 2908548,
-      "video_codec": "hevc",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "640x360",
@@ -1593,6 +1426,15 @@
           "codecs": "hvc1.1.4.L120.B0,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "1641547",
+      "segment_status": 200,
+      "segment_bytes": 2908548,
+      "video_codec": "hevc",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8",
       "backup_url": null,
       "stream_id": 970237786
@@ -1600,24 +1442,13 @@
     {
       "id": "CanalGOAT.br",
       "name": "Canal GOAT",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1930173954.m3u8",
       "group": "Esportes",
-      "source": "https://www.apsattv.com/ssungbra.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/1930173954.m3u8",
       "tested_at": "2026-10-09T17:12:20.290595+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "711124",
-      "segment_status": 200,
-      "segment_bytes": 2898772,
-      "video_codec": "h264",
-      "audio_codec": "aac",
-      "width": 1920,
-      "height": 1080,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -1645,6 +1476,15 @@
           "codecs": "avc1.640028,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "711124",
+      "segment_status": 200,
+      "segment_bytes": 2898772,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080,
       "source_url": "https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8",
       "backup_url": null,
       "stream_id": 1930173954
@@ -1652,24 +1492,13 @@
     {
       "id": "WooHooSurf.br",
       "name": "Woohoo Surf",
-      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/33884805.m3u8",
       "group": "Esportes",
-      "source": "https://www.apsattv.com/ssungbra.m3u",
+      "url": "https://wcs-tv.walacesssantos.chatgpt.site/stream/33884805.m3u8",
       "tested_at": "2026-10-09T17:09:55.023641+00:00",
       "ok": true,
       "manifest_ok": true,
       "segment_ok": true,
       "decode_ok": true,
-      "manifest_status": 200,
-      "live": true,
-      "sequence": "298829",
-      "segment_status": 200,
-      "segment_bytes": 1219556,
-      "video_codec": "hevc",
-      "audio_codec": "aac",
-      "width": 1280,
-      "height": 720,
-      "access": "Fonte pública FAST; sem login de plataforma externa utilizado",
       "advertised_qualities": [
         {
           "resolution": "1280x720",
@@ -1687,6 +1516,15 @@
           "codecs": "hvc1.1.6.L120.90,mp4a.40.2"
         }
       ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "298829",
+      "segment_status": 200,
+      "segment_bytes": 1219556,
+      "video_codec": "hevc",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720,
       "source_url": "https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/1edb59fc36da4004ba4452a3e00993b2/playlist.m3u8",
       "backup_url": null,
       "stream_id": 33884805
@@ -1725,40 +1563,714 @@
       "original_backup_url": "http://168.197.104.22/REDE_TV/index.m3u8"
     }
   ],
-  "limitations": [
-    "Verificação realizada fora da TV do usuário; disponibilidade pode variar por rede e horário.",
-    "Globo RJ: não foi confirmado um HLS público estável para este aplicativo.",
-    "Há canais regionais e WebTV; a seleção não representa todas as emissoras terrestres do Brasil."
+  "supplied_urls": [
+    {
+      "id": "GloboNews.br",
+      "name": "GloboNews — URL recebida",
+      "url": "http://5.79.68.138:8081/look/globonews/playlist.m3u8",
+      "group": "URLs recebidas",
+      "tested_at": "2026-10-09T17:09:56.736062+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "http_status": 502
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "RedeTV! — URL recebida",
+      "url": "http://evp.mm.uol.com.br:1935/redetv1/redetv1/playlist.m3u8",
+      "group": "URLs recebidas",
+      "tested_at": "2026-10-09T17:10:04.031108+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "http_status": 502
+    },
+    {
+      "id": "TVGloboSaoPaulo.br",
+      "name": "Globo SP — URL recebida",
+      "url": "http://95.211.149.215:8081/look/sptv/playlist.m3u8",
+      "group": "URLs recebidas",
+      "tested_at": "2026-10-09T17:10:05.491511+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "TimeoutError: timed out"
+    }
   ],
-  "verification_limit_note": "Fontes de todos os selecionados foram testadas novamente na maior qualidade anunciada. A verificação dos endereços publicados do servidor está registrada separadamente em data/verificacao_hd.json.",
-  "sports_expansion_at": "2026-10-09T16:01:05.788822+00:00",
-  "sports_expansion": {
-    "added": 14,
-    "tested_urls": 22,
-    "names": [
-      "Red Bull TV Brasil",
-      "FIFA+ (Português)",
-      "SFT Combat",
-      "Desimpedidos",
-      "Acelerados",
-      "GLORY Kickboxing (FAST)",
-      "PFL MMA (FAST)",
-      "RACER Brasil",
-      "World Poker Tour (Português)",
-      "FUEL TV Brasil",
-      "Tennis TV Classics",
-      "CazéTV",
-      "Canal GOAT",
-      "Woohoo Surf"
-    ],
-    "method": "Manifesto HLS, download de segmentos, identificação de áudio/vídeo e decodificação de um segundo com ffmpeg; agente de navegador completo.",
-    "external_accounts_used": false,
-    "limitation": "Não valida toda a programação, direitos de cada evento nem estabilidade futura. O login WCS protege o acesso ao servidor e não substitui contas ou assinaturas externas."
-  },
-  "selection_updated_at": "2026-10-09T17:28:11.727141+00:00",
-  "selection_note": "Os 39 canais mantidos pelo proprietário foram preservados e foi acrescentada a RedeTV! nacional. Todos usam entradas fixas do servidor com a fonte original preservada em source-url.",
-  "quality_report": "data/verificacao_hd.json",
-  "hd_sources": 37,
-  "sd_sources": 3,
+  "alternatives": [
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! SP (720p) [Not 24/7]",
+      "url": "https://hls.brasilstream.com.br/live/redetv/redetv/playlist.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.317761+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "http_status": 502
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! (720p)",
+      "url": "http://45.162.64.114/REDE_TV/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.299124+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3690000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "421750",
+      "segment_status": 200,
+      "segment_bytes": 1597248,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! (720p)",
+      "url": "http://170.83.16.50/REDE_TV/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.305317+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3250000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "503969",
+      "segment_status": 200,
+      "segment_bytes": 1711552,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! (720p)",
+      "url": "http://168.197.104.22/REDE_TV/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.300359+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3700000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "421750",
+      "segment_status": 200,
+      "segment_bytes": 1597248,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "CanalGOAT.br",
+      "name": "Canal GOAT",
+      "group": "Esportes",
+      "url": "https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8",
+      "tested_at": "2026-10-09T17:12:20.290595+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3071200,
+          "codecs": "avc1.64001f,mp4a.40.2"
+        },
+        {
+          "resolution": "960x540",
+          "bandwidth": 1927200,
+          "codecs": "avc1.64001f,mp4a.40.2"
+        },
+        {
+          "resolution": "854x480",
+          "bandwidth": 1355200,
+          "codecs": "avc1.64001f,mp4a.40.2"
+        },
+        {
+          "resolution": "640x360",
+          "bandwidth": 1126400,
+          "codecs": "avc1.64001e,mp4a.40.2"
+        },
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 4215200,
+          "codecs": "avc1.640028,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "711124",
+      "segment_status": 200,
+      "segment_bytes": 2898772,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://45.162.64.114/TV_CULTURA/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.336415+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3420000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "5687243",
+      "segment_status": 200,
+      "segment_bytes": 1762688,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! (720p)",
+      "url": "http://186.219.52.187/rede_tv/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.311432+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 4100000,
+          "codecs": "avc1.4d002a,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "28745",
+      "segment_status": 200,
+      "segment_bytes": 2114624,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://45.177.114.115/TV_CULTURA/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:26.379968+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "854x480",
+          "bandwidth": 1610000,
+          "codecs": "avc1.42001e,mp4a.40.2"
+        },
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3850000,
+          "codecs": "avc1.42001f,mp4a.40.2"
+        },
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 5420000,
+          "codecs": "avc1.4d0028,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "49991",
+      "segment_status": 200,
+      "segment_bytes": 3062144,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "Rede TV! (720p)",
+      "url": "http://170.83.49.66:8083/REDETVHD/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:20.306387+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 6580000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "1724509",
+      "segment_status": 200,
+      "segment_bytes": 3738944,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://170.84.165.204/CULTURA_HD/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:45.167345+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (480p)",
+      "url": "https://cdn-5.nxplay.com.br/TV_CULTURA/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:47.922771+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://168.197.104.22/TV_CULTURA/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:44.871176+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 3420000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "5687248",
+      "segment_status": 200,
+      "segment_bytes": 1687488,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://186.219.52.187/cultura/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:46.993442+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 2800000,
+          "codecs": "avc1.4d401f,mp4a.40.34"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "28597",
+      "segment_status": 200,
+      "segment_bytes": 1925120,
+      "video_codec": "h264",
+      "audio_codec": "mp3",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "http://170.83.16.50/CULTURA/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:45.165180+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1280x720",
+          "bandwidth": 2910000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "623333",
+      "segment_status": 200,
+      "segment_bytes": 1519040,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura (720p)",
+      "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:47.800588+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1920x1080",
+          "bandwidth": 1423769,
+          "codecs": "avc1.640028,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "0",
+      "segment_status": 200,
+      "segment_bytes": 1394020,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "TVSenado.br",
+      "name": "TV Senado (720p)",
+      "url": "http://168.197.104.22/TV_SENADO/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:51.333422+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "870x480",
+          "bandwidth": 1540000,
+          "codecs": "avc1.4d401e,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "4463177",
+      "segment_status": 200,
+      "segment_bytes": 779072,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 718,
+      "height": 480
+    },
+    {
+      "id": "TVSenado.br",
+      "name": "TV Senado (720p)",
+      "url": "http://45.162.64.114/TV_SENADO/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:50.708322+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "870x480",
+          "bandwidth": 1540000,
+          "codecs": "avc1.4d401e,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "4463177",
+      "segment_status": 200,
+      "segment_bytes": 779072,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 718,
+      "height": 480
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura",
+      "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:49.340358+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "960x540",
+          "bandwidth": 716800,
+          "codecs": null
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "340191",
+      "segment_status": 200,
+      "segment_bytes": 257560,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "TVSenado.br",
+      "name": "TV Senado (720p)",
+      "url": "http://170.83.16.50/TV_SENADO/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:12:52.657419+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1310x720",
+          "bandwidth": 3920000,
+          "codecs": "avc1.4d4020,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "546330",
+      "segment_status": 200,
+      "segment_bytes": 2283072,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1310,
+      "height": 720
+    },
+    {
+      "id": "TVSenado.br",
+      "name": "TV Senado (720p)",
+      "url": "http://170.83.49.66:8083/TVSENADOHD/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:13:03.578895+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1306x720",
+          "bandwidth": 6970000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "1758017",
+      "segment_status": 200,
+      "segment_bytes": 3708864,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 1078,
+      "height": 720
+    },
+    {
+      "id": "TVSenado.br",
+      "name": "TV Senado (720p)",
+      "url": "http://186.219.52.187/tv_senado/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:13:05.365335+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "advertised_qualities": [
+        {
+          "resolution": "1048x576",
+          "bandwidth": 3650000,
+          "codecs": "avc1.4d401f,mp4a.40.2"
+        }
+      ],
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "28602",
+      "segment_status": 200,
+      "segment_bytes": 1946176,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 720,
+      "height": 576
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "RedeTV! oficial",
+      "url": "https://evpp.mm.uol.com.br/redetv1/redetv1/playlist.m3u8",
+      "website": "https://www.redetv.uol.com.br/aovivo",
+      "tested_at": "2026-10-09T17:13:28.597817+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "http_status": 502
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "RedeTV! oficial",
+      "url": "https://d34hqvk9w7ng50.cloudfront.net/stream/index.m3u8",
+      "website": "https://www.redetv.uol.com.br/aovivo",
+      "tested_at": "2026-10-09T17:13:28.599273+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "http_status": 502
+    },
+    {
+      "id": "RedeTV.br",
+      "name": "RedeTV! player oficial",
+      "url": "https://www.dailymotion.com/player/metadata/video/kYe5OYErhldJ75Azib2",
+      "referrer": "https://www.redetv.uol.com.br/aovivo",
+      "tested_at": "2026-10-09T17:13:39.252375+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403,
+      "source_type": "Resolved public player URL; not a direct playlist"
+    },
+    {
+      "id": "TVGloboSaoPaulo.br",
+      "name": "Globo SP — candidato",
+      "url": "http://170.84.165.204/Globo_HD/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:14:54.313410+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "TVGloboSaoPaulo.br",
+      "name": "Globo SP — candidato",
+      "url": "https://cdn-5.nxplay.com.br/GLOBO_SP_TK/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/master/streams/br.m3u",
+      "tested_at": "2026-10-09T17:14:54.315423+00:00",
+      "ok": false,
+      "manifest_ok": false,
+      "segment_ok": false,
+      "decode_ok": false,
+      "failed_phase": "manifest",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "http_status": 403
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura — perfil público alternativo",
+      "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura_lsd.m3u8?vhost=player-tvcultura.stream.uol.com.br",
+      "source": "https://www.ketv.com.br/canal/gospelcartoon",
+      "tested_at": "2026-10-09T17:16:22.164893+00:00",
+      "ok": true,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "decode_ok": true,
+      "manifest_status": 200,
+      "live": true,
+      "sequence": "340294",
+      "segment_status": 200,
+      "segment_bytes": 169200,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "width": 960,
+      "height": 540
+    }
+  ],
+  "rejected_channel_identity": [
+    {
+      "url": "https://v-us-01.wisestream.io/memfs/e8740862-7a1f-45f3-acb2-4f357e144059.m3u8",
+      "reason": "Imagem conferida: TV O Povo, com programação local. Não substitui o sinal nacional da TV Cultura."
+    }
+  ],
+  "stability_method": "Endereços de entrada fixos; fontes consultadas em cada renovação de playlist; perfis HD escolhidos quando anunciados; fontes reserva configuradas para TV Senado, TV Cultura e RedeTV!. Não garante disponibilidade contínua do provedor.",
+  "published_server_verified": false,
+  "limitations": [
+    "Gospel Cartoon: 854x480; Gospel Movie TV: 640x360; O Dia TV: 800x450. Não foi localizada uma versão HD validada desses três sinais.",
+    "GloboNews e Globo SP fornecidas não reproduziram; Globo RJ também não foi validada. Essas entradas não foram adicionadas.",
+    "Algumas fontes possuem codecs HEVC. A decodificação local foi conferida; a compatibilidade e a reprodução devem ser verificadas no aparelho.",
+    "O servidor não faz aumento artificial da resolução nem converte uma fonte SD em HD.",
+    "Teste pontual fora da TV do usuário; estabilidade prolongada e acesso por todas as redes não foram verificados."
+  ],
   "http_source_note": "Fontes HTTP numéricas selecionadas utilizam um nome DNS que resolve para o mesmo IP público, permitindo a conexão do servidor e o encaminhamento HTTPS de playlists e segmentos. Os endereços numéricos originais estão registrados nos campos original_source_url."
 }

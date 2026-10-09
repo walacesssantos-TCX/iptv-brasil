@@ -2,119 +2,122 @@
 # Lista IPTV WCS - sinais testados em 09/10/2026
 # Canais indisponiveis e limitacoes: veja README.md no repositorio
 
-#EXTINF:-1 tvg-id="SBTNacional.br" tvg-name="SBT" group-title="Abertos Brasil",SBT
-https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8
+#EXTINF:-1 source-url="https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8" tvg-id="SBTNacional.br" tvg-name="SBT" group-title="Abertos Brasil",SBT
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1214683075.m3u8
 
-#EXTINF:-1 tvg-id="Record.br" tvg-name="Record" group-title="Abertos Brasil",Record
-https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8
+#EXTINF:-1 source-url="https://cdn.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/chunklist.m3u8" tvg-id="Record.br" tvg-name="Record" group-title="Abertos Brasil",Record
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1843789765.m3u8
 
-#EXTINF:-1 tvg-id="BandRio.br" tvg-name="Band Rio de Janeiro" group-title="Abertos Brasil",Band Rio de Janeiro
-https://wcs-tv.walacesssantos.chatgpt.site/band.m3u8
+#EXTINF:-1 source-url="https://wcs-tv.walacesssantos.chatgpt.site/band.m3u8" tvg-id="BandRio.br" tvg-name="Band Rio de Janeiro" group-title="Abertos Brasil",Band Rio de Janeiro
+https://wcs-tv.walacesssantos.chatgpt.site/stream/435237942.m3u8
 
-#EXTINF:-1 tvg-id="RedeTVParana.br" tvg-name="RedeTV! Parana" group-title="Abertos Brasil",RedeTV! Parana
-https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+#EXTINF:-1 source-url="https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8" tvg-id="RedeTVParana.br" tvg-name="RedeTV! Parana" group-title="Abertos Brasil",RedeTV! Parana
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1408647123.m3u8
 
-#EXTINF:-1 tvg-id="PlayTV.br" tvg-name="Play TV" group-title="Abertos Brasil",Play TV
-https://isaocorp.cloudecast.com/playtv/index.m3u8
+#EXTINF:-1 source-url="https://isaocorp.cloudecast.com/playtv/index.m3u8" tvg-id="PlayTV.br" tvg-name="Play TV" group-title="Abertos Brasil",Play TV
+https://wcs-tv.walacesssantos.chatgpt.site/stream/85586428.m3u8
 
-#EXTINF:-1 tvg-id="RedeBrasil.br" tvg-name="Rede Brasil" group-title="Abertos Brasil",Rede Brasil
-https://redebrasil.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 source-url="https://redebrasil.nuvemplay.live/hls/stream.m3u8" tvg-id="RedeBrasil.br" tvg-name="Rede Brasil" group-title="Abertos Brasil",Rede Brasil
+https://wcs-tv.walacesssantos.chatgpt.site/stream/646323857.m3u8
 
-#EXTINF:-1 tvg-id="TVSenado.br" tvg-name="TV Senado" group-title="Legislativos",TV Senado
-http://168.197.104.22/TV_SENADO/index.m3u8
+#EXTINF:-1 source-url="http://170.83.16.50.nip.io/TV_SENADO/index.m3u8" backup-url="http://168.197.104.22.nip.io/TV_SENADO/index.m3u8" tvg-id="TVSenado.br" tvg-name="TV Senado" group-title="Legislativos",TV Senado
+https://wcs-tv.walacesssantos.chatgpt.site/stream/141540828.m3u8
 
-#EXTINF:-1 tvg-id="TVCamara.br" tvg-name="TV Câmara" group-title="Legislativos",TV Câmara
-https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 source-url="https://stream3.camara.gov.br/tv1/manifest.m3u8" tvg-id="TVCamara.br" tvg-name="TV Câmara" group-title="Legislativos",TV Câmara
+https://wcs-tv.walacesssantos.chatgpt.site/stream/930790852.m3u8
 
-#EXTINF:-1 tvg-id="CanalGov.br" tvg-name="Canal Gov" group-title="Legislativos",Canal Gov
-https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 source-url="https://canalgov-stream.ebc.com.br/index.m3u8" tvg-id="CanalGov.br" tvg-name="Canal Gov" group-title="Legislativos",Canal Gov
+https://wcs-tv.walacesssantos.chatgpt.site/stream/496442836.m3u8
 
-#EXTINF:-1 tvg-id="GospelCartoon.br" tvg-name="Gospel Cartoon" group-title="Desenhos Cristãos",Gospel Cartoon
-https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+#EXTINF:-1 source-url="https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8" tvg-id="GospelCartoon.br" tvg-name="Gospel Cartoon" group-title="Desenhos Cristãos",Gospel Cartoon
+https://wcs-tv.walacesssantos.chatgpt.site/stream/94399088.m3u8
 
-#EXTINF:-1 tvg-id="BoasNovas.br" tvg-name="Boas Novas Manaus" group-title="Cristãos",Boas Novas Manaus
-https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
+#EXTINF:-1 source-url="https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8" tvg-id="BoasNovas.br" tvg-name="Boas Novas Manaus" group-title="Cristãos",Boas Novas Manaus
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1585711135.m3u8
 
-#EXTINF:-1 tvg-id="GospelMovieTV.br" tvg-name="Gospel Movie TV" group-title="Cristãos",Gospel Movie TV
-https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+#EXTINF:-1 source-url="https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8" tvg-id="GospelMovieTV.br" tvg-name="Gospel Movie TV" group-title="Cristãos",Gospel Movie TV
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1659053188.m3u8
 
-#EXTINF:-1 tvg-id="RedeGospel.br" tvg-name="Rede Gospel" group-title="Cristãos",Rede Gospel
-https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
+#EXTINF:-1 source-url="https://cdn.live.br1.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8" tvg-id="RedeGospel.br" tvg-name="Rede Gospel" group-title="Cristãos",Rede Gospel
+https://wcs-tv.walacesssantos.chatgpt.site/stream/699492706.m3u8
 
-#EXTINF:-1 tvg-id="geFast.br" tvg-name="ge Fast" group-title="Esportes",ge Fast
-https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 source-url="https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8" tvg-id="geFast.br" tvg-name="ge Fast" group-title="Esportes",ge Fast
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1069354042.m3u8
 
-#EXTINF:-1 tvg-id="NSports.br" tvg-name="N Sports" group-title="Esportes",N Sports
-https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
+#EXTINF:-1 source-url="https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8" tvg-id="NSports.br" tvg-name="N Sports" group-title="Esportes",N Sports
+https://wcs-tv.walacesssantos.chatgpt.site/stream/2071364474.m3u8
 
-#EXTINF:-1 tvg-id="CanalEducacao.br" tvg-name="Canal Educação" group-title="Educativos e Públicos",Canal Educação
-https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 source-url="https://canaleducacao-stream.ebc.com.br/index.m3u8" tvg-id="CanalEducacao.br" tvg-name="Canal Educação" group-title="Educativos e Públicos",Canal Educação
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1220224931.m3u8
 
-#EXTINF:-1 tvg-id="RedeMinas.br" tvg-name="Rede Minas" group-title="Educativos e Públicos",Rede Minas
-https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
+#EXTINF:-1 source-url="https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8" tvg-id="RedeMinas.br" tvg-name="Rede Minas" group-title="Educativos e Públicos",Rede Minas
+https://wcs-tv.walacesssantos.chatgpt.site/stream/2144546657.m3u8
 
-#EXTINF:-1 tvg-id="TVCultura.br" tvg-name="TV Cultura" group-title="Educativos e Públicos",TV Cultura
-https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+#EXTINF:-1 source-url="http://45.177.114.115.nip.io/TV_CULTURA/index.m3u8" backup-url="http://168.197.104.22.nip.io/TV_CULTURA/index.m3u8" tvg-id="TVCultura.br" tvg-name="TV Cultura" group-title="Educativos e Públicos",TV Cultura
+https://wcs-tv.walacesssantos.chatgpt.site/stream/530687884.m3u8
 
-#EXTINF:-1 tvg-id="RecordNews.br" tvg-name="Record News" group-title="Jornalismo",Record News
-https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8
+#EXTINF:-1 source-url="https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8" tvg-id="RecordNews.br" tvg-name="Record News" group-title="Jornalismo",Record News
+https://wcs-tv.walacesssantos.chatgpt.site/stream/593176982.m3u8
 
-#EXTINF:-1 tvg-id="SBTNews.br" tvg-name="SBT News" group-title="Jornalismo",SBT News
-https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8
+#EXTINF:-1 source-url="https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8" tvg-id="SBTNews.br" tvg-name="SBT News" group-title="Jornalismo",SBT News
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1358566855.m3u8
 
-#EXTINF:-1 tvg-id="VEJAPlusTV.br" tvg-name="VEJA+ TV" group-title="Jornalismo",VEJA+ TV
-https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
+#EXTINF:-1 source-url="https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8" tvg-id="VEJAPlusTV.br" tvg-name="VEJA+ TV" group-title="Jornalismo",VEJA+ TV
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1256454361.m3u8
 
-#EXTINF:-1 tvg-id="AmazonSat.br" tvg-name="Amazon Sat" group-title="Regionais e WebTV",Amazon Sat
-https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
+#EXTINF:-1 source-url="https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8" tvg-id="AmazonSat.br" tvg-name="Amazon Sat" group-title="Regionais e WebTV",Amazon Sat
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1467618066.m3u8
 
-#EXTINF:-1 tvg-id="CanalUOL.br" tvg-name="Canal UOL" group-title="Regionais e WebTV",Canal UOL
-https://video24.mais.uol.com.br/live/6146.m3u8
+#EXTINF:-1 source-url="https://video24.mais.uol.com.br/live/6146.m3u8" tvg-id="CanalUOL.br" tvg-name="Canal UOL" group-title="Regionais e WebTV",Canal UOL
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1713153455.m3u8
 
-#EXTINF:-1 tvg-id="ODiaTV.br" tvg-name="O Dia TV" group-title="Regionais e WebTV",O Dia TV
-https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8
+#EXTINF:-1 source-url="https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8" tvg-id="ODiaTV.br" tvg-name="O Dia TV" group-title="Regionais e WebTV",O Dia TV
+https://wcs-tv.walacesssantos.chatgpt.site/stream/49307943.m3u8
 
-#EXTINF:-1 tvg-id="TVLatinaSat.br" tvg-name="TVLatinaSat" group-title="Regionais e WebTV",TVLatinaSat
-https://www.latinasat.com.br/hls/live/stream/index.m3u8
+#EXTINF:-1 source-url="https://www.latinasat.com.br/hls/live/stream/index.m3u8" tvg-id="TVLatinaSat.br" tvg-name="TVLatinaSat" group-title="Regionais e WebTV",TVLatinaSat
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1602411811.m3u8
 
-#EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-name="Red Bull TV Brasil" group-title="Esportes",Red Bull TV Brasil
-https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
+#EXTINF:-1 source-url="https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8" tvg-id="RedBullTV.at@BR" tvg-name="Red Bull TV Brasil" group-title="Esportes",Red Bull TV Brasil
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1566677554.m3u8
 
-#EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-name="FIFA+ (Português)" group-title="Esportes",FIFA+ (Português)
-https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+#EXTINF:-1 source-url="https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8" tvg-id="FIFAPlus.uk@Portuguese" tvg-name="FIFA+ (Português)" group-title="Esportes",FIFA+ (Português)
+https://wcs-tv.walacesssantos.chatgpt.site/stream/503566477.m3u8
 
-#EXTINF:-1 tvg-id="SFTCombat.br" tvg-name="SFT Combat" group-title="Esportes",SFT Combat
-https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/49a71877481f422f8f469e231e7876b3/playlist.m3u8
+#EXTINF:-1 source-url="https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/49a71877481f422f8f469e231e7876b3/playlist.m3u8" tvg-id="SFTCombat.br" tvg-name="SFT Combat" group-title="Esportes",SFT Combat
+https://wcs-tv.walacesssantos.chatgpt.site/stream/844753861.m3u8
 
-#EXTINF:-1 tvg-id="Desimpedidos.br" tvg-name="Desimpedidos" group-title="Esportes",Desimpedidos
-https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/638d61ba125e45f09c18e95d6caea8c7/playlist.m3u8
+#EXTINF:-1 source-url="https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/638d61ba125e45f09c18e95d6caea8c7/playlist.m3u8" tvg-id="Desimpedidos.br" tvg-name="Desimpedidos" group-title="Esportes",Desimpedidos
+https://wcs-tv.walacesssantos.chatgpt.site/stream/91882897.m3u8
 
-#EXTINF:-1 tvg-id="Acelerados.br" tvg-name="Acelerados" group-title="Esportes",Acelerados
-https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/15e0929cac2745c59c7a6bc1455a8ab2/playlist.m3u8
+#EXTINF:-1 source-url="https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/15e0929cac2745c59c7a6bc1455a8ab2/playlist.m3u8" tvg-id="Acelerados.br" tvg-name="Acelerados" group-title="Esportes",Acelerados
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1080675759.m3u8
 
-#EXTINF:-1 tvg-id="GloryKickboxing.us@Portuguese" tvg-name="GLORY Kickboxing (FAST)" group-title="Esportes",GLORY Kickboxing (FAST)
-https://87e5452b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+#EXTINF:-1 source-url="https://87e5452b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/VENMLWJyX0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8" tvg-id="GloryKickboxing.us@Portuguese" tvg-name="GLORY Kickboxing (FAST)" group-title="Esportes",GLORY Kickboxing (FAST)
+https://wcs-tv.walacesssantos.chatgpt.site/stream/458497103.m3u8
 
-#EXTINF:-1 tvg-id="PFLMMA.us@Portuguese" tvg-name="PFL MMA (FAST)" group-title="Esportes",PFL MMA (FAST)
-https://b829cb56.wurl.com/VENMLWJyX1BGTE1NQV9ITFM/playlist.m3u8
+#EXTINF:-1 source-url="https://b829cb56.wurl.com/VENMLWJyX1BGTE1NQV9ITFM/playlist.m3u8" tvg-id="PFLMMA.us@Portuguese" tvg-name="PFL MMA (FAST)" group-title="Esportes",PFL MMA (FAST)
+https://wcs-tv.walacesssantos.chatgpt.site/stream/30444247.m3u8
 
-#EXTINF:-1 tvg-id="RACERBrasil.br" tvg-name="RACER Brasil" group-title="Esportes",RACER Brasil
-https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist/amg16379-sports7fast-mavtvbrasil-tclus/playlist.m3u8
+#EXTINF:-1 source-url="https://amg16379-sports7-amg16379c2-tcl-us-4436.playouts.now.amagi.tv/playlist/amg16379-sports7fast-mavtvbrasil-tclus/playlist.m3u8" tvg-id="RACERBrasil.br" tvg-name="RACER Brasil" group-title="Esportes",RACER Brasil
+https://wcs-tv.walacesssantos.chatgpt.site/stream/429400669.m3u8
 
-#EXTINF:-1 tvg-id="WorldPokerTour.us@Portuguese" tvg-name="World Poker Tour (Português)" group-title="Esportes",World Poker Tour (Português)
-https://d8nb73nfb7dd5.cloudfront.net/scheduler/scheduleMaster/466.m3u8
+#EXTINF:-1 source-url="https://d8nb73nfb7dd5.cloudfront.net/scheduler/scheduleMaster/466.m3u8" tvg-id="WorldPokerTour.us@Portuguese" tvg-name="World Poker Tour (Português)" group-title="Esportes",World Poker Tour (Português)
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1469873934.m3u8
 
-#EXTINF:-1 tvg-id="FUELTV.pt@BR" tvg-name="FUEL TV Brasil" group-title="Esportes",FUEL TV Brasil
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-tcl/playlist.m3u8
+#EXTINF:-1 source-url="https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01074-fueltv-fueltvbr-tcl/playlist.m3u8" tvg-id="FUELTV.pt@BR" tvg-name="FUEL TV Brasil" group-title="Esportes",FUEL TV Brasil
+https://wcs-tv.walacesssantos.chatgpt.site/stream/657030701.m3u8
 
-#EXTINF:-1 tvg-id="TennisTVClassics.br" tvg-name="Tennis TV Classics" group-title="Esportes",Tennis TV Classics
-https://amg01470-amg01470c1-samsung-br-4768.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 source-url="https://amg01470-amg01470c1-samsung-br-4768.playouts.now.amagi.tv/playlist.m3u8" tvg-id="TennisTVClassics.br" tvg-name="Tennis TV Classics" group-title="Esportes",Tennis TV Classics
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1129136729.m3u8
 
-#EXTINF:-1 tvg-id="CazeTV.br" tvg-name="CazéTV" group-title="Esportes",CazéTV
-https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8
+#EXTINF:-1 source-url="https://cc-gilgbjhgo02wm.akamaized.net/Caze_TV.m3u8" tvg-id="CazeTV.br" tvg-name="CazéTV" group-title="Esportes",CazéTV
+https://wcs-tv.walacesssantos.chatgpt.site/stream/970237786.m3u8
 
-#EXTINF:-1 tvg-id="CanalGOAT.br" tvg-name="Canal GOAT" group-title="Esportes",Canal GOAT
-https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8
+#EXTINF:-1 source-url="https://cng-cngt-samsungtvplus-br.otteravision.com/cng/cngt/cngt.m3u8" tvg-id="CanalGOAT.br" tvg-name="Canal GOAT" group-title="Esportes",Canal GOAT
+https://wcs-tv.walacesssantos.chatgpt.site/stream/1930173954.m3u8
 
-#EXTINF:-1 tvg-id="WooHooSurf.br" tvg-name="Woohoo Surf" group-title="Esportes",Woohoo Surf
-https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/1edb59fc36da4004ba4452a3e00993b2/playlist.m3u8
+#EXTINF:-1 source-url="https://ssai-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/1edb59fc36da4004ba4452a3e00993b2/playlist.m3u8" tvg-id="WooHooSurf.br" tvg-name="Woohoo Surf" group-title="Esportes",Woohoo Surf
+https://wcs-tv.walacesssantos.chatgpt.site/stream/33884805.m3u8
+
+#EXTINF:-1 source-url="http://186.219.52.187.nip.io/rede_tv/index.m3u8" backup-url="http://168.197.104.22.nip.io/REDE_TV/index.m3u8" tvg-id="RedeTV.br" tvg-name="RedeTV!" group-title="Abertos Brasil",RedeTV!
+https://wcs-tv.walacesssantos.chatgpt.site/stream/379928808.m3u8
