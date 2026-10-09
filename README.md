@@ -36,6 +36,22 @@ Os 40 endereços publicados passaram no teste de download de segmentos e decodif
 
 Endereços fixos e fontes reserva reduzem a dependência de links temporários, mas não garantem o funcionamento contínuo das emissoras. A qualidade recebida na TV depende também da conexão e do aplicativo.
 
+## Filmes nos aplicativos
+
+O servidor oferece `get_vod_categories`, `get_vod_streams`, `get_vod_info` e reprodução autenticada em `/movie/<usuario>/<senha>/<id>.<extensao>`. Esses recursos alimentam a aba Filmes ao entrar pelo padrão Xtream Codes, sem colocar os títulos na lista de canais ao vivo. Arquivos HTTP usam encaminhamento HTTPS com suporte a pedidos de trecho (Range) e HEAD; fontes HTTPS são entregues diretamente.
+
+A versão atual de `filmes1.m3u` no GitHub contém 1.164 títulos. Foram registrados 288 testes individuais sem um vídeo aprovado; os testes restantes foram interrompidos por bloqueio de rede do ambiente. Isso não comprova que os 1.164 filmes estejam indisponíveis em outras redes. O relatório `data/verificacao_filmes.json` separa registros testados e não testados. O arquivo original `filmes1.m3u` e seu endereço foram preservados.
+
+O catálogo `data/catalogo_filmes.json` contém somente filmes aprovados e não guarda URLs ou senhas do fornecedor. Atualmente está vazio, portanto a aba Filmes ainda não terá títulos reproduzíveis. O servidor consulta a fonte original somente quando houver um filme aprovado.
+
+Para verificar a lista em uma rede que tenha acesso ao fornecedor e gerar o catálogo, execute no repositório com Python e FFmpeg instalados:
+
+```bash
+python scripts/verificar_filmes.py --playlist filmes1.m3u --output data/verificacao_filmes.json --catalog data/catalogo_filmes.json --timeout 15 --workers 4
+```
+
+Depois de atualizar os dois arquivos de dados no GitHub, recarregue os filmes no aplicativo. O script testa trechos de áudio e vídeo; não verifica a reprodução integral de cada filme.
+
 ## API deste repositório
 
 Os arquivos `api/` permitem uma implantação separada em Vercel com as rotas de `vercel.json`. Configure `SESSIONS_JSON` como segredo e `PLAYLIST_URL` como endereço da lista. `.env.example` contém somente exemplos. Gere uma senha local com `node scripts/gerar_login.mjs` e rode os testes com `npm test`. O servidor publicado acima possui implantação e configuração próprias.
